@@ -24,7 +24,7 @@ import {Router, NavigationEnd} from "@angular/router";
 ]
 })
 export class AppComponent {
-  title = 'WorldTelevision.com';
+  title = 'WorldTelevision.tv';
 
 
 }
