@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LocalReviewsComponent } from './local-reviews/local-reviews.component';
 import { LiveComponent } from './stations-main/live/live.component';
-import { HomeComponent } from './stations-main/socaltelevision/home.component';
+import { HomeComponent } from './stations-main/worldtelevision/home.component';
 import { CaliforniaComponent } from './stations-main/california/california.component';
 import { HawaiiComponent } from './stations-main/hawaii/hawaii.component';
 import { StationsMainComponent } from './stations-main/stations-main.component';

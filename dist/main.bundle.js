@@ -27,7 +27,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class=\"img-responsive\" /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>About SoCal Television</h3>\n<p>\nSoCalTelevision&trade; is part of the Inland Empire Television Network&trade;, located east of Los Angeles and west of Palm Springs, in the heart of Southern California, the Inland Empire. The Inland Empire (I.E.) is one of the largest and fastest growing regional areas in the United States. The \"I.E.\" encompasses the counties of Riverside and San Bernardino, and is home to the Inland Empire Television Network&trade;</p>\n\n<p>SoCal Television&trade; is an on-location television production that ventures throughout Southern California to showcase special travel locations, entertainment, tourist attractions, upcoming current events, and local news. Along with fine dining reviews and MUCH MORE!</p>\n\n<p>SoCal Television&trade; can be viewed online on the \"Inland Empire Television Network\". It is easily accessible and broadcasted worldwide over the Internet.</p>\n\n<p>Watch SoCal Television 24/7 at <a class=\"nav-link\" routerLink=\"\">www.SoCalTelevision.com</a></p>\n\n<p>Please Like and Follow @SoCalTelevision on social!</p>\n\n<p>SoCAL television is also distributed through DVD. <a routerLink=\"contact\">Contact us</a> for more information about DVD's of the show.\n</p>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class=\"img-responsive\" /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>About {{sitename}}</h3>\n<p>\n{{sitename}}&trade; is part of the Inland Empire Television Network&trade;, located east of Los Angeles and west of Palm Springs, in the heart of Southern California, the Inland Empire. The Inland Empire (I.E.) is one of the largest and fastest growing regional areas in the United States. The \"I.E.\" encompasses the counties of Riverside and San Bernardino, and is home to the Inland Empire Television Network&trade;</p>\n\n<p>{{sitename}}&trade; is an on-location television production that ventures throughout Southern California and beyond to showcase special travel locations, entertainment, tourist attractions, upcoming current events, and local news from around the world. Along with fine dining reviews and MUCH MORE!</p>\n\n<p>{{sitename}}&trade; can be viewed online on the \"Inland Empire Television Network\". It is easily accessible and broadcasted worldwide over the Internet.</p>\n\n<p>Watch {{sitename}} 24/7 at <a class=\"nav-link\" routerLink=\"\">www.{{sitename}}.tv</a></p>\n\n<!-- <p>Please Like and Follow @SoCalTelevision on social!</p> -->\n"
 
 /***/ }),
 
@@ -49,6 +49,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AboutComponent = (function () {
     function AboutComponent() {
+        this.sitename = "WorldTelevision";
     }
     AboutComponent.prototype.ngOnInit = function () {
     };
@@ -146,7 +147,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'SoCalTelevision.com';
+        this.title = 'WorldTelevision.com';
     }
     return AppComponent;
 }());
@@ -178,7 +179,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__ = __webpack_require__("./src/app/local-reviews/local-reviews.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__ = __webpack_require__("./src/app/stations-main/socaltelevision/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__ = __webpack_require__("./src/app/stations-main/worldtelevision/home.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__ = __webpack_require__("./src/app/stations-main/california/california.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
@@ -252,7 +253,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */],
             __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */],
             __WEBPACK_IMPORTED_MODULE_8__about_about_component__["a" /* AboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */],
             __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */],
             __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */],
             __WEBPACK_IMPORTED_MODULE_14__stations_main_stations_main_component__["a" /* StationsMainComponent */],
@@ -280,7 +281,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
-                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
+                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
@@ -307,7 +308,7 @@ AppModule = __decorate([
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],
@@ -330,7 +331,7 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__ = __webpack_require__("./src/app/stations-main/socaltelevision/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__ = __webpack_require__("./src/app/stations-main/worldtelevision/home.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
@@ -345,7 +346,7 @@ AppModule = __decorate([
 
 
 var router = [
-    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] },
+    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
     { path: 'live', component: __WEBPACK_IMPORTED_MODULE_3__stations_main_live_live_component__["a" /* LiveComponent */] },
     { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_1__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
     { path: 'about', component: __WEBPACK_IMPORTED_MODULE_2__about_about_component__["a" /* AboutComponent */] },
@@ -354,7 +355,7 @@ var router = [
     { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_7__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
     { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_8__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_socaltelevision_home_component__["a" /* HomeComponent */] }
+    { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
 ];
 var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule */].forRoot(router, { useHash: true });
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.router.js.map
@@ -476,7 +477,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/contactus/contactus.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class=\"img-responsive\" /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Contact SoCal Television</h3>\n<p>\n    We are pleased to offer your company the opportunity to advertise on SoCalTelevision.com.\n    Advertising packages run the gamut, from complete site-wide branding integration on both mobile and web, to editorial sponsorship, product listings, commercials and simple banner ads - all designed to position your company on the cutting-edge new age lifestyle. SoCalTelevision.com delivers live tv feeds throughout the nation, and is available to over 325 million people nation wide, with well of over 40 million page views per month, our advertising space is limited. If you would like more information about Advertising on SoCalTelevision.com please email us at:<br/>\n    <br/>\n    SoCalTelevision@gmail.com\n</p>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class=\"img-responsive\" /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Contact {{sitename}}</h3>\n<p>\n    We are pleased to offer your company the opportunity to advertise on {{sitename}}.tv<br/>\n    Advertising packages run the gamut, from complete site-wide branding integration on both mobile and web, to editorial sponsorship, product listings, commercials and simple banner ads - all designed to position your company on the cutting-edge new age lifestyle. SoCalTelevision.com delivers live tv feeds throughout the nation, and is available to over 325 million people nation wide, with well of over 40 million page views per month, our advertising space is limited. If you would like more information about Advertising on {{sitename}}.tv please email us at:<br/>\n    <br/>\n    <!-- SoCalTelevision@gmail.com -->\n</p>\n"
 
 /***/ }),
 
@@ -498,6 +499,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var ContactusComponent = (function () {
     function ContactusComponent() {
+        this.sitename = "WorldTelevision";
     }
     ContactusComponent.prototype.ngOnInit = function () {
     };
@@ -1601,61 +1603,6 @@ MassachusettsComponent = __decorate([
 
 /***/ }),
 
-/***/ "./src/app/stations-main/socaltelevision/home.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 0%;\n        padding-right: 0%;\n        width: 400px;\n        height: 390px;\n    }\n    .video {\n        border: none;\n        width: 400px;\n        height: 390px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 3%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 10%;\n        padding-right: 2%;\n        width: 770px;\n        height: 411px;\n    }\n    .video {\n        border: none;\n        width: 710px;\n        height: 400px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n    width: 770px;\n    height: 411px;\n}\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/socaltelevision/home.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' class=\"img-responsive\" name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n\n  <span class=\"embed-responsive embed-responsive-16by9\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=441\"\n      style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n</span>\n\n"
-
-/***/ }),
-
-/***/ "./src/app/stations-main/socaltelevision/home.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var HomeComponent = (function () {
-    function HomeComponent(_route) {
-        this._route = _route;
-        this.stationName = 'SoCal Television';
-    }
-    HomeComponent.prototype.ngOnInit = function () {
-    };
-    return HomeComponent;
-}());
-HomeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
-        selector: 'app-home',
-        template: __webpack_require__("./src/app/stations-main/socaltelevision/home.component.html"),
-        styles: [__webpack_require__("./src/app/stations-main/socaltelevision/home.component.css"), __webpack_require__("./src/app/app.component.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _a || Object])
-], HomeComponent);
-
-var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
-
-/***/ }),
-
 /***/ "./src/app/stations-main/stations-main.component.css":
 /***/ (function(module, exports) {
 
@@ -1708,6 +1655,61 @@ StationsMainComponent = __decorate([
 ], StationsMainComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/stations-main.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/worldtelevision/home.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 0%;\n        padding-right: 0%;\n        width: 400px;\n        height: 390px;\n    }\n    .video {\n        border: none;\n        width: 400px;\n        height: 390px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 3%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 10%;\n        padding-right: 2%;\n        width: 770px;\n        height: 411px;\n    }\n    .video {\n        border: none;\n        width: 710px;\n        height: 400px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n    width: 770px;\n    height: 411px;\n}\n\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/worldtelevision/home.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' class=\"img-responsive\" name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n\n  <span class=\"embed-responsive embed-responsive-16by9\">\n\n      <iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F725298820843516%2F&width=770&show_text=false&appId=1297395473683747&height=441\"\n      style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"\n      allow=\"encrypted-media\" allowFullScreen=\"true\"></iframe>\n</span>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/worldtelevision/home.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomeComponent = (function () {
+    function HomeComponent(_route) {
+        this._route = _route;
+        this.stationName = 'World Television';
+    }
+    HomeComponent.prototype.ngOnInit = function () {
+    };
+    return HomeComponent;
+}());
+HomeComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-home',
+        template: __webpack_require__("./src/app/stations-main/worldtelevision/home.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/worldtelevision/home.component.css"), __webpack_require__("./src/app/app.component.css")]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _a || Object])
+], HomeComponent);
+
+var _a;
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
 
 /***/ }),
 

@@ -11,5 +11,5 @@ export class ContactusComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  sitename = "WorldTelevision"
 }

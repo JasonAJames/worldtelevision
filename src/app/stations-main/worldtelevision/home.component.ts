@@ -14,6 +14,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-stationName = 'SoCal Television';
+stationName = 'World Television';
 
 }
