@@ -15,6 +15,6 @@ export class LiveComponent implements OnInit {
   offlineMessage1 = "We ar Currently OFFLINE - Please check back later. In the mean time, you can watch live tv from around the nation by clicking on the TV Stations navigation link"
 
 
-  stationName = 'SoCal Television LIVE'
+  stationName = 'WorldTelevision.tv LIVE'
   description = this.offlineMessage1
 }

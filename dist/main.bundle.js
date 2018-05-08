@@ -1481,7 +1481,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LiveComponent = (function () {
     function LiveComponent() {
         this.offlineMessage1 = "We ar Currently OFFLINE - Please check back later. In the mean time, you can watch live tv from around the nation by clicking on the TV Stations navigation link";
-        this.stationName = 'SoCal Television LIVE';
+        this.stationName = 'WorldTelevision.tv LIVE';
         this.description = this.offlineMessage1;
     }
     LiveComponent.prototype.ngOnInit = function () {
