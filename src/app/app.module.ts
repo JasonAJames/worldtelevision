@@ -33,6 +33,7 @@ import { ColoradoComponent } from './stations-main/colorado/colorado.component';
 import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/colorado-9news.component';
 import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.component';
 
 
 
@@ -64,7 +65,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     ColoradoComponent,
     Colorado9newsComponent,
     Nbc11newsComponent,
-    ContactusComponent
+    ContactusComponent,
+    NasaPublicComponent
 
   ],
   imports: [
@@ -80,7 +82,8 @@ import { ContactusComponent } from './contactus/contactus.component';
       { path: 'about', component: AboutComponent},
       { path: 'contact', component: ContactusComponent},
       { path: 'stations-main', component: StationsMainComponent},
-
+      { path: 'nasa-public', component: NasaPublicComponent },
+      
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
