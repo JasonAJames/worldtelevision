@@ -34,6 +34,8 @@ import { Colorado9newsComponent } from './stations-main/colorado/colorado-9news/
 import { Nbc11newsComponent } from './stations-main/colorado/nbc11news/nbc11news.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.component';
+import { NasaIisComponent } from './stations-main/nasa-iis/nasa-iis.component';
+import { NasaIssEarthviewComponent } from './stations-main/nasa-iss-earthview/nasa-iss-earthview.component';
 
 
 
@@ -66,7 +68,9 @@ import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.com
     Colorado9newsComponent,
     Nbc11newsComponent,
     ContactusComponent,
-    NasaPublicComponent
+    NasaPublicComponent,
+    NasaIisComponent,
+    NasaIssEarthviewComponent
 
   ],
   imports: [
@@ -83,7 +87,9 @@ import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.com
       { path: 'contact', component: ContactusComponent},
       { path: 'stations-main', component: StationsMainComponent},
       { path: 'nasa-public', component: NasaPublicComponent },
-      
+      { path: 'nasa-iss', component: NasaIisComponent },
+      { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
+
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
