@@ -36,6 +36,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.component';
 import { NasaIisComponent } from './stations-main/nasa-iis/nasa-iis.component';
 import { NasaIssEarthviewComponent } from './stations-main/nasa-iss-earthview/nasa-iss-earthview.component';
+import { NasaMediaComponent } from './stations-main/nasa-media/nasa-media.component';
 
 
 
@@ -70,7 +71,8 @@ import { NasaIssEarthviewComponent } from './stations-main/nasa-iss-earthview/na
     ContactusComponent,
     NasaPublicComponent,
     NasaIisComponent,
-    NasaIssEarthviewComponent
+    NasaIssEarthviewComponent,
+    NasaMediaComponent
 
   ],
   imports: [
@@ -89,6 +91,7 @@ import { NasaIssEarthviewComponent } from './stations-main/nasa-iss-earthview/na
       { path: 'nasa-public', component: NasaPublicComponent },
       { path: 'nasa-iss', component: NasaIisComponent },
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
+      { path: 'nasa-media', component: NasaMediaComponent },
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
