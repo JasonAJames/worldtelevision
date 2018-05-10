@@ -37,6 +37,9 @@ import { NasaPublicComponent } from './stations-main/nasa-public/nasa-public.com
 import { NasaIisComponent } from './stations-main/nasa-iis/nasa-iis.component';
 import { NasaIssEarthviewComponent } from './stations-main/nasa-iss-earthview/nasa-iss-earthview.component';
 import { NasaMediaComponent } from './stations-main/nasa-media/nasa-media.component';
+import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.component';
+import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
+import { WorldTvMoviesComponent } from './world-tv-movies/world-tv-movies.component';
 
 
 
@@ -72,7 +75,10 @@ import { NasaMediaComponent } from './stations-main/nasa-media/nasa-media.compon
     NasaPublicComponent,
     NasaIisComponent,
     NasaIssEarthviewComponent,
-    NasaMediaComponent
+    NasaMediaComponent,
+    LiveTrafficCamsComponent,
+    Cam10fwyWestOfMonteVistaAveComponent,
+    WorldTvMoviesComponent
 
   ],
   imports: [
@@ -92,6 +98,8 @@ import { NasaMediaComponent } from './stations-main/nasa-media/nasa-media.compon
       { path: 'nasa-iss', component: NasaIisComponent },
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
       { path: 'nasa-media', component: NasaMediaComponent },
+
+      { path: 'world-tv-movies', component: WorldTvMoviesComponent },
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},

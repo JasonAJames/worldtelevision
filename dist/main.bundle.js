@@ -215,12 +215,18 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__stations_main_nasa_iis_nasa_iis_component__ = __webpack_require__("./src/app/stations-main/nasa-iis/nasa-iis.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__ = __webpack_require__("./src/app/stations-main/nasa-iss-earthview/nasa-iss-earthview.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__ = __webpack_require__("./src/app/stations-main/nasa-media/nasa-media.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__ = __webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
 
 
 
@@ -296,7 +302,10 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_33__stations_main_nasa_public_nasa_public_component__["a" /* NasaPublicComponent */],
             __WEBPACK_IMPORTED_MODULE_34__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */],
             __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */]
+            __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */],
+            __WEBPACK_IMPORTED_MODULE_37__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
+            __WEBPACK_IMPORTED_MODULE_38__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
+            __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -315,6 +324,7 @@ AppModule = __decorate([
                 { path: 'nasa-iss', component: __WEBPACK_IMPORTED_MODULE_34__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */] },
                 { path: 'nasa-iss-earthview', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */] },
                 { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
+                { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
                 { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
                 { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
@@ -541,6 +551,106 @@ ContactusComponent = __decorate([
 ], ContactusComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/contactus.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  cam-10fwy-west-of-monte-vista-ave works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Cam10fwyWestOfMonteVistaAveComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Cam10fwyWestOfMonteVistaAveComponent = (function () {
+    function Cam10fwyWestOfMonteVistaAveComponent() {
+    }
+    Cam10fwyWestOfMonteVistaAveComponent.prototype.ngOnInit = function () {
+    };
+    return Cam10fwyWestOfMonteVistaAveComponent;
+}());
+Cam10fwyWestOfMonteVistaAveComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-cam-10fwy-west-of-monte-vista-ave',
+        template: __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.html"),
+        styles: [__webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Cam10fwyWestOfMonteVistaAveComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/cam-10fwy-west-of-monte-vista-ave.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/live-traffic-cams.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/live-traffic-cams.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  live-traffic-cams works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/live-traffic-cams/live-traffic-cams.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveTrafficCamsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LiveTrafficCamsComponent = (function () {
+    function LiveTrafficCamsComponent() {
+    }
+    LiveTrafficCamsComponent.prototype.ngOnInit = function () {
+    };
+    return LiveTrafficCamsComponent;
+}());
+LiveTrafficCamsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-live-traffic-cams',
+        template: __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.html"),
+        styles: [__webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], LiveTrafficCamsComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live-traffic-cams.component.js.map
 
 /***/ }),
 
@@ -1843,7 +1953,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/stations-main/stations-main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<h3>Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/massachusetts-{{ tvhref }}\">Massachusetts {{ tv }}</a>\n      </li>\n      </ul>\n      <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n      <h5>Out of this World Television</h5>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-public\">NASA Public Education</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss\">NASA International Space Station (ISS)</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss-earthview\">NASA ISS Earth View</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-media\">NASA TV Media</a>\n      </li>\n  </ul>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<h3>Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/massachusetts-{{ tvhref }}\">Massachusetts {{ tv }}</a>\n      </li>\n      </ul>\n      <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n      <h5>Out of this World Television</h5>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-public\">NASA Public Education</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss\">NASA International Space Station (ISS)</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss-earthview\">NASA ISS Earth View</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-media\">NASA TV Media</a>\n      </li>\n  </ul>\n  <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <h5>World Television &amp; Movie Stations</h5>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/world-tv-movies\">World TV &amp; Movies</a>\n    </li>\n</ul>\n"
 
 /***/ }),
 
@@ -1940,6 +2050,56 @@ HomeComponent = __decorate([
 
 var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/world-tv-movies/world-tv-movies.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/world-tv-movies/world-tv-movies.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"http://www.ustream.tv/embed/23574758?html5ui\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+
+/***/ }),
+
+/***/ "./src/app/world-tv-movies/world-tv-movies.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WorldTvMoviesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WorldTvMoviesComponent = (function () {
+    function WorldTvMoviesComponent() {
+    }
+    WorldTvMoviesComponent.prototype.ngOnInit = function () {
+    };
+    return WorldTvMoviesComponent;
+}());
+WorldTvMoviesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-world-tv-movies',
+        template: __webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.html"),
+        styles: [__webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], WorldTvMoviesComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/world-tv-movies.component.js.map
 
 /***/ }),
 
