@@ -2085,6 +2085,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var WorldTvMoviesComponent = (function () {
     function WorldTvMoviesComponent() {
+        this.stationName = "World Television & Movies";
     }
     WorldTvMoviesComponent.prototype.ngOnInit = function () {
     };

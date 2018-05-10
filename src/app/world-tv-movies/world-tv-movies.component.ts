@@ -11,5 +11,5 @@ export class WorldTvMoviesComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  stationName = "World Television & Movies"
 }
