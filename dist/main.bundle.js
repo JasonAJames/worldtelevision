@@ -225,12 +225,20 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_the_romance_the_romance_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-romance/the-romance.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_on_the_mike_on_the_mike_component__ = __webpack_require__("./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__stations_main_california_california_life_california_life_component__ = __webpack_require__("./src/app/stations-main/california/california-life/california-life.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_drone_tv_drone_tv_component__ = __webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__ = __webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__ = __webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -326,7 +334,11 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */],
             __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */],
             __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */],
-            __WEBPACK_IMPORTED_MODULE_46__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */]
+            __WEBPACK_IMPORTED_MODULE_46__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */],
+            __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */],
+            __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */],
+            __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */],
+            __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -347,11 +359,15 @@ AppModule = __decorate([
                 { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
                 { path: 'entertainment-tv-stations', component: __WEBPACK_IMPORTED_MODULE_40__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */] },
                 { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
+                { path: 'drone-tv', component: __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */] },
                 { path: 'noah-pop-tv', component: __WEBPACK_IMPORTED_MODULE_41__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__["a" /* NoahPopTvComponent */] },
                 { path: 'hollywood-show-live', component: __WEBPACK_IMPORTED_MODULE_42__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__["a" /* HollywoodShowLiveComponent */] },
                 { path: 'the-directors-cut', component: __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */] },
                 { path: 'the-romance', component: __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */] },
                 { path: 'on-the-mike', component: __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */] },
+                { path: 'miss-multiverse', component: __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */] },
+                { path: 'tomorrow-pictures', component: __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */] },
+                { path: 'the-razzies-channel', component: __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */] },
                 { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
                 { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
@@ -582,6 +598,58 @@ ContactusComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://www.filmon.com/tv/channel/export?channel_id=4286&autoPlay=1\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  <p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DroneTvComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DroneTvComponent = (function () {
+    function DroneTvComponent() {
+        this.stationName = "Drone TV";
+        this.description = "Drone TV, yep it’s a thing. An ‘in your face’ racing channel that puts you in the pilot seat at 80mph. Fly through dozens of POV, FPV in flight cameras and multiple...";
+    }
+    DroneTvComponent.prototype.ngOnInit = function () {
+    };
+    return DroneTvComponent;
+}());
+DroneTvComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-drone-tv',
+        template: __webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.html"),
+        styles: [__webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], DroneTvComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/drone-tv.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/entertainment-tv-stations/entertainment-tv-stations.component.css":
 /***/ (function(module, exports) {
 
@@ -592,7 +660,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}"
 /***/ "./src/app/entertainment-tv-stations/entertainment-tv-stations.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hollywood-show-live\">Hollywood Show LIVE</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/noah-pop-tv\">NoahPOP TV</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/on-the-mike\">On The Mike</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/the-directors-cut\">The Directors Cut</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/the-romance\">The Romance</a>\n        </li>\n  </ul>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hollywood-show-live\">Hollywood Show LIVE</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/drone-tv\">Drone TV</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/noah-pop-tv\">NoahPOP TV</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/on-the-mike\">On The Mike</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/the-directors-cut\">The Directors Cut</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/the-romance\">The Romance</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/miss-multiverse\">Miss Multiverse</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/tomorrow-pictures\">Tomorrow Pictures</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/the-razzies-channel\">The Razzies</a>\n        </li>\n  </ul>"
 
 /***/ }),
 
@@ -635,7 +703,7 @@ EntertainmentTvStationsComponent = __decorate([
 /***/ "./src/app/entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 8%;\n}"
 
 /***/ }),
 
@@ -681,6 +749,58 @@ HollywoodShowLiveComponent = __decorate([
 ], HollywoodShowLiveComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/hollywood-show-live.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://www.filmon.com/tv/channel/export?channel_id=4703&autoPlay=1\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  <p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MissMultiverseComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MissMultiverseComponent = (function () {
+    function MissMultiverseComponent() {
+        this.stationName = "Miss Multiverse";
+        this.description = "Miss Multiverse Super Model & Beauty Queen. A TV Reality and Interactive modeling competition that follows the adventures, drama & friendships in a large group of...";
+    }
+    MissMultiverseComponent.prototype.ngOnInit = function () {
+    };
+    return MissMultiverseComponent;
+}());
+MissMultiverseComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-miss-multiverse',
+        template: __webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.html"),
+        styles: [__webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], MissMultiverseComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/miss-multiverse.component.js.map
 
 /***/ }),
 
@@ -739,7 +859,7 @@ NoahPopTvComponent = __decorate([
 /***/ "./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 8%;\n}"
 
 /***/ }),
 
@@ -840,6 +960,59 @@ TheDirectorsCutComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://www.filmon.com/tv/channel/export?channel_id={{channelID}}&autoPlay=1\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  <p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TheRazziesChannelComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TheRazziesChannelComponent = (function () {
+    function TheRazziesChannelComponent() {
+        this.stationName = "The Razzies Channel";
+        this.description = "The $4.97 gold spray-painted Razzie® Award is handed out to otherwise great talent who should know better than to associate their name with sub-par projects. Every...";
+        this.channelID = "3578";
+    }
+    TheRazziesChannelComponent.prototype.ngOnInit = function () {
+    };
+    return TheRazziesChannelComponent;
+}());
+TheRazziesChannelComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-the-razzies-channel',
+        template: __webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.html"),
+        styles: [__webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], TheRazziesChannelComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-razzies-channel.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/entertainment-tv-stations/the-romance/the-romance.component.css":
 /***/ (function(module, exports) {
 
@@ -889,6 +1062,58 @@ TheRomanceComponent = __decorate([
 ], TheRomanceComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-romance.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://www.filmon.com/tv/channel/export?channel_id=3542&autoPlay=1\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  <p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TomorrowPicturesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TomorrowPicturesComponent = (function () {
+    function TomorrowPicturesComponent() {
+        this.stationName = "Tomorrow Pictures";
+        this.description = "Channel-oriented Articles, Videos, Infotainment from Tomorrow Pictures.";
+    }
+    TomorrowPicturesComponent.prototype.ngOnInit = function () {
+    };
+    return TomorrowPicturesComponent;
+}());
+TomorrowPicturesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-tomorrow-pictures',
+        template: __webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.html"),
+        styles: [__webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], TomorrowPicturesComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/tomorrow-pictures.component.js.map
 
 /***/ }),
 

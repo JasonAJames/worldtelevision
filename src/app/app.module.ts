@@ -47,6 +47,10 @@ import { TheDirectorsCutComponent } from './entertainment-tv-stations/the-direct
 import { TheRomanceComponent } from './entertainment-tv-stations/the-romance/the-romance.component';
 import { OnTheMikeComponent } from './entertainment-tv-stations/on-the-mike/on-the-mike.component';
 import { CaliforniaLifeComponent } from './stations-main/california/california-life/california-life.component';
+import { DroneTvComponent } from './entertainment-tv-stations/drone-tv/drone-tv.component';
+import { MissMultiverseComponent } from './entertainment-tv-stations/miss-multiverse/miss-multiverse.component';
+import { TomorrowPicturesComponent } from './entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component';
+import { TheRazziesChannelComponent } from './entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component';
 
 
 
@@ -92,7 +96,11 @@ import { CaliforniaLifeComponent } from './stations-main/california/california-l
     TheDirectorsCutComponent,
     TheRomanceComponent,
     OnTheMikeComponent,
-    CaliforniaLifeComponent
+    CaliforniaLifeComponent,
+    DroneTvComponent,
+    MissMultiverseComponent,
+    TomorrowPicturesComponent,
+    TheRazziesChannelComponent
 
   ],
   imports: [
@@ -115,11 +123,15 @@ import { CaliforniaLifeComponent } from './stations-main/california/california-l
 
       { path: 'entertainment-tv-stations', component: EntertainmentTvStationsComponent },
       { path: 'world-tv-movies', component: WorldTvMoviesComponent },
+      { path: 'drone-tv', component: DroneTvComponent },
       { path: 'noah-pop-tv', component: NoahPopTvComponent },
       { path: 'hollywood-show-live', component: HollywoodShowLiveComponent },
       { path: 'the-directors-cut', component: TheDirectorsCutComponent },
       { path: 'the-romance', component: TheRomanceComponent },
       { path: 'on-the-mike', component: OnTheMikeComponent },
+      { path: 'miss-multiverse', component: MissMultiverseComponent },
+      { path: 'tomorrow-pictures', component: TomorrowPicturesComponent },
+      { path: 'the-razzies-channel', component: TheRazziesChannelComponent },
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
