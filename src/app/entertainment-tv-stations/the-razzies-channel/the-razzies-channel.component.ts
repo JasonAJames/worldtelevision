@@ -13,5 +13,4 @@ export class TheRazziesChannelComponent implements OnInit {
   }
   stationName = "The Razzies Channel"
   description = "The $4.97 gold spray-painted Razzie® Award is handed out to otherwise great talent who should know better than to associate their name with sub-par projects. Every..."
-  channelID = "3578"
 }

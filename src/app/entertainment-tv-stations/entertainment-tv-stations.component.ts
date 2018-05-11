@@ -11,5 +11,5 @@ export class EntertainmentTvStationsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  subheading = "Entertainment Stations:"
 }

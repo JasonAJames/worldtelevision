@@ -51,6 +51,11 @@ import { DroneTvComponent } from './entertainment-tv-stations/drone-tv/drone-tv.
 import { MissMultiverseComponent } from './entertainment-tv-stations/miss-multiverse/miss-multiverse.component';
 import { TomorrowPicturesComponent } from './entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component';
 import { TheRazziesChannelComponent } from './entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component';
+import { ComedyTvStationsComponent } from './comedy-tv-stations/comedy-tv-stations.component';
+import { ComicZooComponent } from './comedy-tv-stations/comic-zoo/comic-zoo.component';
+import { ThePlaceholdersComponent } from './comedy-tv-stations/the-placeholders/the-placeholders.component';
+import { ComedyClassicsComponent } from './comedy-tv-stations/comedy-classics/comedy-classics.component';
+import { EyeForAnEyeComponent } from './comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component';
 
 
 
@@ -100,7 +105,12 @@ import { TheRazziesChannelComponent } from './entertainment-tv-stations/the-razz
     DroneTvComponent,
     MissMultiverseComponent,
     TomorrowPicturesComponent,
-    TheRazziesChannelComponent
+    TheRazziesChannelComponent,
+    ComedyTvStationsComponent,
+    ComicZooComponent,
+    ThePlaceholdersComponent,
+    ComedyClassicsComponent,
+    EyeForAnEyeComponent
 
   ],
   imports: [
@@ -132,6 +142,12 @@ import { TheRazziesChannelComponent } from './entertainment-tv-stations/the-razz
       { path: 'miss-multiverse', component: MissMultiverseComponent },
       { path: 'tomorrow-pictures', component: TomorrowPicturesComponent },
       { path: 'the-razzies-channel', component: TheRazziesChannelComponent },
+
+      { path: 'comedy-tv-stations', component: ComedyTvStationsComponent },
+      { path: 'comedy-classics', component: ComedyClassicsComponent },
+      { path: 'comic-zoo', component: ComicZooComponent },
+      { path: 'eye-for-an-eye', component: EyeForAnEyeComponent },
+      { path: 'the-placeholders', component: ThePlaceholdersComponent },
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
