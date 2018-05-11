@@ -40,6 +40,13 @@ import { NasaMediaComponent } from './stations-main/nasa-media/nasa-media.compon
 import { LiveTrafficCamsComponent } from './live-traffic-cams/live-traffic-cams.component';
 import { Cam10fwyWestOfMonteVistaAveComponent } from './live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component';
 import { WorldTvMoviesComponent } from './world-tv-movies/world-tv-movies.component';
+import { EntertainmentTvStationsComponent } from './entertainment-tv-stations/entertainment-tv-stations.component';
+import { NoahPopTvComponent } from './entertainment-tv-stations/noah-pop-tv/noah-pop-tv.component';
+import { HollywoodShowLiveComponent } from './entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component';
+import { TheDirectorsCutComponent } from './entertainment-tv-stations/the-directors-cut/the-directors-cut.component';
+import { TheRomanceComponent } from './entertainment-tv-stations/the-romance/the-romance.component';
+import { OnTheMikeComponent } from './entertainment-tv-stations/on-the-mike/on-the-mike.component';
+import { CaliforniaLifeComponent } from './stations-main/california/california-life/california-life.component';
 
 
 
@@ -78,7 +85,14 @@ import { WorldTvMoviesComponent } from './world-tv-movies/world-tv-movies.compon
     NasaMediaComponent,
     LiveTrafficCamsComponent,
     Cam10fwyWestOfMonteVistaAveComponent,
-    WorldTvMoviesComponent
+    WorldTvMoviesComponent,
+    EntertainmentTvStationsComponent,
+    NoahPopTvComponent,
+    HollywoodShowLiveComponent,
+    TheDirectorsCutComponent,
+    TheRomanceComponent,
+    OnTheMikeComponent,
+    CaliforniaLifeComponent
 
   ],
   imports: [
@@ -99,12 +113,19 @@ import { WorldTvMoviesComponent } from './world-tv-movies/world-tv-movies.compon
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
       { path: 'nasa-media', component: NasaMediaComponent },
 
+      { path: 'entertainment-tv-stations', component: EntertainmentTvStationsComponent },
       { path: 'world-tv-movies', component: WorldTvMoviesComponent },
+      { path: 'noah-pop-tv', component: NoahPopTvComponent },
+      { path: 'hollywood-show-live', component: HollywoodShowLiveComponent },
+      { path: 'the-directors-cut', component: TheDirectorsCutComponent },
+      { path: 'the-romance', component: TheRomanceComponent },
+      { path: 'on-the-mike', component: OnTheMikeComponent },
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
       { path: 'california-tv-stations', component: CaliforniaComponent },
+      { path: 'california-life', component: CaliforniaLifeComponent },
       { path: 'ktla5', component: Ktla5Component},
       { path: 'fox11la', component: Fox11laComponent},
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
