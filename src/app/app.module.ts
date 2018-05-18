@@ -159,8 +159,8 @@ import { Fox7AustinComponent } from './stations-main/texas/fox-7-austin/fox-7-au
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
       { path: 'texas-tv-stations', component: TexasComponent },
-      { path: 'fow-4-texas', component: Fox4TexasComponent},
-      { path: 'fow-7-austin', component: Fox7AustinComponent},
+      { path: 'fox-4-texas', component: Fox4TexasComponent},
+      { path: 'fox-7-austin', component: Fox7AustinComponent},
 
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'california-life', component: CaliforniaLifeComponent },
