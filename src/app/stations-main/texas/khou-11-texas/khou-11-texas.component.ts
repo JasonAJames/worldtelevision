@@ -12,4 +12,5 @@ export class Khou11TexasComponent implements OnInit {
   ngOnInit() {
   }
   stationName = "KHOU 11"
+  description = "Officials in Santa Fe, Texas, say there are confirmed injuries at Santa Fe High School and the suspected shooter has been arrested."
 }
