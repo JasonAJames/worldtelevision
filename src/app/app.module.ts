@@ -56,6 +56,8 @@ import { ComicZooComponent } from './comedy-tv-stations/comic-zoo/comic-zoo.comp
 import { ThePlaceholdersComponent } from './comedy-tv-stations/the-placeholders/the-placeholders.component';
 import { ComedyClassicsComponent } from './comedy-tv-stations/comedy-classics/comedy-classics.component';
 import { EyeForAnEyeComponent } from './comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component';
+import { TexasComponent } from './stations-main/texas/texas.component';
+import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
 
 
 
@@ -110,7 +112,9 @@ import { EyeForAnEyeComponent } from './comedy-tv-stations/eye-for-an-eye/eye-fo
     ComicZooComponent,
     ThePlaceholdersComponent,
     ComedyClassicsComponent,
-    EyeForAnEyeComponent
+    EyeForAnEyeComponent,
+    TexasComponent,
+    Fox4TexasComponent
 
   ],
   imports: [
@@ -152,6 +156,9 @@ import { EyeForAnEyeComponent } from './comedy-tv-stations/eye-for-an-eye/eye-fo
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
+      { path: 'texas-tv-stations', component: TexasComponent },
+      { path: 'fow-4-texas', component: Fox4TexasComponent},
+      
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'california-life', component: CaliforniaLifeComponent },
       { path: 'ktla5', component: Ktla5Component},
