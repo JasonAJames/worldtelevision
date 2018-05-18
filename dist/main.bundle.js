@@ -238,12 +238,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_fox_7_austin_fox_7_austin_component__ = __webpack_require__("./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__ = __webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__ = __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -365,7 +367,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_56__stations_main_texas_texas_component__["a" /* TexasComponent */],
             __WEBPACK_IMPORTED_MODULE_57__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
             __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */],
-            __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */]
+            __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -374,6 +377,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
+                { path: 'live-royal-wedding-2018', component: __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */] },
                 { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
                 { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
                 { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_6__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
@@ -1409,6 +1413,58 @@ TomorrowPicturesComponent = __decorate([
 ], TomorrowPicturesComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/tomorrow-pictures.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n  <br/>\n  <p>{{description}}</p>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveRoyalWedding2018Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LiveRoyalWedding2018Component = (function () {
+    function LiveRoyalWedding2018Component() {
+        this.stationName = "The Royal Wedding 2018 LIVE";
+        this.description = "On Monday 27 November 2017 The Prince of Wales announced the engagement of his son Prince Harry to Ms. Meghan Markle. The wedding will take place at St George's Chapel, Windsor on Saturday 19 May. The service will begin at St George's Chapel at midday and will be conducted by the Dean of Windsor, The Rt Revd. David Conner. The Most Revd. and Rt Hon. Justin Welby, Archbishop of Canterbury, will officiate as the couple make their marriage vows. At 1pm, following the service, the couple will travel around Windsor in a horse-drawn carriage, providing an opportunity for members of the public to see them and join in with the celebrations, and you can watch the wedding LIVE on WorldTelevision. Meghan Markle has asked the Prince of Wales to accompany her down part of the aisle on her wedding day to Prince Harry, as she opts not to be given away. The US star, who this week learned that her own father would not make the wedding due to ill health, will walk the first half of the St George's Chapel aisle alone, surrounded by young page boys and bridesmaids but without anyone by her side. At the Quire, which effectively marks the second half of the aisle, Ms. Markle will be met by the Prince of Wales, her future father-in-law, who will take her arm for the final steps. The ceremony will omit the traditional moment of 'giving away', where the presiding Archbishop asks: 'Who giveth this woman to be married to this man?'";
+    }
+    LiveRoyalWedding2018Component.prototype.ngOnInit = function () {
+    };
+    return LiveRoyalWedding2018Component;
+}());
+LiveRoyalWedding2018Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-live-royal-wedding-2018',
+        template: __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.html"),
+        styles: [__webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], LiveRoyalWedding2018Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live-royal-wedding-2018.component.js.map
 
 /***/ }),
 
