@@ -403,7 +403,7 @@ AppModule = __decorate([
                 { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
                 { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
                 { path: 'texas-tv-stations', component: __WEBPACK_IMPORTED_MODULE_56__stations_main_texas_texas_component__["a" /* TexasComponent */] },
-                { path: 'khou-11`', component: __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */] },
+                { path: 'khou-11', component: __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */] },
                 { path: 'fox-4-texas', component: __WEBPACK_IMPORTED_MODULE_57__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
                 { path: 'fox-7-austin', component: __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },

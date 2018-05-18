@@ -161,7 +161,7 @@ import { Khou11TexasComponent } from './stations-main/texas/khou-11-texas/khou-1
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
 
       { path: 'texas-tv-stations', component: TexasComponent },
-      { path: 'khou-11`', component: Khou11TexasComponent},
+      { path: 'khou-11', component: Khou11TexasComponent},
       { path: 'fox-4-texas', component: Fox4TexasComponent},
       { path: 'fox-7-austin', component: Fox7AustinComponent},
 
