@@ -62,6 +62,7 @@ import { Fox7AustinComponent } from './stations-main/texas/fox-7-austin/fox-7-au
 import { Khou11TexasComponent } from './stations-main/texas/khou-11-texas/khou-11-texas.component';
 import { LiveRoyalWedding2018Component } from './live-royal-wedding-2018/live-royal-wedding-2018.component';
 import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.component';
+import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component';
 
 
 
@@ -122,7 +123,8 @@ import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.compon
     Fox7AustinComponent,
     Khou11TexasComponent,
     LiveRoyalWedding2018Component,
-    BreakingNews1Component
+    BreakingNews1Component,
+    Kwtx10Component
 
   ],
   imports: [
@@ -170,6 +172,7 @@ import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.compon
       { path: 'khou-11', component: Khou11TexasComponent},
       { path: 'fox-4-texas', component: Fox4TexasComponent},
       { path: 'fox-7-austin', component: Fox7AustinComponent},
+      { path: 'kwtx-10', component: Kwtx10Component},
 
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'california-life', component: CaliforniaLifeComponent },

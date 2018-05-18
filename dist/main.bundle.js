@@ -240,12 +240,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__ = __webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__ = __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__ = __webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__ = __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -371,7 +373,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */],
             __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */],
             __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */],
-            __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */]
+            __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */],
+            __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -414,6 +417,7 @@ AppModule = __decorate([
                 { path: 'khou-11', component: __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */] },
                 { path: 'fox-4-texas', component: __WEBPACK_IMPORTED_MODULE_57__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
                 { path: 'fox-7-austin', component: __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */] },
+                { path: 'kwtx-10', component: __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */] },
                 { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
                 { path: 'california-life', component: __WEBPACK_IMPORTED_MODULE_46__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */] },
                 { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
@@ -3031,7 +3035,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div class=\"leaderBanner\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://livestream.com/accounts/6395980/events/2598380/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n\n\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=88582\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;position: relative;height: 92px;width: 20px;margin: -92px 0 0 0;float: right;text-indent: -9999em\" href=\"https://www.willyweather.com/tx/mclennan-county/waco.html\" rel=\"nofollow\">waco weekly forecast</a></div><!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://livestream.com/accounts/6395980/events/2598380/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n\n\n"
 
 /***/ }),
 
@@ -3082,7 +3086,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div class=\"leaderBanner\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://livestream.com/accounts/6396024/events/2598387/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=88582\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;position: relative;height: 92px;width: 20px;margin: -92px 0 0 0;float: right;text-indent: -9999em\" href=\"https://www.willyweather.com/tx/mclennan-county/waco.html\" rel=\"nofollow\">waco weekly forecast</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://livestream.com/accounts/6396024/events/2598387/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>"
 
 /***/ }),
 
@@ -3133,7 +3137,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div class=\"leaderBanner\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://media.khou.com/embeds/video/1827053/iframe\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n  <p>{{description}}</p>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=88582\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;position: relative;height: 92px;width: 20px;margin: -92px 0 0 0;float: right;text-indent: -9999em\" href=\"https://www.willyweather.com/tx/mclennan-county/waco.html\" rel=\"nofollow\">waco weekly forecast</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://media.khou.com/embeds/video/1827053/iframe\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n  <p>{{description}}</p>"
 
 /***/ }),
 
@@ -3175,6 +3179,58 @@ Khou11TexasComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/stations-main/texas/kwtx-10/kwtx-10.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/texas/kwtx-10/kwtx-10.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=88582\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;position: relative;height: 92px;width: 20px;margin: -92px 0 0 0;float: right;text-indent: -9999em\" href=\"https://www.willyweather.com/tx/mclennan-county/waco.html\" rel=\"nofollow\">waco weekly forecast</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"http://www.kwtx.com/templates/2015_JW_frame?name=Livesteam_/livestream_embed&token=https://ad-playlistserver.aws.syncbak.com/playlist/893559/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODkzMjUxNDAsImlzcyI6IldMUyIsIm1kNSI6IjVjMTFkNDUyZjQ3OGUzOTEyZTNiNzYwZjYwNjMxMGEwIiwibWlkIjoiODkzNTU5In0.H_QpokC_nq0CC5JRbVc6ZPgiiZ7tpCPxpHqfEATlvkY\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n  <p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Kwtx10Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Kwtx10Component = (function () {
+    function Kwtx10Component() {
+        this.stationName = "KWTX 10";
+        this.description = "The Most watched station in central Texas!";
+    }
+    Kwtx10Component.prototype.ngOnInit = function () {
+    };
+    return Kwtx10Component;
+}());
+Kwtx10Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-kwtx-10',
+        template: __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Kwtx10Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/kwtx-10.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/stations-main/texas/texas.component.css":
 /***/ (function(module, exports) {
 
@@ -3185,7 +3241,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/texas/texas.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/khou-11\">KHOU 11</a>\n  </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/fox-4-texas\">FOX 4 Texas</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/fox-7-austin\">FOX 7 Austin</a>\n    </li>\n  </ul>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/khou-11\">KHOU 11</a>\n  </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/fox-4-texas\">FOX 4 Texas</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/fox-7-austin\">FOX 7 Austin</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/kwtx-10\">KWTX 10</a>\n      </li>\n  </ul>"
 
 /***/ }),
 
