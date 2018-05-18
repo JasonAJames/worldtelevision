@@ -61,6 +61,7 @@ import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texa
 import { Fox7AustinComponent } from './stations-main/texas/fox-7-austin/fox-7-austin.component';
 import { Khou11TexasComponent } from './stations-main/texas/khou-11-texas/khou-11-texas.component';
 import { LiveRoyalWedding2018Component } from './live-royal-wedding-2018/live-royal-wedding-2018.component';
+import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.component';
 
 
 
@@ -120,7 +121,8 @@ import { LiveRoyalWedding2018Component } from './live-royal-wedding-2018/live-ro
     Fox4TexasComponent,
     Fox7AustinComponent,
     Khou11TexasComponent,
-    LiveRoyalWedding2018Component
+    LiveRoyalWedding2018Component,
+    BreakingNews1Component
 
   ],
   imports: [
@@ -130,6 +132,7 @@ import { LiveRoyalWedding2018Component } from './live-royal-wedding-2018/live-ro
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
+      { path: 'breaking-news-1', component: BreakingNews1Component},
       { path: 'live-royal-wedding-2018', component: LiveRoyalWedding2018Component },
       { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
       { path: 'local-reviews', component: LocalReviewsComponent},
