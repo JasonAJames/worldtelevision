@@ -58,6 +58,7 @@ import { ComedyClassicsComponent } from './comedy-tv-stations/comedy-classics/co
 import { EyeForAnEyeComponent } from './comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component';
 import { TexasComponent } from './stations-main/texas/texas.component';
 import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texas.component';
+import { Fox7AustinComponent } from './stations-main/texas/fox-7-austin/fox-7-austin.component';
 
 
 
@@ -114,7 +115,8 @@ import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texa
     ComedyClassicsComponent,
     EyeForAnEyeComponent,
     TexasComponent,
-    Fox4TexasComponent
+    Fox4TexasComponent,
+    Fox7AustinComponent
 
   ],
   imports: [
@@ -158,7 +160,8 @@ import { Fox4TexasComponent } from './stations-main/texas/fox-4-texas/fox-4-texa
 
       { path: 'texas-tv-stations', component: TexasComponent },
       { path: 'fow-4-texas', component: Fox4TexasComponent},
-      
+      { path: 'fow-7-austin', component: Fox7AustinComponent},
+
       { path: 'california-tv-stations', component: CaliforniaComponent },
       { path: 'california-life', component: CaliforniaLifeComponent },
       { path: 'ktla5', component: Ktla5Component},
