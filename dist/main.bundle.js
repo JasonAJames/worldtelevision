@@ -128,7 +128,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n\n\n@media screen and (min-
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"https://s3.amazonaws.com/worldtelevision/images/logo_16X9.gif\" width=\"110px\" height=\"100%\"/> {{title}}</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"live\">WATCH LIVE</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-royal-wedding-2018\">WATCH THE ROYAL WEDDING</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"breaking-news-1\">BREAKING NEWS - LIVE 1</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </nav>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <!-- <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a> -->\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">World Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @InlandEmpireTVNetwork on <a href=\"https://www.facebook.com/InlandEmpireTVNetwork/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - WebTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"https://s3.amazonaws.com/worldtelevision/images/logo_16X9.gif\" width=\"110px\" height=\"100%\"/> {{title}}</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"live\">WATCH LIVE</a>\n          </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-royal-wedding-2018\">WATCH THE ROYAL WEDDING</a>\n            </li>\n          <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"volcano-live\">VOLCANO ERUPTION LIVE</a>\n            </li>\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </nav>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <!-- <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a> -->\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">World Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @InlandEmpireTVNetwork on <a href=\"https://www.facebook.com/InlandEmpireTVNetwork/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - WebTelevision<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -243,12 +243,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__ = __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__stations_main_georgia_georgia_component__ = __webpack_require__("./src/app/stations-main/georgia/georgia.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__ = __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__volcano_live_volcano_live_component__ = __webpack_require__("./src/app/volcano-live/volcano-live.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -380,7 +382,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */],
             __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */],
             __WEBPACK_IMPORTED_MODULE_63__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */],
-            __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */]
+            __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */],
+            __WEBPACK_IMPORTED_MODULE_65__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -443,6 +446,7 @@ AppModule = __decorate([
                 { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
                 { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
                 { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
+                { path: 'volcano-live', component: __WEBPACK_IMPORTED_MODULE_65__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -1488,7 +1492,7 @@ TomorrowPicturesComponent = __decorate([
 /***/ "./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 8%;\n}"
 
 /***/ }),
 
@@ -3444,6 +3448,58 @@ HomeComponent = __decorate([
 
 var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/volcano-live/volcano-live.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/volcano-live/volcano-live.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag (click tracking for: Revive Adserver) - Generated with Revive Adserver v4.1.3 -->\n<iframe id='aae1a6bb' name='aae1a6bb' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=4&amp;cb={random}&amp;ct0={clickurl_enc}' frameborder='0' scrolling='no' width='900' height='345'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a565e11b&amp;cb={random}' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=4&amp;cb={random}&amp;n=a565e11b&amp;ct0={clickurl_enc}' border='0' alt='' /></a></iframe>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n<!-- Weather Component -->\n<!-- <div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div> -->\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe \n    src=\"https://www.facebook.com/civilbeat/videos/1953504288015623/\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe>\n</span>\n  <br/>\n  <p>{{description}}</p>\n\n\nhttps://www.facebook.com/civilbeat/videos/1953504288015623/"
+
+/***/ }),
+
+/***/ "./src/app/volcano-live/volcano-live.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VolcanoLiveComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var VolcanoLiveComponent = (function () {
+    function VolcanoLiveComponent() {
+        this.stationName = "Kilauea Volcano LIVE";
+        this.description = "Live Video: Fast Moving Lava Continues To Move Through Puna, Hawaii. #Kilauea";
+    }
+    VolcanoLiveComponent.prototype.ngOnInit = function () {
+    };
+    return VolcanoLiveComponent;
+}());
+VolcanoLiveComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-volcano-live',
+        template: __webpack_require__("./src/app/volcano-live/volcano-live.component.html"),
+        styles: [__webpack_require__("./src/app/volcano-live/volcano-live.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], VolcanoLiveComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/volcano-live.component.js.map
 
 /***/ }),
 

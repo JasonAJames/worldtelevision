@@ -65,6 +65,7 @@ import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.compon
 import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component';
 import { GeorgiaComponent } from './stations-main/georgia/georgia.component';
 import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component';
+import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 
 
 
@@ -128,7 +129,8 @@ import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-
     BreakingNews1Component,
     Kwtx10Component,
     GeorgiaComponent,
-    Wsb2AtlantaComponent
+    Wsb2AtlantaComponent,
+    VolcanoLiveComponent
 
   ],
   imports: [
@@ -201,6 +203,7 @@ import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
+      { path: 'volcano-live', component: VolcanoLiveComponent},
 
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
