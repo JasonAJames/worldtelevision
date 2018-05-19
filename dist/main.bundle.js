@@ -241,12 +241,16 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__ = __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__ = __webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__ = __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__stations_main_georgia_georgia_component__ = __webpack_require__("./src/app/stations-main/georgia/georgia.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__ = __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -374,7 +378,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */],
             __WEBPACK_IMPORTED_MODULE_60__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */],
             __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */],
-            __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */]
+            __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */],
+            __WEBPACK_IMPORTED_MODULE_63__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */],
+            __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -429,6 +435,8 @@ AppModule = __decorate([
                 { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
                 { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
                 { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
+                { path: 'georgia-tv-stations', component: __WEBPACK_IMPORTED_MODULE_63__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */] },
+                { path: 'wsb-tv-2', component: __WEBPACK_IMPORTED_MODULE_64__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */] },
                 { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
                 { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
                 { path: 'hawaii-tv-stations', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */] },
@@ -2355,6 +2363,108 @@ Nbc11newsComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/stations-main/georgia/georgia.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/georgia/georgia.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/ksb-tv-2\">KSB-TV Atlanta</a>\n  </li>\n  </ul>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/georgia/georgia.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GeorgiaComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GeorgiaComponent = (function () {
+    function GeorgiaComponent() {
+        this.state = "Georgia";
+    }
+    GeorgiaComponent.prototype.ngOnInit = function () {
+    };
+    return GeorgiaComponent;
+}());
+GeorgiaComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-georgia',
+        template: __webpack_require__("./src/app/stations-main/georgia/georgia.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/georgia/georgia.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], GeorgiaComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/georgia.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=88582\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;position: relative;height: 92px;width: 20px;margin: -92px 0 0 0;float: right;text-indent: -9999em\" href=\"https://www.willyweather.com/tx/mclennan-county/waco.html\" rel=\"nofollow\">waco weekly forecast</a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n    <iframe scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen allow=\"autoplay; fullscreen\" \n    src=\"https://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiY294IiwidiI6ImFkc3RwWmdZOW81TTAyNEIiLCJhbnZhY2siOiI4djlCRXlucnd4OEVGTFlwZ2ZPV2NHMXFKcXlYS2xSTSIsInBsdWdpbnMiOnsiZGZwIjp7ImNsaWVudFNpZGUiOnsiYWRUYWdVcmwiOiJodHRwczovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvYWRzP3N6PTQwMHgzMDAmaXU9LzEyNTIzMjkzL0F0bGFudGFfVFYvd3NidHZfd2ViX2RlZmF1bHQvcHJlX3JvbGwmaW1wbD1zJmdkZnBfcmVxPTEmZW52PXZwJm91dHB1dD12YXN0JnVudmlld2VkX3Bvc2l0aW9uX3N0YXJ0PTEmY29udGVudF9wYWdlX3VybD1bcmVmZXJyZXJfdXJsXSZkZXNjcmlwdGlvbl91cmw9W3JlZmVycmVyX3VybF0mY29ycmVsYXRvcj1bdGltZXN0YW1wXSZ2aWQ9QU5WX0FOVl93c2J0diZjbXNpZD0xOTg1MyIsImtleVZhbHVlcyI6eyJ0aXRsZSI6IldTQlRWIGxpdmVzdHJlYW0iLCJ0YWciOiJsaXZlc3RyZWFtIiwidG9waWNzIjoibGl2ZXN0cmVhbSIsImt3IjoibGl2ZXN0cmVhbSIsInNreSI6InNreSIsIndlYXRoZXIiOiJ3ZWF0aGVyIGNvbmRpdGlvbiIsInRlbXBfcmFuZ2UiOiJ0ZW1wIHJhbmdlIiwicGxheWVyX2lkIjoicDAiLCJ2aWRlbyI6IndzYnR2Iiwib3duZXJfaWQiOiJbW09XTkVSX0lEXV0iLCJvYmpfdHlwZSI6ImhvbWVwYWdlIiwiY2F0ZWdvcnkiOiJsaXZlc3RyZWFtIiwib2JqX2lkIjoiYXJ0aWNsZSBpZCJ9LCJtYWNyb3MiOnsicmVmZXJyZXJfdXJsIjoiaHR0cHM6Ly93d3cud3NidHYuY29tL2xpdmUtc3RyZWFtIn19fSwiY29tc2NvcmUiOnsiY2xpZW50SWQiOjYwMzU5NDR9LCJuaWVsc2VuIjp7ImVudmlyb25tZW50IjoicHJvZHVjdGlvbiIsInNmY29kZSI6InVzIiwiYXBpZCI6IlBFODY4MDUxNy1DODg0LTQzQkItODAyQi02REU1MTZEQUMxRTUiLCJhcG4iOiJ3c2J0di13ZWIiLCJ0eXBlIjoiZHR2ciIsIm9wdE91dCI6eyJsb2NhdGlvbiI6InRsIiwic2l6ZUZhY3RvciI6MC4zLCJtYXJnaW4iOiIyMHB4IiwicGVyaW9kIjotMX19LCJoZWFydGJlYXRCZXRhIjp7Im1hcmtldGluZ0Nsb3VkSWQiOiIxNDYyMzRCODUyNzgzNUUxMEE0OTBENDRAQWRvYmVPcmciLCJjdXN0b21UcmFja2luZ1NlcnZlciI6ImNveG5ldC4xMTIuMm83Lm5ldCIsInRyYWNraW5nU2VydmVyIjoiY294bmV0LmhiLm9tdHJkYy5uZXQiLCJqb2JJZCI6ImoyIiwiYWNjb3VudCI6ImNveHdzYnR2LGNveGdsb2JhbCIsInB1Ymxpc2hlcklkIjoiY294bmV0IiwidmVyc2lvbiI6IjEuNSIsInBhcmVudFBhZ2VVUkwiOiJodHRwczovL3d3dy53c2J0di5jb20vbGl2ZS1zdHJlYW0iLCJwYXJlbnRUaXRsZSI6IldhdGNoIExpdmUgQXRsYW50YSBOZXdzIHwgV1NCLVRWIiwicEluc3RhbmNlIjoicDAiLCJwcm9maWxlIjoiY294In19LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiIgIiwibGl2ZSI6dHJ1ZX0%3D\"  \n    width =\"640\" height=\"360\"></iframe>\n  </span>\n  <p>{{description}}</p>\n  "
+
+/***/ }),
+
+/***/ "./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Wsb2AtlantaComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Wsb2AtlantaComponent = (function () {
+    function Wsb2AtlantaComponent() {
+        this.stationName = "WSB-TV 2 Atlanta";
+    }
+    Wsb2AtlantaComponent.prototype.ngOnInit = function () {
+    };
+    return Wsb2AtlantaComponent;
+}());
+Wsb2AtlantaComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-wsb-2-atlanta',
+        template: __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Wsb2AtlantaComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wsb-2-atlanta.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/stations-main/hawaii/hawaii.component.css":
 /***/ (function(module, exports) {
 
@@ -2980,7 +3090,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/stations-main/stations-main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n<!-- Revive AD Banner -->\n<script type='text/javascript'>\n // <![CDATA[\n  OA_show(3);\n// ]]></script><noscript><a target='_blank' href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=722da23'><img border='0' alt='' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=3&amp;n=722da23' /></a></noscript>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\">\n<h3>Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/massachusetts-{{ tvhref }}\">Massachusetts {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/texas-{{ tvhref }}\">Texas {{ tv }}</a>\n      </li>\n      </ul>\n      <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n      <h5>Out of this World Television</h5>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-public\">NASA Public Education</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss\">NASA International Space Station (ISS)</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss-earthview\">NASA ISS Earth View</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-media\">NASA TV Media</a>\n      </li>\n  </ul>\n  <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <h5>World Television &amp; Movie Stations</h5>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/world-tv-movies\">World TV &amp; Movies</a>\n    </li>  \n</ul>\n<h5 class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n  <a class=\"nav-link\" routerLink=\"/entertainment-tv-stations\">Entertainment Television</a>\n</h5>\n<h5 class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <a class=\"nav-link\" routerLink=\"/comedy-tv-stations\">Comedy Television</a>\n  </h5>\n</div>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n<!-- Revive AD Banner -->\n<script type='text/javascript'>\n // <![CDATA[\n  OA_show(3);\n// ]]></script><noscript><a target='_blank' href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=722da23'><img border='0' alt='' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=3&amp;n=722da23' /></a></noscript>\n<!-- Weather Component -->\n<div style=\"width: 650px; margin: 10px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87637\" width=\"650\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\">Corona weather info</a></div>\n<!-- END Weather Component -->\n<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\">\n<h3>Choose the State of the Channel you want to Watch</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/arizona-{{ tvhref }}\">Arizona {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/colorado-{{ tvhref }}\">Colorado {{ tv }}</a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/california-{{ tvhref }}\">California {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/georgia-{{ tvhref }}\">Georgia {{ tv }}</a>\n      </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/hawaii-{{ tvhref }}\">Hawaii {{ tv }}</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/massachusetts-{{ tvhref }}\">Massachusetts {{ tv }}</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/texas-{{ tvhref }}\">Texas {{ tv }}</a>\n      </li>\n      </ul>\n      <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n      <h5>Out of this World Television</h5>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-public\">NASA Public Education</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss\">NASA International Space Station (ISS)</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-iss-earthview\">NASA ISS Earth View</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/nasa-media\">NASA TV Media</a>\n      </li>\n  </ul>\n  <ul style=\"list-style-type: none;\" class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <h5>World Television &amp; Movie Stations</h5>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/world-tv-movies\">World TV &amp; Movies</a>\n    </li>  \n</ul>\n<h5 class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n  <a class=\"nav-link\" routerLink=\"/entertainment-tv-stations\">Entertainment Television</a>\n</h5>\n<h5 class=\"col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10\">\n    <a class=\"nav-link\" routerLink=\"/comedy-tv-stations\">Comedy Television</a>\n  </h5>\n</div>"
 
 /***/ }),
 

@@ -63,6 +63,8 @@ import { Khou11TexasComponent } from './stations-main/texas/khou-11-texas/khou-1
 import { LiveRoyalWedding2018Component } from './live-royal-wedding-2018/live-royal-wedding-2018.component';
 import { BreakingNews1Component } from './breaking-news-1/breaking-news-1.component';
 import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component';
+import { GeorgiaComponent } from './stations-main/georgia/georgia.component';
+import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component';
 
 
 
@@ -124,7 +126,9 @@ import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component
     Khou11TexasComponent,
     LiveRoyalWedding2018Component,
     BreakingNews1Component,
-    Kwtx10Component
+    Kwtx10Component,
+    GeorgiaComponent,
+    Wsb2AtlantaComponent
 
   ],
   imports: [
@@ -186,6 +190,9 @@ import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
       { path: 'nbc11news', component: Nbc11newsComponent },
+
+      { path: 'georgia-tv-stations', component: GeorgiaComponent },
+      { path: 'wsb-tv-2', component: Wsb2AtlantaComponent },
 
       { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'boston-25-news', component: Boston25NewsComponent},
