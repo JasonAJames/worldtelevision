@@ -3454,7 +3454,7 @@ var _a;
 /***/ "./src/app/volcano-live/volcano-live.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 8%;\n}\n"
 
 /***/ }),
 
