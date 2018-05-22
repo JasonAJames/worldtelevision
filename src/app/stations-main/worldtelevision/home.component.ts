@@ -15,5 +15,6 @@ export class HomeComponent implements OnInit {
   }
 
 stationName = 'World Television';
+description = "Live Video: Kilauea Lava Flow Activity In Lower Puna Hawaii"
 
 }
