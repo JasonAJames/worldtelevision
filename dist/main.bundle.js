@@ -534,17 +534,20 @@ window.global = window;
 var AuthService = (function () {
     function AuthService(router) {
         this.router = router;
+        // Initializing our Auth0Lock
+        this.lock = new Auth0Lock('Z72pcxTdzt3xdaj9S1hL1nGXKrjlWV2P', 'appandwebdevelopers.auth0.com');
         this.auth0 = new __WEBPACK_IMPORTED_MODULE_2_auth0_js__["WebAuth"]({
             clientID: 'VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4',
             domain: 'appandwebdevelopers.auth0.com',
             responseType: 'token id_token',
             audience: 'https://appandwebdevelopers.auth0.com/userinfo',
-            redirectUri: 'http://localhost:3000/callback',
+            redirectUri: 'https://worldtelevision.tv',
             scope: 'openid'
         });
     }
     AuthService.prototype.login = function () {
-        this.auth0.authorize();
+        // this.auth0.authorize();
+        this.lock.show();
     };
     return AuthService;
 }());
