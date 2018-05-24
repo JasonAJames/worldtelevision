@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {Router, NavigationEnd} from "@angular/router";
-import { Auth } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -25,9 +24,6 @@ import { Auth } from './services/auth.service';
 ]
 })
 export class AppComponent {
-  constructor(private auth: Auth){
-
-  }
 
   title = 'WorldTelevision.tv';
 
