@@ -7,6 +7,8 @@ import { routes } from './app.router';
 
 import { AuthService } from './auth/auth.service';
 import { CallbackComponent } from './callback/callback.component';
+// import { AUTH_PROVIDERS } from 'angular2-jwt';
+import { Auth } from './services/auth.service';
 
 import { AdvertiseCommercialComponent } from './advertise/advertise-commercial/advertise-commercial.component';
 
@@ -214,7 +216,7 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     ], {useHash : true}),
     routes
   ],
-  providers: [AuthService],
+  providers: [AuthService, Auth ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

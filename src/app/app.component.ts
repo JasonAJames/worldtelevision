@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {Router, NavigationEnd} from "@angular/router";
+import { Auth } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,10 @@ import {Router, NavigationEnd} from "@angular/router";
 ]
 })
 export class AppComponent {
+  constructor(private auth: Auth){
+
+  }
+
   title = 'WorldTelevision.tv';
 
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */

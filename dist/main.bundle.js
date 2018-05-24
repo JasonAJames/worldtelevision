@@ -138,15 +138,21 @@ module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fi
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(auth) {
+        this.auth = auth;
         this.title = 'WorldTelevision.tv';
     }
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -166,9 +172,11 @@ AppComponent = __decorate([
         selector: 'app-root',
         template: __webpack_require__("./src/app/app.component.html"),
         styles: [__webpack_require__("./src/app/app.component.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/reset.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/site.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/container.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/grid.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/header.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/image.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/menu.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/divider.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/dropdown.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/segment.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/button.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/list.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/icon.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/sidebar.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/transition.css")]
-    })
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */]) === "function" && _a || Object])
 ], AppComponent);
 
+var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.component.js.map
 
 /***/ }),
@@ -186,66 +194,67 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router__ = __webpack_require__("./src/app/app.router.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__auth_auth_service__ = __webpack_require__("./src/app/auth/auth.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__callback_callback_component__ = __webpack_require__("./src/app/callback/callback.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__local_reviews_local_reviews_component__ = __webpack_require__("./src/app/local-reviews/local-reviews.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__stations_main_worldtelevision_home_component__ = __webpack_require__("./src/app/stations-main/worldtelevision/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__stations_main_california_california_component__ = __webpack_require__("./src/app/stations-main/california/california.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stations_main_hawaii_hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_california_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__stations_main_massachusetts_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_massachusetts_component__ = __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__stations_main_arizona_fox10phoenix_fox10phoenix_component__ = __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_arizona_component__ = __webpack_require__("./src/app/stations-main/arizona/arizona.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_colorado_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_9news_colorado_9news_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_nbc11news_nbc11news_component__ = __webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__contactus_contactus_component__ = __webpack_require__("./src/app/contactus/contactus.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_public_nasa_public_component__ = __webpack_require__("./src/app/stations-main/nasa-public/nasa-public.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_iis_nasa_iis_component__ = __webpack_require__("./src/app/stations-main/nasa-iis/nasa-iis.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__ = __webpack_require__("./src/app/stations-main/nasa-iss-earthview/nasa-iss-earthview.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_media_nasa_media_component__ = __webpack_require__("./src/app/stations-main/nasa-media/nasa-media.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__world_tv_movies_world_tv_movies_component__ = __webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__entertainment_tv_stations_entertainment_tv_stations_component__ = __webpack_require__("./src/app/entertainment-tv-stations/entertainment-tv-stations.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__ = __webpack_require__("./src/app/entertainment-tv-stations/noah-pop-tv/noah-pop-tv.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__ = __webpack_require__("./src/app/entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-directors-cut/the-directors-cut.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_romance_the_romance_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-romance/the-romance.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_on_the_mike_on_the_mike_component__ = __webpack_require__("./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__stations_main_california_california_life_california_life_component__ = __webpack_require__("./src/app/stations-main/california/california-life/california-life.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_drone_tv_drone_tv_component__ = __webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__ = __webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__ = __webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__comedy_tv_stations_comedy_tv_stations_component__ = __webpack_require__("./src/app/comedy-tv-stations/comedy-tv-stations.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comic_zoo_comic_zoo_component__ = __webpack_require__("./src/app/comedy-tv-stations/comic-zoo/comic-zoo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_the_placeholders_the_placeholders_component__ = __webpack_require__("./src/app/comedy-tv-stations/the-placeholders/the-placeholders.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_comedy_classics_comedy_classics_component__ = __webpack_require__("./src/app/comedy-tv-stations/comedy-classics/comedy-classics.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__ = __webpack_require__("./src/app/comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_texas_component__ = __webpack_require__("./src/app/stations-main/texas/texas.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_7_austin_fox_7_austin_component__ = __webpack_require__("./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_khou_11_texas_khou_11_texas_component__ = __webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__live_royal_wedding_2018_live_royal_wedding_2018_component__ = __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__breaking_news_1_breaking_news_1_component__ = __webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__stations_main_texas_kwtx_10_kwtx_10_component__ = __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__stations_main_georgia_georgia_component__ = __webpack_require__("./src/app/stations-main/georgia/georgia.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__ = __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__volcano_live_volcano_live_component__ = __webpack_require__("./src/app/volcano-live/volcano-live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__local_reviews_local_reviews_component__ = __webpack_require__("./src/app/local-reviews/local-reviews.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__stations_main_live_live_component__ = __webpack_require__("./src/app/stations-main/live/live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__stations_main_worldtelevision_home_component__ = __webpack_require__("./src/app/stations-main/worldtelevision/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stations_main_california_california_component__ = __webpack_require__("./src/app/stations-main/california/california.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__stations_main_hawaii_hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__stations_main_stations_main_component__ = __webpack_require__("./src/app/stations-main/stations-main.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__stations_main_california_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__ = __webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__stations_main_hawaii_khon2hawaii_khon2hawaii_component__ = __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__stations_main_california_kron4_kron4_component__ = __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__ = __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__ = __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__ = __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_boston_25_news_boston_25_news_component__ = __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__stations_main_massachusetts_massachusetts_component__ = __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_fox10phoenix_fox10phoenix_component__ = __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__stations_main_arizona_arizona_component__ = __webpack_require__("./src/app/stations-main/arizona/arizona.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_colorado_9news_colorado_9news_component__ = __webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__stations_main_colorado_nbc11news_nbc11news_component__ = __webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__contactus_contactus_component__ = __webpack_require__("./src/app/contactus/contactus.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_public_nasa_public_component__ = __webpack_require__("./src/app/stations-main/nasa-public/nasa-public.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iis_nasa_iis_component__ = __webpack_require__("./src/app/stations-main/nasa-iis/nasa-iis.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__ = __webpack_require__("./src/app/stations-main/nasa-iss-earthview/nasa-iss-earthview.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__stations_main_nasa_media_nasa_media_component__ = __webpack_require__("./src/app/stations-main/nasa-media/nasa-media.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__live_traffic_cams_live_traffic_cams_component__ = __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__ = __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__world_tv_movies_world_tv_movies_component__ = __webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_entertainment_tv_stations_component__ = __webpack_require__("./src/app/entertainment-tv-stations/entertainment-tv-stations.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__ = __webpack_require__("./src/app/entertainment-tv-stations/noah-pop-tv/noah-pop-tv.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__ = __webpack_require__("./src/app/entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-directors-cut/the-directors-cut.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_the_romance_the_romance_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-romance/the-romance.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_on_the_mike_on_the_mike_component__ = __webpack_require__("./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__stations_main_california_california_life_california_life_component__ = __webpack_require__("./src/app/stations-main/california/california-life/california-life.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_drone_tv_drone_tv_component__ = __webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__ = __webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__ = __webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__ = __webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comedy_tv_stations_component__ = __webpack_require__("./src/app/comedy-tv-stations/comedy-tv-stations.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_comic_zoo_comic_zoo_component__ = __webpack_require__("./src/app/comedy-tv-stations/comic-zoo/comic-zoo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_the_placeholders_the_placeholders_component__ = __webpack_require__("./src/app/comedy-tv-stations/the-placeholders/the-placeholders.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_comedy_classics_comedy_classics_component__ = __webpack_require__("./src/app/comedy-tv-stations/comedy-classics/comedy-classics.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__ = __webpack_require__("./src/app/comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_texas_component__ = __webpack_require__("./src/app/stations-main/texas/texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_4_texas_fox_4_texas_component__ = __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_fox_7_austin_fox_7_austin_component__ = __webpack_require__("./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_khou_11_texas_khou_11_texas_component__ = __webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__live_royal_wedding_2018_live_royal_wedding_2018_component__ = __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__breaking_news_1_breaking_news_1_component__ = __webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__stations_main_texas_kwtx_10_kwtx_10_component__ = __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_georgia_component__ = __webpack_require__("./src/app/stations-main/georgia/georgia.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__ = __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__volcano_live_volcano_live_component__ = __webpack_require__("./src/app/volcano-live/volcano-live.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -259,6 +268,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+// import { AUTH_PROVIDERS } from 'angular2-jwt';
 
 
 
@@ -328,137 +339,137 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["R" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_7__callback_callback_component__["a" /* CallbackComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__stations_main_live_live_component__["a" /* LiveComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__about_about_component__["a" /* AboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__stations_main_worldtelevision_home_component__["a" /* HomeComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__stations_main_california_california_component__["a" /* CaliforniaComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_16__stations_main_stations_main_component__["a" /* StationsMainComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */],
-            __WEBPACK_IMPORTED_MODULE_18__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */],
-            __WEBPACK_IMPORTED_MODULE_24__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
-            __WEBPACK_IMPORTED_MODULE_27__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
-            __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */],
-            __WEBPACK_IMPORTED_MODULE_29__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */],
-            __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */],
-            __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */],
-            __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */],
-            __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */],
-            __WEBPACK_IMPORTED_MODULE_34__contactus_contactus_component__["a" /* ContactusComponent */],
-            __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_public_nasa_public_component__["a" /* NasaPublicComponent */],
-            __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */],
-            __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */],
-            __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */],
-            __WEBPACK_IMPORTED_MODULE_39__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
-            __WEBPACK_IMPORTED_MODULE_40__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
-            __WEBPACK_IMPORTED_MODULE_41__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */],
-            __WEBPACK_IMPORTED_MODULE_42__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */],
-            __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__["a" /* NoahPopTvComponent */],
-            __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__["a" /* HollywoodShowLiveComponent */],
-            __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */],
-            __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */],
-            __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */],
-            __WEBPACK_IMPORTED_MODULE_48__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */],
-            __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */],
-            __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */],
-            __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */],
-            __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */],
-            __WEBPACK_IMPORTED_MODULE_53__comedy_tv_stations_comedy_tv_stations_component__["a" /* ComedyTvStationsComponent */],
-            __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comic_zoo_comic_zoo_component__["a" /* ComicZooComponent */],
-            __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_the_placeholders_the_placeholders_component__["a" /* ThePlaceholdersComponent */],
-            __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_comedy_classics_comedy_classics_component__["a" /* ComedyClassicsComponent */],
-            __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__["a" /* EyeForAnEyeComponent */],
-            __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_texas_component__["a" /* TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */],
-            __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */],
-            __WEBPACK_IMPORTED_MODULE_62__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */],
-            __WEBPACK_IMPORTED_MODULE_63__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */],
-            __WEBPACK_IMPORTED_MODULE_64__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */],
-            __WEBPACK_IMPORTED_MODULE_65__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */],
-            __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */],
-            __WEBPACK_IMPORTED_MODULE_67__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */]
+            __WEBPACK_IMPORTED_MODULE_12__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__stations_main_live_live_component__["a" /* LiveComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__about_about_component__["a" /* AboutComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__stations_main_worldtelevision_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__stations_main_california_california_component__["a" /* CaliforniaComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_17__stations_main_stations_main_component__["a" /* StationsMainComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */],
+            __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */],
+            __WEBPACK_IMPORTED_MODULE_25__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */],
+            __WEBPACK_IMPORTED_MODULE_29__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */],
+            __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */],
+            __WEBPACK_IMPORTED_MODULE_31__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */],
+            __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */],
+            __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */],
+            __WEBPACK_IMPORTED_MODULE_34__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */],
+            __WEBPACK_IMPORTED_MODULE_35__contactus_contactus_component__["a" /* ContactusComponent */],
+            __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_public_nasa_public_component__["a" /* NasaPublicComponent */],
+            __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */],
+            __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */],
+            __WEBPACK_IMPORTED_MODULE_39__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */],
+            __WEBPACK_IMPORTED_MODULE_40__live_traffic_cams_live_traffic_cams_component__["a" /* LiveTrafficCamsComponent */],
+            __WEBPACK_IMPORTED_MODULE_41__live_traffic_cams_cam_10fwy_west_of_monte_vista_ave_cam_10fwy_west_of_monte_vista_ave_component__["a" /* Cam10fwyWestOfMonteVistaAveComponent */],
+            __WEBPACK_IMPORTED_MODULE_42__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */],
+            __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */],
+            __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__["a" /* NoahPopTvComponent */],
+            __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__["a" /* HollywoodShowLiveComponent */],
+            __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */],
+            __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */],
+            __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */],
+            __WEBPACK_IMPORTED_MODULE_49__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */],
+            __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */],
+            __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */],
+            __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */],
+            __WEBPACK_IMPORTED_MODULE_53__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */],
+            __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comedy_tv_stations_component__["a" /* ComedyTvStationsComponent */],
+            __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_comic_zoo_comic_zoo_component__["a" /* ComicZooComponent */],
+            __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_the_placeholders_the_placeholders_component__["a" /* ThePlaceholdersComponent */],
+            __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_comedy_classics_comedy_classics_component__["a" /* ComedyClassicsComponent */],
+            __WEBPACK_IMPORTED_MODULE_58__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__["a" /* EyeForAnEyeComponent */],
+            __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_texas_component__["a" /* TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */],
+            __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */],
+            __WEBPACK_IMPORTED_MODULE_63__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */],
+            __WEBPACK_IMPORTED_MODULE_64__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */],
+            __WEBPACK_IMPORTED_MODULE_65__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */],
+            __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */],
+            __WEBPACK_IMPORTED_MODULE_67__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */],
+            __WEBPACK_IMPORTED_MODULE_68__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */].forRoot([
-                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
-                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_live_live_component__["a" /* LiveComponent */] },
-                { path: 'breaking-news-1', component: __WEBPACK_IMPORTED_MODULE_63__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */] },
-                { path: 'live-royal-wedding-2018', component: __WEBPACK_IMPORTED_MODULE_62__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */] },
-                { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
-                { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_11__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
-                { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_8__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
-                { path: 'about', component: __WEBPACK_IMPORTED_MODULE_10__about_about_component__["a" /* AboutComponent */] },
-                { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_34__contactus_contactus_component__["a" /* ContactusComponent */] },
-                { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
-                { path: 'nasa-public', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_public_nasa_public_component__["a" /* NasaPublicComponent */] },
-                { path: 'nasa-iss', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */] },
-                { path: 'nasa-iss-earthview', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */] },
-                { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
-                { path: 'entertainment-tv-stations', component: __WEBPACK_IMPORTED_MODULE_42__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */] },
-                { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_41__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
-                { path: 'drone-tv', component: __WEBPACK_IMPORTED_MODULE_49__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */] },
-                { path: 'noah-pop-tv', component: __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__["a" /* NoahPopTvComponent */] },
-                { path: 'hollywood-show-live', component: __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__["a" /* HollywoodShowLiveComponent */] },
-                { path: 'the-directors-cut', component: __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */] },
-                { path: 'the-romance', component: __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */] },
-                { path: 'on-the-mike', component: __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */] },
-                { path: 'miss-multiverse', component: __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */] },
-                { path: 'tomorrow-pictures', component: __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */] },
-                { path: 'the-razzies-channel', component: __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */] },
-                { path: 'comedy-tv-stations', component: __WEBPACK_IMPORTED_MODULE_53__comedy_tv_stations_comedy_tv_stations_component__["a" /* ComedyTvStationsComponent */] },
-                { path: 'comedy-classics', component: __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_comedy_classics_comedy_classics_component__["a" /* ComedyClassicsComponent */] },
-                { path: 'comic-zoo', component: __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comic_zoo_comic_zoo_component__["a" /* ComicZooComponent */] },
-                { path: 'eye-for-an-eye', component: __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__["a" /* EyeForAnEyeComponent */] },
-                { path: 'the-placeholders', component: __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_the_placeholders_the_placeholders_component__["a" /* ThePlaceholdersComponent */] },
-                { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
-                { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
-                { path: 'texas-tv-stations', component: __WEBPACK_IMPORTED_MODULE_58__stations_main_texas_texas_component__["a" /* TexasComponent */] },
-                { path: 'khou-11', component: __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */] },
-                { path: 'fox-4-texas', component: __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
-                { path: 'fox-7-austin', component: __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */] },
-                { path: 'kwtx-10', component: __WEBPACK_IMPORTED_MODULE_64__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */] },
-                { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
-                { path: 'california-life', component: __WEBPACK_IMPORTED_MODULE_48__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */] },
-                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
-                { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
-                { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
-                { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */] },
-                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
-                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
-                { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
-                { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
-                { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
-                { path: 'georgia-tv-stations', component: __WEBPACK_IMPORTED_MODULE_65__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */] },
-                { path: 'wsb-tv-2', component: __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */] },
-                { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
-                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
-                { path: 'hawaii-tv-stations', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */] },
-                { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
-                { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
-                { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
-                { path: 'volcano-live', component: __WEBPACK_IMPORTED_MODULE_67__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */] },
+                { path: 'home', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
+                { path: 'live', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_live_live_component__["a" /* LiveComponent */] },
+                { path: 'breaking-news-1', component: __WEBPACK_IMPORTED_MODULE_64__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */] },
+                { path: 'live-royal-wedding-2018', component: __WEBPACK_IMPORTED_MODULE_63__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */] },
+                { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_25__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
+                { path: 'local-reviews', component: __WEBPACK_IMPORTED_MODULE_12__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */] },
+                { path: 'advertise-commercial', component: __WEBPACK_IMPORTED_MODULE_9__advertise_advertise_commercial_advertise_commercial_component__["a" /* AdvertiseCommercialComponent */] },
+                { path: 'about', component: __WEBPACK_IMPORTED_MODULE_11__about_about_component__["a" /* AboutComponent */] },
+                { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_35__contactus_contactus_component__["a" /* ContactusComponent */] },
+                { path: 'stations-main', component: __WEBPACK_IMPORTED_MODULE_17__stations_main_stations_main_component__["a" /* StationsMainComponent */] },
+                { path: 'nasa-public', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_public_nasa_public_component__["a" /* NasaPublicComponent */] },
+                { path: 'nasa-iss', component: __WEBPACK_IMPORTED_MODULE_37__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */] },
+                { path: 'nasa-iss-earthview', component: __WEBPACK_IMPORTED_MODULE_38__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */] },
+                { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_39__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
+                { path: 'entertainment-tv-stations', component: __WEBPACK_IMPORTED_MODULE_43__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */] },
+                { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_42__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
+                { path: 'drone-tv', component: __WEBPACK_IMPORTED_MODULE_50__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */] },
+                { path: 'noah-pop-tv', component: __WEBPACK_IMPORTED_MODULE_44__entertainment_tv_stations_noah_pop_tv_noah_pop_tv_component__["a" /* NoahPopTvComponent */] },
+                { path: 'hollywood-show-live', component: __WEBPACK_IMPORTED_MODULE_45__entertainment_tv_stations_hollywood_show_live_hollywood_show_live_component__["a" /* HollywoodShowLiveComponent */] },
+                { path: 'the-directors-cut', component: __WEBPACK_IMPORTED_MODULE_46__entertainment_tv_stations_the_directors_cut_the_directors_cut_component__["a" /* TheDirectorsCutComponent */] },
+                { path: 'the-romance', component: __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_the_romance_the_romance_component__["a" /* TheRomanceComponent */] },
+                { path: 'on-the-mike', component: __WEBPACK_IMPORTED_MODULE_48__entertainment_tv_stations_on_the_mike_on_the_mike_component__["a" /* OnTheMikeComponent */] },
+                { path: 'miss-multiverse', component: __WEBPACK_IMPORTED_MODULE_51__entertainment_tv_stations_miss_multiverse_miss_multiverse_component__["a" /* MissMultiverseComponent */] },
+                { path: 'tomorrow-pictures', component: __WEBPACK_IMPORTED_MODULE_52__entertainment_tv_stations_tomorrow_pictures_tomorrow_pictures_component__["a" /* TomorrowPicturesComponent */] },
+                { path: 'the-razzies-channel', component: __WEBPACK_IMPORTED_MODULE_53__entertainment_tv_stations_the_razzies_channel_the_razzies_channel_component__["a" /* TheRazziesChannelComponent */] },
+                { path: 'comedy-tv-stations', component: __WEBPACK_IMPORTED_MODULE_54__comedy_tv_stations_comedy_tv_stations_component__["a" /* ComedyTvStationsComponent */] },
+                { path: 'comedy-classics', component: __WEBPACK_IMPORTED_MODULE_57__comedy_tv_stations_comedy_classics_comedy_classics_component__["a" /* ComedyClassicsComponent */] },
+                { path: 'comic-zoo', component: __WEBPACK_IMPORTED_MODULE_55__comedy_tv_stations_comic_zoo_comic_zoo_component__["a" /* ComicZooComponent */] },
+                { path: 'eye-for-an-eye', component: __WEBPACK_IMPORTED_MODULE_58__comedy_tv_stations_eye_for_an_eye_eye_for_an_eye_component__["a" /* EyeForAnEyeComponent */] },
+                { path: 'the-placeholders', component: __WEBPACK_IMPORTED_MODULE_56__comedy_tv_stations_the_placeholders_the_placeholders_component__["a" /* ThePlaceholdersComponent */] },
+                { path: 'arizona-tv-stations', component: __WEBPACK_IMPORTED_MODULE_31__stations_main_arizona_arizona_component__["a" /* ArizonaComponent */] },
+                { path: 'fox10-phoenix', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_arizona_fox10phoenix_fox10phoenix_component__["a" /* Fox10phoenixComponent */] },
+                { path: 'texas-tv-stations', component: __WEBPACK_IMPORTED_MODULE_59__stations_main_texas_texas_component__["a" /* TexasComponent */] },
+                { path: 'khou-11', component: __WEBPACK_IMPORTED_MODULE_62__stations_main_texas_khou_11_texas_khou_11_texas_component__["a" /* Khou11TexasComponent */] },
+                { path: 'fox-4-texas', component: __WEBPACK_IMPORTED_MODULE_60__stations_main_texas_fox_4_texas_fox_4_texas_component__["a" /* Fox4TexasComponent */] },
+                { path: 'fox-7-austin', component: __WEBPACK_IMPORTED_MODULE_61__stations_main_texas_fox_7_austin_fox_7_austin_component__["a" /* Fox7AustinComponent */] },
+                { path: 'kwtx-10', component: __WEBPACK_IMPORTED_MODULE_65__stations_main_texas_kwtx_10_kwtx_10_component__["a" /* Kwtx10Component */] },
+                { path: 'california-tv-stations', component: __WEBPACK_IMPORTED_MODULE_15__stations_main_california_california_component__["a" /* CaliforniaComponent */] },
+                { path: 'california-life', component: __WEBPACK_IMPORTED_MODULE_49__stations_main_california_california_life_california_life_component__["a" /* CaliforniaLifeComponent */] },
+                { path: 'ktla5', component: __WEBPACK_IMPORTED_MODULE_18__stations_main_california_ktla5_ktla5_component__["a" /* Ktla5Component */] },
+                { path: 'fox11la', component: __WEBPACK_IMPORTED_MODULE_19__stations_main_california_fox11la_fox11la_component__["a" /* Fox11laComponent */] },
+                { path: 'fox5sandiego', component: __WEBPACK_IMPORTED_MODULE_20__stations_main_california_fox5sandiego_fox5sandiego_component__["a" /* Fox5sandiegoComponent */] },
+                { path: 'kron4', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_california_kron4_kron4_component__["a" /* Kron4Component */] },
+                { path: 'bakersfield-news-23abc', component: __WEBPACK_IMPORTED_MODULE_26__stations_main_california_bakersfield_news_23abc_bakersfield_news_23abc_component__["a" /* BakersfieldNews23abcComponent */] },
+                { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_27__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
+                { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_32__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
+                { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_33__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
+                { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_34__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
+                { path: 'georgia-tv-stations', component: __WEBPACK_IMPORTED_MODULE_66__stations_main_georgia_georgia_component__["a" /* GeorgiaComponent */] },
+                { path: 'wsb-tv-2', component: __WEBPACK_IMPORTED_MODULE_67__stations_main_georgia_wsb_2_atlanta_wsb_2_atlanta_component__["a" /* Wsb2AtlantaComponent */] },
+                { path: 'massachusetts-tv-stations', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_massachusetts_massachusetts_component__["a" /* MassachusettsComponent */] },
+                { path: 'boston-25-news', component: __WEBPACK_IMPORTED_MODULE_28__stations_main_massachusetts_boston_25_news_boston_25_news_component__["a" /* Boston25NewsComponent */] },
+                { path: 'hawaii-tv-stations', component: __WEBPACK_IMPORTED_MODULE_16__stations_main_hawaii_hawaii_component__["a" /* HawaiiComponent */] },
+                { path: 'hawaii-news-now', component: __WEBPACK_IMPORTED_MODULE_21__stations_main_hawaii_hawaiinewsnow_hawaii_news_now_component__["a" /* HawaiiNewsNowComponent */] },
+                { path: 'kitv4-hawaii', component: __WEBPACK_IMPORTED_MODULE_22__stations_main_hawaii_kitv4hawaii_kitv4hawaii_component__["a" /* Kitv4hawaiiComponent */] },
+                { path: 'khon2-hawaii', component: __WEBPACK_IMPORTED_MODULE_23__stations_main_hawaii_khon2hawaii_khon2hawaii_component__["a" /* Khon2hawaiiComponent */] },
+                { path: 'volcano-live', component: __WEBPACK_IMPORTED_MODULE_68__volcano_live_volcano_live_component__["a" /* VolcanoLiveComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
-                { path: '**', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
+                { path: '**', component: __WEBPACK_IMPORTED_MODULE_14__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_5__app_router__["a" /* routes */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_6__auth_auth_service__["a" /* AuthService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_6__auth_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_8__services_auth_service__["a" /* Auth */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -538,7 +549,7 @@ var AuthService = (function () {
             domain: 'appandwebdevelopers.auth0.com',
             responseType: 'token id_token',
             audience: 'https://appandwebdevelopers.auth0.com/userinfo',
-            redirectUri: 'https://www.worldtelevision.tv/callback',
+            redirectUri: 'http://localhost:3000/callback',
             scope: 'openid'
         });
     }
@@ -1848,6 +1859,58 @@ LocalReviewsComponent = __decorate([
 ], LocalReviewsComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/local-reviews.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/services/auth.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Auth; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_auth0_js__ = __webpack_require__("./node_modules/auth0-js/src/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_auth0_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_auth0_js__);
+// src/app/auth/auth.service.ts
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+window.global = window;
+var Auth = (function () {
+    function Auth(router) {
+        this.router = router;
+        this.lock = new auth0Lock('VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4', 'appandwebdevelopers.auth0.com', {});
+        this.auth0 = new __WEBPACK_IMPORTED_MODULE_2_auth0_js__["WebAuth"]({
+            clientID: 'VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4',
+            domain: 'appandwebdevelopers.auth0.com',
+            responseType: 'token id_token',
+            audience: 'https://appandwebdevelopers.auth0.com/userinfo',
+            redirectUri: 'http://localhost:3000/callback',
+            scope: 'openid'
+        });
+    }
+    Auth.prototype.login = function () {
+        // this.auth0.authorize();
+        this.lock.show();
+    };
+    return Auth;
+}());
+Auth = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
+], Auth);
+
+var _a;
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/auth.service.js.map
 
 /***/ }),
 
@@ -3575,6 +3638,7 @@ module.exports = "<p class=\"top\"></p>\n<!-- Revive Adserver iFrame Tag - Gener
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3586,8 +3650,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var HomeComponent = (function () {
-    function HomeComponent(_route) {
+    function HomeComponent(auth, _route) {
+        this.auth = auth;
         this._route = _route;
         this.stationName = 'World Television';
         this.description = "Live Video: Kilauea Lava Flow Activity In Lower Puna Hawaii";
@@ -3602,10 +3668,10 @@ HomeComponent = __decorate([
         template: __webpack_require__("./src/app/stations-main/worldtelevision/home.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/worldtelevision/home.component.css"), __webpack_require__("./src/app/app.component.css")]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* Auth */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _b || Object])
 ], HomeComponent);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
 
 /***/ }),

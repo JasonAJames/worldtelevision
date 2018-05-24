@@ -15,7 +15,7 @@ export class AuthService {
     domain: 'appandwebdevelopers.auth0.com',
     responseType: 'token id_token',
     audience: 'https://appandwebdevelopers.auth0.com/userinfo',
-    redirectUri: 'https://www.worldtelevision.tv/callback',
+    redirectUri: 'http://localhost:3000/callback',
     scope: 'openid'
   });
 
