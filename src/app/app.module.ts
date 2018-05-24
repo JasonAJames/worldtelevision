@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 import {RouterModule} from '@angular/router';
 import { routes } from './app.router';
 
+import { AuthService } from './auth/auth.service';
+import { CallbackComponent } from './callback/callback.component';
+
 import { AdvertiseCommercialComponent } from './advertise/advertise-commercial/advertise-commercial.component';
 
 import { AppComponent } from './app.component';
@@ -72,6 +75,7 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 @NgModule({
   declarations: [
     AppComponent,
+    CallbackComponent,
     LocalReviewsComponent,
     LiveComponent,
     AdvertiseCommercialComponent,
@@ -210,7 +214,7 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     ], {useHash : true}),
     routes
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
