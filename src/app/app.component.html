@@ -25,22 +25,9 @@
         </ul>
 
         <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
-                <button
-        class="btn btn-primary btn-margin"
-        *ngIf="!auth.isAuthenticated()"
-        (click)="auth.login()">
-          Log In
-      </button>
-                  </li>
-      <li class="nav-item">
-        <button
-        class="btn btn-primary btn-margin"
-        *ngIf="auth.isAuthenticated()"
-        (click)="auth.logout()">
-          Log Out
-      </button>
-    </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#" (click)="auth.login()">Login</a>
+              </li> -->
           <li class="nav-item">
             <a class="nav-link" routerLink="contact">Contact Us</a>
           </li>

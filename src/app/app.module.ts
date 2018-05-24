@@ -5,9 +5,6 @@ import { HttpModule } from '@angular/http';
 import {RouterModule} from '@angular/router';
 import { routes } from './app.router';
 
-import { AuthService } from './auth/auth.service';
-import { CallbackComponent } from './callback/callback.component';
-
 import { AdvertiseCommercialComponent } from './advertise/advertise-commercial/advertise-commercial.component';
 
 import { AppComponent } from './app.component';
@@ -75,7 +72,6 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CallbackComponent,
     LocalReviewsComponent,
     LiveComponent,
     AdvertiseCommercialComponent,
@@ -144,7 +140,6 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
-      { path: 'callback', component: CallbackComponent},
       { path: 'breaking-news-1', component: BreakingNews1Component},
       { path: 'live-royal-wedding-2018', component: LiveRoyalWedding2018Component },
       { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
@@ -215,7 +210,7 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     ], {useHash : true}),
     routes
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
