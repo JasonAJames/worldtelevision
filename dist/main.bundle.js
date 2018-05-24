@@ -397,6 +397,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_13__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_12__stations_main_live_live_component__["a" /* LiveComponent */] },
+                { path: 'callback', component: __WEBPACK_IMPORTED_MODULE_7__callback_callback_component__["a" /* CallbackComponent */] },
                 { path: 'breaking-news-1', component: __WEBPACK_IMPORTED_MODULE_63__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */] },
                 { path: 'live-royal-wedding-2018', component: __WEBPACK_IMPORTED_MODULE_62__live_royal_wedding_2018_live_royal_wedding_2018_component__["a" /* LiveRoyalWedding2018Component */] },
                 { path: 'live-high-speed-pursuit', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_live_high_speed_pursuit_feed_live_high_speed_pursuit_feed_component__["a" /* LiveHighSpeedPursuitFeedComponent */] },
@@ -513,10 +514,10 @@ var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule *
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_auth0_js__ = __webpack_require__("./node_modules/auth0-js/src/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_auth0_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_auth0_js__);
-// src/app/auth/auth.service.ts
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth0_variables__ = __webpack_require__("./src/app/auth/auth0-variables.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_auth0_js__ = __webpack_require__("./node_modules/auth0-js/src/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_auth0_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_auth0_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -529,84 +530,81 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 window.global = window;
 var AuthService = (function () {
     function AuthService(router) {
         this.router = router;
-        this.auth0 = new __WEBPACK_IMPORTED_MODULE_2_auth0_js__["WebAuth"]({
-            clientID: 'VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4',
-            domain: 'appandwebdevelopers.auth0.com',
+        this.auth0 = new __WEBPACK_IMPORTED_MODULE_3_auth0_js__["WebAuth"]({
+            clientID: __WEBPACK_IMPORTED_MODULE_1__auth0_variables__["a" /* AUTH_CONFIG */].clientID,
+            domain: __WEBPACK_IMPORTED_MODULE_1__auth0_variables__["a" /* AUTH_CONFIG */].domain,
             responseType: 'token id_token',
-            audience: 'https://appandwebdevelopers.auth0.com/userinfo',
-            redirectUri: 'http://localhost:3000/callback',
+            audience: "https://" + __WEBPACK_IMPORTED_MODULE_1__auth0_variables__["a" /* AUTH_CONFIG */].domain + "/userinfo",
+            redirectUri: __WEBPACK_IMPORTED_MODULE_1__auth0_variables__["a" /* AUTH_CONFIG */].callbackURL,
             scope: 'openid'
         });
     }
     AuthService.prototype.login = function () {
         this.auth0.authorize();
     };
+    AuthService.prototype.handleAuthentication = function () {
+        var _this = this;
+        this.auth0.parseHash(function (err, authResult) {
+            if (authResult && authResult.accessToken && authResult.idToken) {
+                _this.setSession(authResult);
+                _this.router.navigate(['/home']);
+            }
+            else if (err) {
+                _this.router.navigate(['/home']);
+                console.log(err);
+                alert("Error: " + err.error + ". Check the console for further details.");
+            }
+        });
+    };
+    AuthService.prototype.setSession = function (authResult) {
+        // Set the time that the access token will expire at
+        var expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
+        localStorage.setItem('access_token', authResult.accessToken);
+        localStorage.setItem('id_token', authResult.idToken);
+        localStorage.setItem('expires_at', expiresAt);
+    };
+    AuthService.prototype.logout = function () {
+        // Remove tokens and expiry time from localStorage
+        localStorage.removeItem('access_token');
+        localStorage.removeItem('id_token');
+        localStorage.removeItem('expires_at');
+        // Go back to the home route
+        this.router.navigate(['/']);
+    };
+    AuthService.prototype.isAuthenticated = function () {
+        // Check whether the current time is past the
+        // access token's expiry time
+        var expiresAt = JSON.parse(localStorage.getItem('expires_at') || '{}');
+        return new Date().getTime() < expiresAt;
+    };
     return AuthService;
 }());
 AuthService = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], AuthService);
 
 var _a;
-// import { Injectable } from '@angular/core';
-// import { AUTH_CONFIG } from './auth0-variables';
-// import { Router } from '@angular/router';
-// import * as auth0 from 'auth0-js';
-// (window as any).global = window;
-// @Injectable()
-// export class AuthService {
-//   auth0 = new auth0.WebAuth({
-//     clientID: AUTH_CONFIG.clientID,
-//     domain: AUTH_CONFIG.domain,
-//     responseType: 'token id_token',
-//     audience: `https://${AUTH_CONFIG.domain}/userinfo`,
-//     redirectUri: AUTH_CONFIG.callbackURL,
-//     scope: 'openid'
-//   });
-//   constructor(public router: Router) {}
-//   public login(): void {
-//     this.auth0.authorize();
-//   }
-//   public handleAuthentication(): void {
-//     this.auth0.parseHash((err, authResult) => {
-//       if (authResult && authResult.accessToken && authResult.idToken) {
-//         this.setSession(authResult);
-//         this.router.navigate(['/home']);
-//       } else if (err) {
-//         this.router.navigate(['/home']);
-//         console.log(err);
-//         alert(`Error: ${err.error}. Check the console for further details.`);
-//       }
-//     });
-//   }
-//   private setSession(authResult): void {
-//     // Set the time that the access token will expire at
-//     const expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
-//     localStorage.setItem('access_token', authResult.accessToken);
-//     localStorage.setItem('id_token', authResult.idToken);
-//     localStorage.setItem('expires_at', expiresAt);
-//   }
-//   public logout(): void {
-//     // Remove tokens and expiry time from localStorage
-//     localStorage.removeItem('access_token');
-//     localStorage.removeItem('id_token');
-//     localStorage.removeItem('expires_at');
-//     // Go back to the home route
-//     this.router.navigate(['/']);
-//   }
-//   public isAuthenticated(): boolean {
-//     // Check whether the current time is past the
-//     // access token's expiry time
-//     const expiresAt = JSON.parse(localStorage.getItem('expires_at') || '{}');
-//     return new Date().getTime() < expiresAt;
-//   }
-// }
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/auth.service.js.map
+
+/***/ }),
+
+/***/ "./src/app/auth/auth0-variables.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AUTH_CONFIG; });
+var AUTH_CONFIG = {
+    clientID: 'VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4',
+    domain: 'appandwebdevelopers.auth0.com',
+    callbackURL: 'https://worldtelevision.tv/#/callback'
+};
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/auth0-variables.js.map
 
 /***/ }),
 

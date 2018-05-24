@@ -144,6 +144,7 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
+      { path: 'callback', component: CallbackComponent},
       { path: 'breaking-news-1', component: BreakingNews1Component},
       { path: 'live-royal-wedding-2018', component: LiveRoyalWedding2018Component },
       { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
