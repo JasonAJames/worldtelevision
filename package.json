@@ -55,7 +55,9 @@
     "xcomponent": "6.0.50",
     "zone.js": "^0.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/auth0-lock": "11.4.3"
+  },
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0"

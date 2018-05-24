@@ -4,25 +4,31 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import * as auth0 from 'auth0-js';
+import * as lock from 'auth0-lock';
 
 (window as any).global = window;
 
 @Injectable()
 export class AuthService {
-
+  // Initializing our Auth0Lock
+lock = new Auth0Lock(
+  'Z72pcxTdzt3xdaj9S1hL1nGXKrjlWV2P',
+  'appandwebdevelopers.auth0.com'
+);
   auth0 = new auth0.WebAuth({
     clientID: 'VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4',
     domain: 'appandwebdevelopers.auth0.com',
     responseType: 'token id_token',
     audience: 'https://appandwebdevelopers.auth0.com/userinfo',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'https://worldtelevision.tv',
     scope: 'openid'
   });
 
   constructor(public router: Router) {}
 
   public login(): void {
-    this.auth0.authorize();
+    // this.auth0.authorize();
+    this.lock.show();
   }
 
 }
