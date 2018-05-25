@@ -68,6 +68,8 @@ import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-
 import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 import { OklahomaComponent } from './stations-main/oklahoma/oklahoma.component';
 import { News4OklahomaComponent } from './stations-main/oklahoma/news4-oklahoma/news4-oklahoma.component';
+import { IndianaComponent } from './stations-main/indiana/indiana.component';
+import { Wthr13IndianaComponent } from './stations-main/indiana/wthr-13-indiana/wthr-13-indiana.component';
 
 
 
@@ -134,7 +136,9 @@ import { News4OklahomaComponent } from './stations-main/oklahoma/news4-oklahoma/
     Wsb2AtlantaComponent,
     VolcanoLiveComponent,
     OklahomaComponent,
-    News4OklahomaComponent
+    News4OklahomaComponent,
+    IndianaComponent,
+    Wthr13IndianaComponent
 
   ],
   imports: [
@@ -209,6 +213,9 @@ import { News4OklahomaComponent } from './stations-main/oklahoma/news4-oklahoma/
       { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
       { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
       { path: 'volcano-live', component: VolcanoLiveComponent},
+
+      { path: 'indiana-tv-stations', component: IndianaComponent},
+      { path: 'wthr-13-indiana', component: Wthr13IndianaComponent},
 
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
