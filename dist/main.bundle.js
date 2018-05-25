@@ -56,7 +56,7 @@ var AboutComponent = (function () {
     return AboutComponent;
 }());
 AboutComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-about',
         template: __webpack_require__("./src/app/about/about.component.html"),
         styles: [__webpack_require__("./src/app/about/about.component.css")]
@@ -106,7 +106,7 @@ var AdvertiseCommercialComponent = (function () {
     return AdvertiseCommercialComponent;
 }());
 AdvertiseCommercialComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-advertise-commercial',
         template: __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.html"),
         styles: [__webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.css")]
@@ -138,21 +138,15 @@ module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fi
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
 
 var AppComponent = (function () {
-    function AppComponent(auth) {
-        this.auth = auth;
+    function AppComponent() {
         this.title = 'WorldTelevision.tv';
     }
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -168,15 +162,13 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-root',
         template: __webpack_require__("./src/app/app.component.html"),
         styles: [__webpack_require__("./src/app/app.component.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/reset.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/site.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/container.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/grid.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/header.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/image.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/menu.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/divider.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/dropdown.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/segment.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/button.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/list.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/icon.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/sidebar.css"), __webpack_require__("./src/app/bower_components/semantic/dist/components/transition.css")]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */]) === "function" && _a || Object])
+    })
 ], AppComponent);
 
-var _a;
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.component.js.map
 
 /***/ }),
@@ -330,7 +322,7 @@ var AppModule = (function () {
     return AppModule;
 }());
 AppModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["R" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_9__local_reviews_local_reviews_component__["a" /* LocalReviewsComponent */],
@@ -396,7 +388,7 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_http__["HttpModule"],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
@@ -656,7 +648,7 @@ var BreakingNews1Component = (function () {
     return BreakingNews1Component;
 }());
 BreakingNews1Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-breaking-news-1',
         template: __webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.html"),
         styles: [__webpack_require__("./src/app/breaking-news-1/breaking-news-1.component.css")]
@@ -708,7 +700,7 @@ var ComedyClassicsComponent = (function () {
     return ComedyClassicsComponent;
 }());
 ComedyClassicsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-comedy-classics',
         template: __webpack_require__("./src/app/comedy-tv-stations/comedy-classics/comedy-classics.component.html"),
         styles: [__webpack_require__("./src/app/comedy-tv-stations/comedy-classics/comedy-classics.component.css")]
@@ -759,7 +751,7 @@ var ComedyTvStationsComponent = (function () {
     return ComedyTvStationsComponent;
 }());
 ComedyTvStationsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-comedy-tv-stations',
         template: __webpack_require__("./src/app/comedy-tv-stations/comedy-tv-stations.component.html"),
         styles: [__webpack_require__("./src/app/comedy-tv-stations/comedy-tv-stations.component.css")]
@@ -811,7 +803,7 @@ var ComicZooComponent = (function () {
     return ComicZooComponent;
 }());
 ComicZooComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-comic-zoo',
         template: __webpack_require__("./src/app/comedy-tv-stations/comic-zoo/comic-zoo.component.html"),
         styles: [__webpack_require__("./src/app/comedy-tv-stations/comic-zoo/comic-zoo.component.css")]
@@ -863,7 +855,7 @@ var EyeForAnEyeComponent = (function () {
     return EyeForAnEyeComponent;
 }());
 EyeForAnEyeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-eye-for-an-eye',
         template: __webpack_require__("./src/app/comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component.html"),
         styles: [__webpack_require__("./src/app/comedy-tv-stations/eye-for-an-eye/eye-for-an-eye.component.css")]
@@ -915,7 +907,7 @@ var ThePlaceholdersComponent = (function () {
     return ThePlaceholdersComponent;
 }());
 ThePlaceholdersComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-the-placeholders',
         template: __webpack_require__("./src/app/comedy-tv-stations/the-placeholders/the-placeholders.component.html"),
         styles: [__webpack_require__("./src/app/comedy-tv-stations/the-placeholders/the-placeholders.component.css")]
@@ -966,7 +958,7 @@ var ContactusComponent = (function () {
     return ContactusComponent;
 }());
 ContactusComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-contactus',
         template: __webpack_require__("./src/app/contactus/contactus.component.html"),
         styles: [__webpack_require__("./src/app/contactus/contactus.component.css")]
@@ -1018,7 +1010,7 @@ var DroneTvComponent = (function () {
     return DroneTvComponent;
 }());
 DroneTvComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-drone-tv',
         template: __webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/drone-tv/drone-tv.component.css")]
@@ -1069,7 +1061,7 @@ var EntertainmentTvStationsComponent = (function () {
     return EntertainmentTvStationsComponent;
 }());
 EntertainmentTvStationsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-entertainment-tv-stations',
         template: __webpack_require__("./src/app/entertainment-tv-stations/entertainment-tv-stations.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/entertainment-tv-stations.component.css")]
@@ -1121,7 +1113,7 @@ var HollywoodShowLiveComponent = (function () {
     return HollywoodShowLiveComponent;
 }());
 HollywoodShowLiveComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hollywood-show-live',
         template: __webpack_require__("./src/app/entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/hollywood-show-live/hollywood-show-live.component.css")]
@@ -1173,7 +1165,7 @@ var MissMultiverseComponent = (function () {
     return MissMultiverseComponent;
 }());
 MissMultiverseComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-miss-multiverse',
         template: __webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/miss-multiverse/miss-multiverse.component.css")]
@@ -1225,7 +1217,7 @@ var NoahPopTvComponent = (function () {
     return NoahPopTvComponent;
 }());
 NoahPopTvComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-noah-pop-tv',
         template: __webpack_require__("./src/app/entertainment-tv-stations/noah-pop-tv/noah-pop-tv.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/noah-pop-tv/noah-pop-tv.component.css")]
@@ -1277,7 +1269,7 @@ var OnTheMikeComponent = (function () {
     return OnTheMikeComponent;
 }());
 OnTheMikeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-on-the-mike',
         template: __webpack_require__("./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/on-the-mike/on-the-mike.component.css")]
@@ -1329,7 +1321,7 @@ var TheDirectorsCutComponent = (function () {
     return TheDirectorsCutComponent;
 }());
 TheDirectorsCutComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-the-directors-cut',
         template: __webpack_require__("./src/app/entertainment-tv-stations/the-directors-cut/the-directors-cut.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/the-directors-cut/the-directors-cut.component.css")]
@@ -1381,7 +1373,7 @@ var TheRazziesChannelComponent = (function () {
     return TheRazziesChannelComponent;
 }());
 TheRazziesChannelComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-the-razzies-channel',
         template: __webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/the-razzies-channel/the-razzies-channel.component.css")]
@@ -1433,7 +1425,7 @@ var TheRomanceComponent = (function () {
     return TheRomanceComponent;
 }());
 TheRomanceComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-the-romance',
         template: __webpack_require__("./src/app/entertainment-tv-stations/the-romance/the-romance.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/the-romance/the-romance.component.css")]
@@ -1485,7 +1477,7 @@ var TomorrowPicturesComponent = (function () {
     return TomorrowPicturesComponent;
 }());
 TomorrowPicturesComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-tomorrow-pictures',
         template: __webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.html"),
         styles: [__webpack_require__("./src/app/entertainment-tv-stations/tomorrow-pictures/tomorrow-pictures.component.css")]
@@ -1537,7 +1529,7 @@ var LiveRoyalWedding2018Component = (function () {
     return LiveRoyalWedding2018Component;
 }());
 LiveRoyalWedding2018Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-live-royal-wedding-2018',
         template: __webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.html"),
         styles: [__webpack_require__("./src/app/live-royal-wedding-2018/live-royal-wedding-2018.component.css")]
@@ -1587,7 +1579,7 @@ var Cam10fwyWestOfMonteVistaAveComponent = (function () {
     return Cam10fwyWestOfMonteVistaAveComponent;
 }());
 Cam10fwyWestOfMonteVistaAveComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-cam-10fwy-west-of-monte-vista-ave',
         template: __webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.html"),
         styles: [__webpack_require__("./src/app/live-traffic-cams/cam-10fwy-west-of-monte-vista-ave/cam-10fwy-west-of-monte-vista-ave.component.css")]
@@ -1637,7 +1629,7 @@ var LiveTrafficCamsComponent = (function () {
     return LiveTrafficCamsComponent;
 }());
 LiveTrafficCamsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-live-traffic-cams',
         template: __webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.html"),
         styles: [__webpack_require__("./src/app/live-traffic-cams/live-traffic-cams.component.css")]
@@ -1689,7 +1681,7 @@ var LocalReviewsComponent = (function () {
     return LocalReviewsComponent;
 }());
 LocalReviewsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-local-reviews',
         template: __webpack_require__("./src/app/local-reviews/local-reviews.component.html"),
         styles: [__webpack_require__("./src/app/local-reviews/local-reviews.component.css")]
@@ -1698,69 +1690,6 @@ LocalReviewsComponent = __decorate([
 ], LocalReviewsComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/local-reviews.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/services/auth.service.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Auth; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_jwt__ = __webpack_require__("./node_modules/angular2-jwt/angular2-jwt.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_angular2_jwt__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var Auth = (function () {
-    function Auth() {
-        var _this = this;
-        // Configure Auth0
-        this.lock = new Auth0Lock('VEId1uVkBzREO2Yf47e6hwM9cFR5ROJ4', 'appandwebdevelopers.auth0.com', {});
-        // Add callback for lock `authenticated` event
-        this.lock.on("authenticated", function (authResult) {
-            _this.lock.getProfile(authResult.idToken, function (error, profile) {
-                if (error) {
-                    throw new Error(error);
-                }
-                localStorage.setItem('id_token', authResult.idToken);
-                localStorage.setItem('profile', JSON.stringify(profile));
-            });
-        });
-    }
-    Auth.prototype.login = function () {
-        // Call the show method to display the widget.
-        this.lock.show();
-    };
-    ;
-    Auth.prototype.authenticated = function () {
-        // Check if there's an unexpired JWT
-        // This searches for an item in localStorage with key == 'id_token'
-        return Object(__WEBPACK_IMPORTED_MODULE_1_angular2_jwt__["tokenNotExpired"])();
-    };
-    ;
-    Auth.prototype.logout = function () {
-        // Remove token from localStorage
-        localStorage.removeItem('id_token');
-        localStorage.removeItem('profile');
-    };
-    ;
-    return Auth;
-}());
-Auth = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [])
-], Auth);
-
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/auth.service.js.map
 
 /***/ }),
 
@@ -1805,7 +1734,7 @@ var ArizonaComponent = (function () {
     return ArizonaComponent;
 }());
 ArizonaComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-arizona',
         template: __webpack_require__("./src/app/stations-main/arizona/arizona.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/arizona/arizona.component.css")]
@@ -1856,7 +1785,7 @@ var Fox10phoenixComponent = (function () {
     return Fox10phoenixComponent;
 }());
 Fox10phoenixComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox10phoenix',
         template: __webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/arizona/fox10phoenix/fox10phoenix.component.css")]
@@ -1907,7 +1836,7 @@ var Abc30BakersfieldComponent = (function () {
     return Abc30BakersfieldComponent;
 }());
 Abc30BakersfieldComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-abc30-bakersfield',
         template: __webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/abc30-bakersfield/abc30-bakersfield.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -1958,7 +1887,7 @@ var BakersfieldNews23abcComponent = (function () {
     return BakersfieldNews23abcComponent;
 }());
 BakersfieldNews23abcComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-bakersfield-news-23abc',
         template: __webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2010,7 +1939,7 @@ var CaliforniaLifeComponent = (function () {
     return CaliforniaLifeComponent;
 }());
 CaliforniaLifeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-california-life',
         template: __webpack_require__("./src/app/stations-main/california/california-life/california-life.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/california-life/california-life.component.css")]
@@ -2061,7 +1990,7 @@ var CaliforniaComponent = (function () {
     return CaliforniaComponent;
 }());
 CaliforniaComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-california',
         template: __webpack_require__("./src/app/stations-main/california/california.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/california.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2112,7 +2041,7 @@ var Fox11laComponent = (function () {
     return Fox11laComponent;
 }());
 Fox11laComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox11la',
         template: __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2163,7 +2092,7 @@ var Fox5sandiegoComponent = (function () {
     return Fox5sandiegoComponent;
 }());
 Fox5sandiegoComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox5sandiego',
         template: __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2214,7 +2143,7 @@ var Kron4Component = (function () {
     return Kron4Component;
 }());
 Kron4Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-kron4',
         template: __webpack_require__("./src/app/stations-main/california/kron4/kron4.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/kron4/kron4.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2265,7 +2194,7 @@ var Ktla5Component = (function () {
     return Ktla5Component;
 }());
 Ktla5Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-ktla5',
         template: __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2318,7 +2247,7 @@ var Colorado9newsComponent = (function () {
     return Colorado9newsComponent;
 }());
 Colorado9newsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-colorado-9news',
         template: __webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/colorado/colorado-9news/colorado-9news.component.css")]
@@ -2373,7 +2302,7 @@ var ColoradoComponent = (function () {
     return ColoradoComponent;
 }());
 ColoradoComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-colorado',
         template: __webpack_require__("./src/app/stations-main/colorado/colorado.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/colorado/colorado.component.css")]
@@ -2426,7 +2355,7 @@ var Nbc11newsComponent = (function () {
     return Nbc11newsComponent;
 }());
 Nbc11newsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-nbc11news',
         template: __webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/colorado/nbc11news/nbc11news.component.css")]
@@ -2477,7 +2406,7 @@ var GeorgiaComponent = (function () {
     return GeorgiaComponent;
 }());
 GeorgiaComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-georgia',
         template: __webpack_require__("./src/app/stations-main/georgia/georgia.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/georgia/georgia.component.css")]
@@ -2528,7 +2457,7 @@ var Wsb2AtlantaComponent = (function () {
     return Wsb2AtlantaComponent;
 }());
 Wsb2AtlantaComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-wsb-2-atlanta',
         template: __webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component.css")]
@@ -2579,7 +2508,7 @@ var HawaiiComponent = (function () {
     return HawaiiComponent;
 }());
 HawaiiComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hawaii',
         template: __webpack_require__("./src/app/stations-main/hawaii/hawaii.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/hawaii/hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2630,7 +2559,7 @@ var HawaiiNewsNowComponent = (function () {
     return HawaiiNewsNowComponent;
 }());
 HawaiiNewsNowComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-hawaii-news-now',
         template: __webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/hawaii/hawaiinewsnow/hawaii-news-now.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2681,7 +2610,7 @@ var Khon2hawaiiComponent = (function () {
     return Khon2hawaiiComponent;
 }());
 Khon2hawaiiComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-khon2hawaii',
         template: __webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/hawaii/khon2hawaii/khon2hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2732,7 +2661,7 @@ var Kitv4hawaiiComponent = (function () {
     return Kitv4hawaiiComponent;
 }());
 Kitv4hawaiiComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-kitv4hawaii',
         template: __webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/hawaii/kitv4hawaii/kitv4hawaii.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2784,7 +2713,7 @@ var LiveHighSpeedPursuitFeedComponent = (function () {
     return LiveHighSpeedPursuitFeedComponent;
 }());
 LiveHighSpeedPursuitFeedComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-live-high-speed-pursuit-feed',
         template: __webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2837,7 +2766,7 @@ var LiveComponent = (function () {
     return LiveComponent;
 }());
 LiveComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-live',
         template: __webpack_require__("./src/app/stations-main/live/live.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/live/live.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2888,7 +2817,7 @@ var Boston25NewsComponent = (function () {
     return Boston25NewsComponent;
 }());
 Boston25NewsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-boston-25-news',
         template: __webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/massachusetts/boston-25-news/boston-25-news.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -2939,7 +2868,7 @@ var MassachusettsComponent = (function () {
     return MassachusettsComponent;
 }());
 MassachusettsComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-massachusetts',
         template: __webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/massachusetts/massachusetts.component.css")]
@@ -2990,7 +2919,7 @@ var NasaIisComponent = (function () {
     return NasaIisComponent;
 }());
 NasaIisComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-nasa-iis',
         template: __webpack_require__("./src/app/stations-main/nasa-iis/nasa-iis.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/nasa-iis/nasa-iis.component.css")]
@@ -3041,7 +2970,7 @@ var NasaIssEarthviewComponent = (function () {
     return NasaIssEarthviewComponent;
 }());
 NasaIssEarthviewComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-nasa-iss-earthview',
         template: __webpack_require__("./src/app/stations-main/nasa-iss-earthview/nasa-iss-earthview.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/nasa-iss-earthview/nasa-iss-earthview.component.css")]
@@ -3092,7 +3021,7 @@ var NasaMediaComponent = (function () {
     return NasaMediaComponent;
 }());
 NasaMediaComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-nasa-media',
         template: __webpack_require__("./src/app/stations-main/nasa-media/nasa-media.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/nasa-media/nasa-media.component.css")]
@@ -3143,7 +3072,7 @@ var NasaPublicComponent = (function () {
     return NasaPublicComponent;
 }());
 NasaPublicComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-nasa-public',
         template: __webpack_require__("./src/app/stations-main/nasa-public/nasa-public.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/nasa-public/nasa-public.component.css")]
@@ -3198,7 +3127,7 @@ var StationsMainComponent = (function () {
     return StationsMainComponent;
 }());
 StationsMainComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-stations-main',
         template: __webpack_require__("./src/app/stations-main/stations-main.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/stations-main.component.css")]
@@ -3249,7 +3178,7 @@ var Fox4TexasComponent = (function () {
     return Fox4TexasComponent;
 }());
 Fox4TexasComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox-4-texas',
         template: __webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/texas/fox-4-texas/fox-4-texas.component.css")]
@@ -3300,7 +3229,7 @@ var Fox7AustinComponent = (function () {
     return Fox7AustinComponent;
 }());
 Fox7AustinComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-fox-7-austin',
         template: __webpack_require__("./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/texas/fox-7-austin/fox-7-austin.component.css")]
@@ -3352,7 +3281,7 @@ var Khou11TexasComponent = (function () {
     return Khou11TexasComponent;
 }());
 Khou11TexasComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-khou-11-texas',
         template: __webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/texas/khou-11-texas/khou-11-texas.component.css")]
@@ -3404,7 +3333,7 @@ var Kwtx10Component = (function () {
     return Kwtx10Component;
 }());
 Kwtx10Component = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-kwtx-10',
         template: __webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/texas/kwtx-10/kwtx-10.component.css")]
@@ -3455,7 +3384,7 @@ var TexasComponent = (function () {
     return TexasComponent;
 }());
 TexasComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-texas',
         template: __webpack_require__("./src/app/stations-main/texas/texas.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/texas/texas.component.css")]
@@ -3510,7 +3439,7 @@ var HomeComponent = (function () {
     return HomeComponent;
 }());
 HomeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-home',
         template: __webpack_require__("./src/app/stations-main/worldtelevision/home.component.html"),
         styles: [__webpack_require__("./src/app/stations-main/worldtelevision/home.component.css"), __webpack_require__("./src/app/app.component.css")]
@@ -3565,7 +3494,7 @@ var VolcanoLiveComponent = (function () {
     return VolcanoLiveComponent;
 }());
 VolcanoLiveComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-volcano-live',
         template: __webpack_require__("./src/app/volcano-live/volcano-live.component.html"),
         styles: [__webpack_require__("./src/app/volcano-live/volcano-live.component.css")]
@@ -3616,7 +3545,7 @@ var WorldTvMoviesComponent = (function () {
     return WorldTvMoviesComponent;
 }());
 WorldTvMoviesComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
         selector: 'app-world-tv-movies',
         template: __webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.html"),
         styles: [__webpack_require__("./src/app/world-tv-movies/world-tv-movies.component.css")]
@@ -3659,7 +3588,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["enableProdMode"])();
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_28" /* enableProdMode */])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/main.js.map
