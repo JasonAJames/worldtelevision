@@ -26,24 +26,7 @@ import { MassachusettsComponent } from './stations-main/massachusetts/massachuse
 import { Fox10phoenixComponent } from './stations-main/arizona/fox10phoenix/fox10phoenix.component';
 import { ArizonaComponent } from './stations-main/arizona/arizona.component';
 
-import {LoginHomeComponent} from './components/home/home.component';
-import {ProfileComponent} from './components/profile/profile.component';
 
-import {AuthGuard} from './auth.guard';
-
-const appRoutes: Routes= [
-    {
-        path:'login',
-        component: LoginHomeComponent
-    },
-    {
-        path:'profile',
-        component:ProfileComponent,
-        canActivate: [AuthGuard]
-    }
-];
-
-export const appRoutingProviders: any[] = [];
 
 export const router: Routes = [
     { path: 'home', component: HomeComponent},
@@ -59,4 +42,3 @@ export const router: Routes = [
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router, {useHash: true});
-export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes, {useHash: true});

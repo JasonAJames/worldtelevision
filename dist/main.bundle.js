@@ -397,7 +397,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["HttpModule"],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */].forRoot([
+            __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot([
                 { path: 'home', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
                 { path: 'live', component: __WEBPACK_IMPORTED_MODULE_10__stations_main_live_live_component__["a" /* LiveComponent */] },
                 { path: 'breaking-news-1', component: __WEBPACK_IMPORTED_MODULE_61__breaking_news_1_breaking_news_1_component__["a" /* BreakingNews1Component */] },
@@ -473,10 +473,8 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export appRoutingProviders */
 /* unused harmony export router */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routes; });
-/* unused harmony export routing */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__advertise_advertise_commercial_advertise_commercial_component__ = __webpack_require__("./src/app/advertise/advertise-commercial/advertise-commercial.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_about_component__ = __webpack_require__("./src/app/about/about.component.ts");
@@ -486,9 +484,6 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stations_main_california_ktla5_ktla5_component__ = __webpack_require__("./src/app/stations-main/california/ktla5/ktla5.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__stations_main_california_fox11la_fox11la_component__ = __webpack_require__("./src/app/stations-main/california/fox11la/fox11la.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__stations_main_california_fox5sandiego_fox5sandiego_component__ = __webpack_require__("./src/app/stations-main/california/fox5sandiego/fox5sandiego.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_home_home_component__ = __webpack_require__("./src/app/components/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_profile_profile_component__ = __webpack_require__("./src/app/components/profile/profile.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__auth_guard__ = __webpack_require__("./src/app/auth.guard.ts");
 
 
 
@@ -498,21 +493,6 @@ AppModule = __decorate([
 
 
 
-
-
-
-var appRoutes = [
-    {
-        path: 'login',
-        component: __WEBPACK_IMPORTED_MODULE_9__components_home_home_component__["a" /* LoginHomeComponent */]
-    },
-    {
-        path: 'profile',
-        component: __WEBPACK_IMPORTED_MODULE_10__components_profile_profile_component__["a" /* ProfileComponent */],
-        canActivate: [__WEBPACK_IMPORTED_MODULE_11__auth_guard__["a" /* AuthGuard */]]
-    }
-];
-var appRoutingProviders = [];
 var router = [
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] },
     { path: 'live', component: __WEBPACK_IMPORTED_MODULE_3__stations_main_live_live_component__["a" /* LiveComponent */] },
@@ -525,57 +505,8 @@ var router = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
 ];
-var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule */].forRoot(router, { useHash: true });
-var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["c" /* RouterModule */].forRoot(appRoutes, { useHash: true });
+var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule */].forRoot(router, { useHash: true });
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.router.js.map
-
-/***/ }),
-
-/***/ "./src/app/auth.guard.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthGuard; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var AuthGuard = (function () {
-    function AuthGuard(auth, router) {
-        this.auth = auth;
-        this.router = router;
-    }
-    AuthGuard.prototype.canActivate = function (next, state) {
-        if (this.auth.authenticated()) {
-            console.log('AUTH GUARD PASSED');
-            return true;
-        }
-        else {
-            console.log('BLOCKED BY AUTH GUARD');
-            this.router.navigate(['/']);
-            return false;
-        }
-    };
-    return AuthGuard;
-}());
-AuthGuard = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* Auth */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _b || Object])
-], AuthGuard);
-
-var _a, _b;
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/auth.guard.js.map
 
 /***/ }),
 
@@ -993,96 +924,6 @@ ThePlaceholdersComponent = __decorate([
 ], ThePlaceholdersComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-placeholders.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/components/home/home.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<h1>Welcome</h1>\n<div class=\"alert alert-success\" *ngIf=\"auth.authenticated()\">You are logged in</div>\n<div class=\"alert alert-danger\" *ngIf=\"!auth.authenticated()\">You are not logged in</div>"
-
-/***/ }),
-
-/***/ "./src/app/components/home/home.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginHomeComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var LoginHomeComponent = (function () {
-    function LoginHomeComponent(auth) {
-        this.auth = auth;
-    }
-    return LoginHomeComponent;
-}());
-LoginHomeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'home',
-        template: __webpack_require__("./src/app/components/home/home.component.html")
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */]) === "function" && _a || Object])
-], LoginHomeComponent);
-
-var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/components/profile/profile.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\n    <div class=\"col-md-2\">\n        <img class=\"img-circle\" style=\"width:100%\" src=\"{{profile.picture}}\">\n     </div>\n     <div class=\"col-md-10\">\n         <h1>{{profile.nickname}}'s profile</h1>\n         <p>Email: {{profile.name}}</p>\n         <p>Last Update: {{profile.created_at}}</p>\n     </div>    \n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/profile/profile.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfileComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ProfileComponent = (function () {
-    function ProfileComponent(auth) {
-        this.auth = auth;
-        this.profile = JSON.parse(localStorage.getItem('profile'));
-        console.log(this.profile);
-    }
-    return ProfileComponent;
-}());
-ProfileComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'profile',
-        template: __webpack_require__("./src/app/components/profile/profile.component.html")
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* Auth */]) === "function" && _a || Object])
-], ProfileComponent);
-
-var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/profile.component.js.map
 
 /***/ }),
 
