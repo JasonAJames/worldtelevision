@@ -67,16 +67,11 @@ import { GeorgiaComponent } from './stations-main/georgia/georgia.component';
 import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component';
 import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 
-import {AUTH_PROVIDERS} from 'angular2-jwt';
-import {ProfileComponent} from '../../ngauth0/app/components/profile/profile.component';
-import {Auth} from '../../ngauth0/app/services/auth.service';
-import {AuthGuard} from '../../ngauth0/app/auth.guard';
-import {LoginHomeComponent} from '../../ngauth0/app/components/home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent,
     LocalReviewsComponent,
     LiveComponent,
     AdvertiseCommercialComponent,
@@ -135,8 +130,8 @@ import {LoginHomeComponent} from '../../ngauth0/app/components/home/home.compone
     Kwtx10Component,
     GeorgiaComponent,
     Wsb2AtlantaComponent,
-    VolcanoLiveComponent,
-    LoginHomeComponent
+    VolcanoLiveComponent
+
   ],
   imports: [
     BrowserModule,
@@ -144,7 +139,6 @@ import {LoginHomeComponent} from '../../ngauth0/app/components/home/home.compone
     HttpModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
-      { path: 'login', component: LoginHomeComponent },
       { path: 'live', component: LiveComponent},
       { path: 'breaking-news-1', component: BreakingNews1Component},
       { path: 'live-royal-wedding-2018', component: LiveRoyalWedding2018Component },
