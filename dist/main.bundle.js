@@ -249,12 +249,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__stations_main_indiana_indiana_component__ = __webpack_require__("./src/app/stations-main/indiana/indiana.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__stations_main_indiana_wthr_13_indiana_wthr_13_indiana_component__ = __webpack_require__("./src/app/stations-main/indiana/wthr-13-indiana/wthr-13-indiana.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__stations_main_indiana_fox_59_indiana_fox_59_indiana_component__ = __webpack_require__("./src/app/stations-main/indiana/fox-59-indiana/fox-59-indiana.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__stations_main_indiana_wishtv_8_indiana_wishtv_8_indiana_component__ = __webpack_require__("./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -398,7 +400,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_67__stations_main_oklahoma_news4_oklahoma_news4_oklahoma_component__["a" /* News4OklahomaComponent */],
             __WEBPACK_IMPORTED_MODULE_68__stations_main_indiana_indiana_component__["a" /* IndianaComponent */],
             __WEBPACK_IMPORTED_MODULE_69__stations_main_indiana_wthr_13_indiana_wthr_13_indiana_component__["a" /* Wthr13IndianaComponent */],
-            __WEBPACK_IMPORTED_MODULE_70__stations_main_indiana_fox_59_indiana_fox_59_indiana_component__["a" /* Fox59IndianaComponent */]
+            __WEBPACK_IMPORTED_MODULE_70__stations_main_indiana_fox_59_indiana_fox_59_indiana_component__["a" /* Fox59IndianaComponent */],
+            __WEBPACK_IMPORTED_MODULE_71__stations_main_indiana_wishtv_8_indiana_wishtv_8_indiana_component__["a" /* Wishtv8IndianaComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -467,6 +470,7 @@ AppModule = __decorate([
                 { path: 'indiana-tv-stations', component: __WEBPACK_IMPORTED_MODULE_68__stations_main_indiana_indiana_component__["a" /* IndianaComponent */] },
                 { path: 'wthr-13-indiana', component: __WEBPACK_IMPORTED_MODULE_69__stations_main_indiana_wthr_13_indiana_wthr_13_indiana_component__["a" /* Wthr13IndianaComponent */] },
                 { path: 'fox-59-indiana', component: __WEBPACK_IMPORTED_MODULE_70__stations_main_indiana_fox_59_indiana_fox_59_indiana_component__["a" /* Fox59IndianaComponent */] },
+                { path: 'wishtv-8-indiana', component: __WEBPACK_IMPORTED_MODULE_71__stations_main_indiana_wishtv_8_indiana_wishtv_8_indiana_component__["a" /* Wishtv8IndianaComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -2754,7 +2758,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/indiana/indiana.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/wthr-13-indiana\">WTHR 13 Indiana</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox-59-indiana\">FOX 59 Indiana</a>\n      </li>\n  </ul>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" routerLink=\"/wthr-13-indiana\">WTHR 13 Indiana</a>\n    </li>\n    <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/fox-59-indiana\">FOX 59 Indiana</a>\n      </li>\n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/wishtv-8-indiana\">WISHTV 8 Indiana</a>\n        </li>\n  </ul>"
 
 /***/ }),
 
@@ -2792,6 +2796,57 @@ IndianaComponent = __decorate([
 ], IndianaComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/indiana.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-6');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\">\n      <iframe style=\"top:0;left:0;width:640px; height:360px;\" border=\"0\" height=\"360px\" frameborder=\"0\" webkitallowfullscreen=\"true\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" scrolling=\"no\" src=\"https://livestream.com/accounts/1858612/events/3036192/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\"></iframe>\n</span>\n<p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Wishtv8IndianaComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Wishtv8IndianaComponent = (function () {
+    function Wishtv8IndianaComponent() {
+        this.stationName = "WISH TV 8";
+    }
+    Wishtv8IndianaComponent.prototype.ngOnInit = function () {
+    };
+    return Wishtv8IndianaComponent;
+}());
+Wishtv8IndianaComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-wishtv-8-indiana',
+        template: __webpack_require__("./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Wishtv8IndianaComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wishtv-8-indiana.component.js.map
 
 /***/ }),
 
