@@ -66,6 +66,8 @@ import { Kwtx10Component } from './stations-main/texas/kwtx-10/kwtx-10.component
 import { GeorgiaComponent } from './stations-main/georgia/georgia.component';
 import { Wsb2AtlantaComponent } from './stations-main/georgia/wsb-2-atlanta/wsb-2-atlanta.component';
 import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
+import { OklahomaComponent } from './stations-main/oklahoma/oklahoma.component';
+import { News4OklahomaComponent } from './stations-main/oklahoma/news4-oklahoma/news4-oklahoma.component';
 
 
 
@@ -130,7 +132,9 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
     Kwtx10Component,
     GeorgiaComponent,
     Wsb2AtlantaComponent,
-    VolcanoLiveComponent
+    VolcanoLiveComponent,
+    OklahomaComponent,
+    News4OklahomaComponent
 
   ],
   imports: [
@@ -173,9 +177,10 @@ import { VolcanoLiveComponent } from './volcano-live/volcano-live.component';
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
-
+      { path: 'oklahoma-tv-stations', component: OklahomaComponent },
       { path: 'texas-tv-stations', component: TexasComponent },
       { path: 'khou-11', component: Khou11TexasComponent},
+      { path: 'news4-oklahoma', component: News4OklahomaComponent },
       { path: 'fox-4-texas', component: Fox4TexasComponent},
       { path: 'fox-7-austin', component: Fox7AustinComponent},
       { path: 'kwtx-10', component: Kwtx10Component},
