@@ -70,6 +70,7 @@ import { OklahomaComponent } from './stations-main/oklahoma/oklahoma.component';
 import { News4OklahomaComponent } from './stations-main/oklahoma/news4-oklahoma/news4-oklahoma.component';
 import { IndianaComponent } from './stations-main/indiana/indiana.component';
 import { Wthr13IndianaComponent } from './stations-main/indiana/wthr-13-indiana/wthr-13-indiana.component';
+import { Fox59IndianaComponent } from './stations-main/indiana/fox-59-indiana/fox-59-indiana.component';
 
 
 
@@ -138,7 +139,8 @@ import { Wthr13IndianaComponent } from './stations-main/indiana/wthr-13-indiana/
     OklahomaComponent,
     News4OklahomaComponent,
     IndianaComponent,
-    Wthr13IndianaComponent
+    Wthr13IndianaComponent,
+    Fox59IndianaComponent
 
   ],
   imports: [
@@ -216,6 +218,7 @@ import { Wthr13IndianaComponent } from './stations-main/indiana/wthr-13-indiana/
 
       { path: 'indiana-tv-stations', component: IndianaComponent},
       { path: 'wthr-13-indiana', component: Wthr13IndianaComponent},
+      { path: 'fox-59-indiana', component: Fox59IndianaComponent},
 
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
