@@ -72,6 +72,8 @@ import { IndianaComponent } from './stations-main/indiana/indiana.component';
 import { Wthr13IndianaComponent } from './stations-main/indiana/wthr-13-indiana/wthr-13-indiana.component';
 import { Fox59IndianaComponent } from './stations-main/indiana/fox-59-indiana/fox-59-indiana.component';
 import { Wishtv8IndianaComponent } from './stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component';
+import { TennesseeComponent } from './stations-main/tennessee/tennessee.component';
+import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tennessee/fox10-tennessee.component';
 
 
 
@@ -142,7 +144,9 @@ import { Wishtv8IndianaComponent } from './stations-main/indiana/wishtv-8-indian
     IndianaComponent,
     Wthr13IndianaComponent,
     Fox59IndianaComponent,
-    Wishtv8IndianaComponent
+    Wishtv8IndianaComponent,
+    TennesseeComponent,
+    Fox10TennesseeComponent
 
   ],
   imports: [
