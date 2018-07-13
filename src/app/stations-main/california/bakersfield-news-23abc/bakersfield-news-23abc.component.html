@@ -17,7 +17,23 @@
 <!-- END Weather Component -->
   <h3>You're Watching</h3>
   <h1>{{stationName}}</h1>
-  <span class="embed-responsive embed-responsive-16by9">
+  <span>
+    <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
 
-      <iframe style="top:0;left:0;width:640px; height:360px;" border="0" height="360px" frameborder="0" webkitallowfullscreen="" allowfullscreen="" mozallowfullscreen="" scrolling="no" scrolling="no" src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.turnto23.com&title=Main%20live%20stream&uid=ff809e6d9ec34109abfb333f0d4444b5&live=1&purl=/video/live-video&story=0&ex=1&s=kero"></iframe>
-</span>
+
+<!-- Original Feed https://www.facebook.com/SoCalTelevision/videos/2054179387955446/ -->
+
+<!-- Your embedded video player code -->
+<div class="fb-video" data-href="https://www.facebook.com/23ABCBakersfield/videos/1481241682021130/" data-width="500" data-show-text="false">
+  <div class="fb-xfbml-parse-ignore">
+    <blockquote>
+      Our SoCal Television LIVE STREAM is Currently Offline.<br/>
+      Please Check back Again Soon!<br/><br/>
+      To go back to the <a href="https://www.socaltelevision.com">SoCalTelevision Home page CLICK HERE</a>.
+    </blockquote>
+  </div>
+</div>
+  <!-- <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSoCalTelevision%2Fvideos%2F2052326111474107%2F&width=400" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
+</span><br/><br/>
+<span>{{description}}</span>
