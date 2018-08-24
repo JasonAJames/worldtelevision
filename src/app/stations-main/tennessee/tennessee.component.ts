@@ -11,5 +11,5 @@ export class TennesseeComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  state = 'Tennessee';
 }

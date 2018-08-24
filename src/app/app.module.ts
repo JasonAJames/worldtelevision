@@ -227,6 +227,9 @@ import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tenness
       { path: 'fox-59-indiana', component: Fox59IndianaComponent},
       { path: 'wishtv-8-indiana', component: Wishtv8IndianaComponent},
 
+      { path: 'tennessee-tv-stations', component: TennesseeComponent},
+      { path: 'fox10-tennessee', component: Fox10TennesseeComponent},
+
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),
