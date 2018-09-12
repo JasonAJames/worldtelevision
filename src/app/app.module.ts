@@ -76,6 +76,7 @@ import { TennesseeComponent } from './stations-main/tennessee/tennessee.componen
 import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tennessee/fox10-tennessee.component';
 import { Wsoc9Component } from './stations-main/north-carolina/wsoc9/wsoc9.component';
 import { NorthCarolinaComponent } from './stations-main/north-carolina/north-carolina.component';
+import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.component';
 
 
 
@@ -150,7 +151,8 @@ import { NorthCarolinaComponent } from './stations-main/north-carolina/north-car
     TennesseeComponent,
     Fox10TennesseeComponent,
     Wsoc9Component,
-    NorthCarolinaComponent
+    NorthCarolinaComponent,
+    Wbtw13Component
 
   ],
   imports: [
@@ -222,6 +224,7 @@ import { NorthCarolinaComponent } from './stations-main/north-carolina/north-car
 
       { path: 'north-carolina-tv-stations', component: NorthCarolinaComponent},
       { path: 'wsoctv9', component: Wsoc9Component },
+      { path: 'wbtw13', component: Wbtw13Component},
 
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
