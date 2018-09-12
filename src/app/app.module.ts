@@ -74,6 +74,8 @@ import { Fox59IndianaComponent } from './stations-main/indiana/fox-59-indiana/fo
 import { Wishtv8IndianaComponent } from './stations-main/indiana/wishtv-8-indiana/wishtv-8-indiana.component';
 import { TennesseeComponent } from './stations-main/tennessee/tennessee.component';
 import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tennessee/fox10-tennessee.component';
+import { Wsoc9Component } from './stations-main/north-carolina/wsoc9/wsoc9.component';
+import { NorthCarolinaComponent } from './stations-main/north-carolina/north-carolina.component';
 
 
 
@@ -146,7 +148,9 @@ import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tenness
     Fox59IndianaComponent,
     Wishtv8IndianaComponent,
     TennesseeComponent,
-    Fox10TennesseeComponent
+    Fox10TennesseeComponent,
+    Wsoc9Component,
+    NorthCarolinaComponent
 
   ],
   imports: [
@@ -215,6 +219,9 @@ import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tenness
 
       { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'boston-25-news', component: Boston25NewsComponent},
+
+      { path: 'north-carolina-tv-stations', component: NorthCarolinaComponent},
+      { path: 'wsoctv9', component: Wsoc9Component },
 
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
