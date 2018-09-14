@@ -121,7 +121,7 @@ AdvertiseCommercialComponent = __decorate([
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .leaderBanner {\n        width: 420px;\n        height: 60px;\n    }\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    .leaderBanner {\n        width: 771px;\n        height: 92px;\n    }\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n.leaderBanner {\n    width: 771px;\n    height: 92px;\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n.footer {\n    position: relative;\n    bottom: -100px;\n}\n\n\n\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -775,7 +775,7 @@ ComedyClassicsComponent = __decorate([
 /***/ "./src/app/comedy-tv-stations/comedy-tv-stations.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -1085,7 +1085,7 @@ DroneTvComponent = __decorate([
 /***/ "./src/app/entertainment-tv-stations/entertainment-tv-stations.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -1963,7 +1963,7 @@ LocalReviewsComponent = __decorate([
 /***/ "./src/app/stations-main/arizona/arizona.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2221,7 +2221,7 @@ CaliforniaLifeComponent = __decorate([
 /***/ "./src/app/stations-main/california/california.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2529,7 +2529,7 @@ Colorado9newsComponent = __decorate([
 /***/ "./src/app/stations-main/colorado/colorado.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2637,7 +2637,7 @@ Nbc11newsComponent = __decorate([
 /***/ "./src/app/stations-main/georgia/georgia.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2739,7 +2739,7 @@ Wsb2AtlantaComponent = __decorate([
 /***/ "./src/app/stations-main/hawaii/hawaii.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -2994,7 +2994,7 @@ Fox59IndianaComponent = __decorate([
 /***/ "./src/app/stations-main/indiana/indiana.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -3303,7 +3303,7 @@ Boston25NewsComponent = __decorate([
 /***/ "./src/app/stations-main/massachusetts/massachusetts.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -3763,7 +3763,7 @@ News4OklahomaComponent = __decorate([
 /***/ "./src/app/stations-main/oklahoma/oklahoma.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -3919,7 +3919,7 @@ Fox10TennesseeComponent = __decorate([
 /***/ "./src/app/stations-main/tennessee/tennessee.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -4176,7 +4176,7 @@ Kwtx10Component = __decorate([
 /***/ "./src/app/stations-main/texas/texas.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -4227,7 +4227,7 @@ TexasComponent = __decorate([
 /***/ "./src/app/stations-main/worldtelevision/home.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 0%;\n        padding-right: 0%;\n        width: 400px;\n        height: 390px;\n    }\n    .video {\n        border: none;\n        width: 400px;\n        height: 390px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 3%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 10%;\n        padding-right: 2%;\n        width: 770px;\n        height: 411px;\n    }\n    .video {\n        border: none;\n        width: 710px;\n        height: 400px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n    width: 770px;\n    height: 411px;\n}\n\n"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
@@ -4339,7 +4339,7 @@ VolcanoLiveComponent = __decorate([
 /***/ "./src/app/world-tv-movies/world-tv-movies.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".top {\n    padding-top: 8%;\n}"
+module.exports = ".top {\n    padding-top: 10%;\n}\n\nli {\n    padding:  1%;\n}\n\n.btn {\n    border-radius: 5px;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 

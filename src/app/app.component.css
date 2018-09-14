@@ -1,12 +1,15 @@
 .top {
-    padding-top: 8%;
+    padding-top: 10%;
+}
+
+li {
+    padding:  1%;
+}
+.btn {
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 400px) {
-    .leaderBanner {
-        width: 420px;
-        height: 60px;
-    }
     .videoContainer {
         margin-left: 1%;
         padding-right: 2%;
@@ -22,10 +25,6 @@
 }
 
 @media screen and (min-width: 800px) {
-    .leaderBanner {
-        width: 771px;
-        height: 92px;
-    }
     #videoContainer {
         padding-left: 15%;
         padding-right: 2%;
@@ -41,23 +40,9 @@
     }
 }
 
-.leaderBanner {
-    width: 771px;
-    height: 92px;
-}
 
 #videoContainer {
     padding-left: 25%;
 
 }
-
-
-
-.footer {
-    position: relative;
-    bottom: -100px;
-}
-
-
-
 
