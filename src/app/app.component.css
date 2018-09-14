@@ -2,10 +2,6 @@
     padding-top: 8%;
 }
 
-.btn {
-    border-radius: 5px;
-}
-
 @media screen and (min-width: 400px) {
     .leaderBanner {
         width: 420px;
