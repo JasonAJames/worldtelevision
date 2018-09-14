@@ -17,83 +17,75 @@
 <!-- Weather Component -->
 <div style="width: 650px; margin: 10px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=87637" width="650" height="92" frameborder="0" scrolling="no"></iframe><a style="position: relative;text-indent: -9999em;width: 20px;margin: -92px 0 0 0;z-index: 1;height: 92px;float: right" href="https://www.willyweather.com/ca/riverside-county/corona.html" rel="nofollow">Corona weather info</a></div>
 <!-- END Weather Component -->
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 <h3>Choose the State of the Channel you want to Watch</h3>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-        <h5>United States Television</h5>
-      <ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/arizona-{{ tvhref }}">Arizona {{ tv }}</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="/colorado-{{ tvhref }}">Colorado {{ tv }}</a>
-            </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/california-{{ tvhref }}">California {{ tv }}</a>
+<ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/arizona-{{ tvhref }}">Arizona {{ tv }}</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/colorado-{{ tvhref }}">Colorado {{ tv }}</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/georgia-{{ tvhref }}">Georgia {{ tv }}</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/hawaii-{{ tvhref }}">Hawaii {{ tv }}</a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/california-{{ tvhref }}">California {{ tv }}</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/georgia-{{ tvhref }}">Georgia {{ tv }}</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/hawaii-{{ tvhref }}">Hawaii {{ tv }}</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/indiana-{{ tvhref }}">Indiana {{ tv }}</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/massachusetts-{{ tvhref }}">Massachusetts {{ tv }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/north-carolina-{{ tvhref }}">North Carolina {{ tv }}</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/oklahoma-{{ tvhref }}">Oklahoma {{ tv }}</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/indiana-{{ tvhref }}">Indiana {{ tv }}</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/massachusetts-{{ tvhref }}">Massachusetts {{ tv }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/north-carolina-{{ tvhref }}">North Carolina {{ tv }}</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="/oklahoma-{{ tvhref }}">Oklahoma {{ tv }}</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/texas-{{ tvhref }}">Texas {{ tv }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tennessee-{{ tvhref }}">Tennessee {{ tv }}</a>
-          </li>
-          </ul>
-    </div>
-    <div class="col-sm">
-      <h5>International Television</h5>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/texas-{{ tvhref }}">Texas {{ tv }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/tennessee-{{ tvhref }}">Tennessee {{ tv }}</a>
+      </li>
+      </ul>
       <ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
+        <h5>International Television</h5>
         <li class="nav-item">
         <a class="nav-link" routerLink="/international/france-{{tvhref}}">France {{ tv }}</a>
       </li>
-      </ul>
-    </div>
-    <div class="col-sm">
+      
+      
         <h5>Out of this World Television</h5>
-        <ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10"></ul>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/nasa-public">NASA Public Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/nasa-iss">NASA International Space Station (ISS)</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/nasa-iss-earthview">NASA ISS Earth View</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/nasa-media">NASA TV Media</a>
-            </li>
-        </ul>
-        <ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
-          <h5>World Television &amp; Movie Stations</h5>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/world-tv-movies">World TV &amp; Movies</a>
-          </li>  
-      </ul>
-      <h5 class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
-        <a class="nav-link" routerLink="/entertainment-tv-stations">Entertainment Television</a>
-      </h5>
-      <h5 class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
-          <a class="nav-link" routerLink="/comedy-tv-stations">Comedy Television</a>
-        </h5>
-    </div>
-  </div>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nasa-public">NASA Public Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nasa-iss">NASA International Space Station (ISS)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nasa-iss-earthview">NASA ISS Earth View</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nasa-media">NASA TV Media</a>
+      </li>
+  </ul>
+  <ul style="list-style-type: none;" class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
+    <h5>World Television &amp; Movie Stations</h5>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/world-tv-movies">World TV &amp; Movies</a>
+    </li>  
+</ul>
+<h5 class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
+  <a class="nav-link" routerLink="/entertainment-tv-stations">Entertainment Television</a>
+</h5>
+<h5 class="col-xl-2 col-lg-3 col-md-4 col-sm-10 col-xs-10">
+    <a class="nav-link" routerLink="/comedy-tv-stations">Comedy Television</a>
+  </h5>
 </div>
