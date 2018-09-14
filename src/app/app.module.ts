@@ -79,6 +79,7 @@ import { NorthCarolinaComponent } from './stations-main/north-carolina/north-car
 import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.component';
 import { FranceComponent } from './international/france/france.component';
 import { France24liveComponent } from './international/france/france24live/france24live.component';
+import { Tf1Component } from './international/france/tf1/tf1.component';
 
 @NgModule({
   declarations: [
@@ -154,7 +155,8 @@ import { France24liveComponent } from './international/france/france24live/franc
     NorthCarolinaComponent,
     Wbtw13Component,
     FranceComponent,
-    France24liveComponent
+    France24liveComponent,
+    Tf1Component
 
   ],
   imports: [
@@ -244,6 +246,7 @@ import { France24liveComponent } from './international/france/france24live/franc
 
       { path: 'international/france-tv-stations', component: FranceComponent },
       { path: 'international/france-tv-stations/france24live', component: France24liveComponent},
+      { path: 'international/france-tv-stations/tf1', component: Tf1Component},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),
