@@ -12,4 +12,5 @@ export class France24liveComponent implements OnInit {
   ngOnInit() {
   }
   stationName = "France 24 LIVE"
+  description = "France 24 focuses on International and France News TV 24/7"
 }
