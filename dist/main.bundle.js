@@ -255,8 +255,8 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__stations_main_north_carolina_wsoc9_wsoc9_component__ = __webpack_require__("./src/app/stations-main/north-carolina/wsoc9/wsoc9.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__stations_main_north_carolina_north_carolina_component__ = __webpack_require__("./src/app/stations-main/north-carolina/north-carolina.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__stations_main_north_carolina_wbtw13_wbtw13_component__ = __webpack_require__("./src/app/stations-main/north-carolina/wbtw13/wbtw13.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__ = __webpack_require__("./src/app/international/france/france.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__ = __webpack_require__("./src/app/international/france/france24live/france24live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__international_france_france24live_france24live_component__ = __webpack_require__("./src/app/international/france/france24live/france24live.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__international_france_france_component__ = __webpack_require__("./src/app/international/france/france.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -421,8 +421,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_74__stations_main_north_carolina_wsoc9_wsoc9_component__["a" /* Wsoc9Component */],
             __WEBPACK_IMPORTED_MODULE_75__stations_main_north_carolina_north_carolina_component__["a" /* NorthCarolinaComponent */],
             __WEBPACK_IMPORTED_MODULE_76__stations_main_north_carolina_wbtw13_wbtw13_component__["a" /* Wbtw13Component */],
-            __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */],
-            __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */]
+            __WEBPACK_IMPORTED_MODULE_77__international_france_france24live_france24live_component__["a" /* France24liveComponent */],
+            __WEBPACK_IMPORTED_MODULE_78__international_france_france_component__["a" /* FranceComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -497,8 +497,7 @@ AppModule = __decorate([
                 { path: 'wishtv-8-indiana', component: __WEBPACK_IMPORTED_MODULE_71__stations_main_indiana_wishtv_8_indiana_wishtv_8_indiana_component__["a" /* Wishtv8IndianaComponent */] },
                 { path: 'tennessee-tv-stations', component: __WEBPACK_IMPORTED_MODULE_72__stations_main_tennessee_tennessee_component__["a" /* TennesseeComponent */] },
                 { path: 'fox10-tennessee', component: __WEBPACK_IMPORTED_MODULE_73__stations_main_tennessee_fox10_tennessee_fox10_tennessee_component__["a" /* Fox10TennesseeComponent */] },
-                { path: '/international-tv/france', component: __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */] },
-                { path: '/international-tv/france/france24live', component: __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
+                { path: '/international-tv/france/france24live', component: __WEBPACK_IMPORTED_MODULE_77__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
