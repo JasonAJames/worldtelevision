@@ -243,7 +243,7 @@ import { France24liveComponent } from './international/france/france24live/franc
       { path: 'fox10-tennessee', component: Fox10TennesseeComponent},
 
       { path: 'international/france-tv-stations', component: FranceComponent },
-      { path: '/france24live', component: France24liveComponent},
+      { path: 'france24live', component: France24liveComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

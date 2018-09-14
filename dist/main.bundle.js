@@ -498,7 +498,7 @@ AppModule = __decorate([
                 { path: 'tennessee-tv-stations', component: __WEBPACK_IMPORTED_MODULE_72__stations_main_tennessee_tennessee_component__["a" /* TennesseeComponent */] },
                 { path: 'fox10-tennessee', component: __WEBPACK_IMPORTED_MODULE_73__stations_main_tennessee_fox10_tennessee_fox10_tennessee_component__["a" /* Fox10TennesseeComponent */] },
                 { path: 'international/france-tv-stations', component: __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */] },
-                { path: '/france24live', component: __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
+                { path: 'france24live', component: __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
