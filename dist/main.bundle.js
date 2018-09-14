@@ -258,12 +258,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__ = __webpack_require__("./src/app/international/france/france.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__ = __webpack_require__("./src/app/international/france/france24live/france24live.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__ = __webpack_require__("./src/app/international/france/tf1/tf1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__ = __webpack_require__("./src/app/international/france/france2/france2.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -425,7 +427,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_76__stations_main_north_carolina_wbtw13_wbtw13_component__["a" /* Wbtw13Component */],
             __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */],
             __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */],
-            __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__["a" /* Tf1Component */]
+            __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__["a" /* Tf1Component */],
+            __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -503,6 +506,7 @@ AppModule = __decorate([
                 { path: 'international/france-tv-stations', component: __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */] },
                 { path: 'international/france-tv-stations/france24live', component: __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
                 { path: 'international/france-tv-stations/tf1', component: __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__["a" /* Tf1Component */] },
+                { path: 'international/france-tv-stations/france2', component: __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -1555,7 +1559,7 @@ module.exports = ""
 /***/ "./src/app/international/france/france.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{country}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/international/france-tv-stations/france24live\">France 24 LIVE</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/international/france-tv-stations/tf1\">France TF1 LIVE</a>\n  </li>\n  </ul>\n"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87698\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"z-index: 1;margin: -92px 0 0 0;width: 20px;height: 92px;text-indent: -9999em;position: relative;float: right\" href=\"https://www.willyweather.com/ma/suffolk-county/boston.html\" rel=\"nofollow\">willy weather</a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{country}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/international/france-tv-stations/france24live\">France 24 LIVE</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/international/france-tv-stations/tf1\">France TF1 LIVE</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" routerLink=\"/international/france-tv-stations/france2\">France 2 LIVE</a>\n  </li>\n  </ul>"
 
 /***/ }),
 
@@ -1593,6 +1597,56 @@ FranceComponent = __decorate([
 ], FranceComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/france.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/international/france/france2/france2.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/international/france/france2/france2.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe src=\"https://www.firstonetv.net/embed/2969343d882be678b150197a70fd248f/fr-11\" width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\"></iframe></span>\n<p>{{description}}</p>"
+
+/***/ }),
+
+/***/ "./src/app/international/france/france2/france2.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return France2Component; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var France2Component = (function () {
+    function France2Component() {
+    }
+    France2Component.prototype.ngOnInit = function () {
+    };
+    return France2Component;
+}());
+France2Component = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-france2',
+        template: __webpack_require__("./src/app/international/france/france2/france2.component.html"),
+        styles: [__webpack_require__("./src/app/international/france/france2/france2.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], France2Component);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/france2.component.js.map
 
 /***/ }),
 
