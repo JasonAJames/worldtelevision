@@ -153,7 +153,8 @@ import { France24liveComponent } from './international/france/france24live/franc
     Wsoc9Component,
     NorthCarolinaComponent,
     Wbtw13Component,
-    FranceComponent
+    FranceComponent,
+    France24liveComponent
 
   ],
   imports: [

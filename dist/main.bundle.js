@@ -421,7 +421,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_74__stations_main_north_carolina_wsoc9_wsoc9_component__["a" /* Wsoc9Component */],
             __WEBPACK_IMPORTED_MODULE_75__stations_main_north_carolina_north_carolina_component__["a" /* NorthCarolinaComponent */],
             __WEBPACK_IMPORTED_MODULE_76__stations_main_north_carolina_wbtw13_wbtw13_component__["a" /* Wbtw13Component */],
-            __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */]
+            __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */],
+            __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
