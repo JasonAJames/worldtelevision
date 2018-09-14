@@ -77,7 +77,7 @@ import { Fox10TennesseeComponent } from './stations-main/tennessee/fox10-tenness
 import { Wsoc9Component } from './stations-main/north-carolina/wsoc9/wsoc9.component';
 import { NorthCarolinaComponent } from './stations-main/north-carolina/north-carolina.component';
 import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.component';
-
+import { FranceComponent } from './international/france/france.component';
 
 @NgModule({
   declarations: [
@@ -151,7 +151,8 @@ import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.co
     Fox10TennesseeComponent,
     Wsoc9Component,
     NorthCarolinaComponent,
-    Wbtw13Component
+    Wbtw13Component,
+    FranceComponent
 
   ],
   imports: [
@@ -239,6 +240,8 @@ import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.co
       { path: 'tennessee-tv-stations', component: TennesseeComponent},
       { path: 'fox10-tennessee', component: Fox10TennesseeComponent},
 
+      { path: 'internetional/france-tv-stations', component: FranceComponent },
+      
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),
