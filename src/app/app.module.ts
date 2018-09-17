@@ -81,6 +81,7 @@ import { FranceComponent } from './international/france/france.component';
 import { France24liveComponent } from './international/france/france24live/france24live.component';
 import { Tf1Component } from './international/france/tf1/tf1.component';
 import { France2Component } from './international/france/france2/france2.component';
+import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyright-abuse-policy.component';
 
 @NgModule({
   declarations: [
@@ -158,7 +159,8 @@ import { France2Component } from './international/france/france2/france2.compone
     FranceComponent,
     France24liveComponent,
     Tf1Component,
-    France2Component
+    France2Component,
+    CopyrightAbusePolicyComponent
 
   ],
   imports: [
@@ -250,7 +252,9 @@ import { France2Component } from './international/france/france2/france2.compone
       { path: 'international/france-tv-stations/france24live', component: France24liveComponent},
       { path: 'international/france-tv-stations/tf1', component: Tf1Component},
       { path: 'international/france-tv-stations/france2', component: France2Component},
+
       
+      { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: '**', component: HomeComponent}
     ], {useHash : true}),

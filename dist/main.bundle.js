@@ -128,7 +128,7 @@ module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-widt
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"https://s3.amazonaws.com/worldtelevision/images/logo_blackBack.png\" width=\"110px\" height=\"100%\"/> {{title}}</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">World-Wide TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"live\">WATCH LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-royal-wedding-2018\">WATCH THE ROYAL WEDDING</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"volcano-live\">VOLCANO ERUPTION LIVE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <!-- <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"#\" (click)=\"auth.login()\">Login</a>\n              </li> -->\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </nav>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <!-- <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a> -->\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">World Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @InlandEmpireTVNetwork on <a href=\"https://www.facebook.com/InlandEmpireTVNetwork/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - WorldTelevision.tv<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
+module.exports = "<!-- FREE VERSION -->\n<nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-dark\">\n    <div class=\"container\">\n      <a routerLink=\"home\" class=\"navbar-brand\"><img src=\"https://s3.amazonaws.com/worldtelevision/images/logo_blackBack.png\" width=\"110px\" height=\"100%\"/> {{title}}</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"about\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"stations-main\">World-Wide TV Stations</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"live\">WATCH LIVE</a>\n          </li>\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"live-royal-wedding-2018\">WATCH THE ROYAL WEDDING</a>\n            </li> -->\n          <!-- <li class=\"nav-item\">\n              <a class=\"nav-link\" routerLink=\"volcano-live\">VOLCANO ERUPTION LIVE</a>\n            </li> -->\n        </ul>\n\n        <ul class=\"nav navbar-nav ml-auto\">\n            <!-- <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"#\" (click)=\"auth.login()\">Login</a>\n              </li> -->\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" routerLink=\"contact\">Contact Us</a>\n          </li>\n        </ul>\n\n      </div>\n    </div>\n  </nav>\n\n\n  <div class=\"container\">\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n      <div class=\"ui container\">\n        <div class=\"ui stackable inverted divided equal height stackable grid\">\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">About</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"about\" class=\"item\">About</a>\n              <a routerLink=\"stations-main\" class=\"item\">Channel Guide</a>\n              <a routerLink=\"stations-main\" class=\"item\">Shows</a>\n              <!-- <a routerLink=\"local-reviews\" class=\"item\">Local Reviews</a> -->\n            </div>\n          </div>\n          <div class=\"three wide column\">\n            <h4 class=\"ui inverted header\">Services</h4>\n            <div class=\"ui inverted link list\">\n              <a routerLink=\"live\" class=\"item\">WATCH LIVE</a>\n              <a routerLink=\"social\" class=\"item\">World Community Connection</a>\n              <a routerLink=\"contact\" class=\"item\">Advertise / Showcase your Event</a>\n              <a routerLink=\"contact\" class=\"item\">Contact Us</a>\n            </div>\n          </div>\n          <div class=\"seven wide column\">\n            <h4 class=\"ui inverted header\"></h4>\n            <p></p>\n            <p style=\"text-align:center;\" id=\"copyright\">Find out what's going on in your area, LIKE - FOLLOW - SHARE @InlandEmpireTVNetwork on <a href=\"https://www.facebook.com/InlandEmpireTVNetwork/\" target=\"_blank\">Facebook</a>, <a href=\"https://www.instagram.com/SoCalTelevision/\" target=\"_blank\">Instagram</a>, &amp; <a href=\"https://www.twitter.com/SoCalTelevision/\" target=\"_blank\">Twitter!</a><br><br>© <span id=\"copyrightDate\">2018</span> The Inland Empire Television Network - WorldTelevision.tv<br> a subsidiary of <a href=\"http://www.jppmsolutions.com\" target=\"_blank\">James Programming, Printing, &amp; Media Solutions</a>.<br><br>Content may not be replicated, duplicated, or rebroadcasted in any way, both in part or full, without expressed written consent from the Inland Empire Television Network, James Programming, Printing &amp; Media Solutions, or its subsidiary's - All Rights Reserved.<br/>Weather information based on data supplied by <a href=\"http://noaa.gov\" target=\"_blank\">NOAA.gov</a></p>\n            <p style=\"text-align:center;\" id=\"abuse-policy\"><a routerLink=\"copyright-abuse-policy\" class=\"item\">Copyright Abuse Policy</a></p>\n            <script>\n              var d = new Date();\n              document.getElementById(\"copyrightDate\").innerHTML = d.getFullYear();\n            </script> \n          </div>\n        </div>\n      </div>\n    </div>"
 
 /***/ }),
 
@@ -259,12 +259,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__ = __webpack_require__("./src/app/international/france/france24live/france24live.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__ = __webpack_require__("./src/app/international/france/tf1/tf1.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__ = __webpack_require__("./src/app/international/france/france2/france2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__ = __webpack_require__("./src/app/copyright-abuse-policy/copyright-abuse-policy.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -428,7 +430,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_77__international_france_france_component__["a" /* FranceComponent */],
             __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */],
             __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__["a" /* Tf1Component */],
-            __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */]
+            __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */],
+            __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__["a" /* CopyrightAbusePolicyComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -507,6 +510,7 @@ AppModule = __decorate([
                 { path: 'international/france-tv-stations/france24live', component: __WEBPACK_IMPORTED_MODULE_78__international_france_france24live_france24live_component__["a" /* France24liveComponent */] },
                 { path: 'international/france-tv-stations/tf1', component: __WEBPACK_IMPORTED_MODULE_79__international_france_tf1_tf1_component__["a" /* Tf1Component */] },
                 { path: 'international/france-tv-stations/france2', component: __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */] },
+                { path: 'copyright-abuse-policy', component: __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__["a" /* CopyrightAbusePolicyComponent */] },
                 { path: '', redirectTo: '/home', pathMatch: 'full' },
                 { path: '**', component: __WEBPACK_IMPORTED_MODULE_11__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
             ], { useHash: true }),
@@ -1027,6 +1031,56 @@ ContactusComponent = __decorate([
 ], ContactusComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/contactus.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/copyright-abuse-policy/copyright-abuse-policy.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/copyright-abuse-policy/copyright-abuse-policy.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<h2><i class=\"fa fa-key\" aria-hidden=\"true\"></i> Digital Millennium Copyright Act Notification Guidelines</h2>\n<h3>Notification of Infringement</h3>\n<p>It is our policy to respond to clear notices of alleged copyright infringement that comply with the Digital Millennium Copyright Act. In addition, we will promptly terminate without notice the accounts of those determined by us to be \"repeat infringers\". If you are a copyright owner or an agent thereof, and you believe that any content hosted on our web site (https://www.worldtelevision.tv) or non-affiliated linked websites, including but limited too (https://www.firstonetv.net), infringes your copyrights, then you may submit a notification pursuant to the Digital Millennium Copyright Act (\"DMCA\") by providing FirstOne TV’s Designated Copyright Agent with the following information in writing (please consult your legal counsel or see 17 U.S.C. Section 512(c)(3) to confirm these requirements):\n<ul style=\"list-style-type: none;\">\n<li>- A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.  </li>\n<li>- Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works on the WorldTelevision.tv web site are covered by a single notification, a representative list of such works at that site.</li>\n<li>- Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit WorldTelevision TV to locate the material. Providing URLs in the body of an email is the best way to help us locate content quickly.</li>\n<li>- Information reasonably sufficient to permit WorldTelevision TV to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted.</li>\n<li>- A statement that the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.</li>\n<li>- A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>\n</ul>\n</p>\n<p>\nPlease note that under Section 512(f) of the DMCA, any person who knowingly materially misrepresents that material or activity is infringing may be subject to liability.\n</p>\n<h3>Counter-Notification</h3>\n<p>If you elect to send us a counter notice, to be effective it must be a written communication that includes the following (please consult your legal counsel or see 17 U.S.C. Section 512(g)(3) to confirm these requirements):\n<ul style=\"list-style-type: none;\">\n<li>- A physical or electronic signature of the subscriber.</li>\n<li>- Identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or access to it was disabled.</li>\n<li>- A statement under penalty of perjury that the subscriber has a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material to be removed or disabled.</li>\n<li>- The subscriber’s name, address, and telephone number, and a statement that the subscriber consents to the jurisdiction of Federal District Court for the judicial district in which the address is located, or if the subscriber’s address is outside of the United States, for any judicial district in which FirstOne TV may be found, and that the subscriber will accept service of process from the person who provided notification under subsection (c)(1)(C) or an agent of such person. </li>\n</ul>\n</p>\n<p>\nPlease note that under Section 512(f) of the Copyright Act, any person who knowingly materially misrepresents that material or activity was removed or disabled by mistake or misidentification may be subject to liability.\n</p>\n<h3>Designated Copyright Agent</h3>\n<p>\nWorldTelevision TV’s Designated Copyright Agent to receive notifications and counter-notifications of claimed infringement can be reached as follows: InlandEmpireTVNetwork@gmail.com You acknowledge that if you fail to comply with all of the requirements of this section, your DMCA notice may not be valid.\n</p>"
+
+/***/ }),
+
+/***/ "./src/app/copyright-abuse-policy/copyright-abuse-policy.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CopyrightAbusePolicyComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CopyrightAbusePolicyComponent = (function () {
+    function CopyrightAbusePolicyComponent() {
+    }
+    CopyrightAbusePolicyComponent.prototype.ngOnInit = function () {
+    };
+    return CopyrightAbusePolicyComponent;
+}());
+CopyrightAbusePolicyComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-copyright-abuse-policy',
+        template: __webpack_require__("./src/app/copyright-abuse-policy/copyright-abuse-policy.component.html"),
+        styles: [__webpack_require__("./src/app/copyright-abuse-policy/copyright-abuse-policy.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CopyrightAbusePolicyComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/copyright-abuse-policy.component.js.map
 
 /***/ }),
 
@@ -4260,8 +4314,8 @@ var HomeComponent = (function () {
     function HomeComponent(_route) {
         this._route = _route;
         this.stationName = 'World Television';
-        this.showtitle = "Hurricane Lane heading towards the Hawaiian islands";
-        this.desc = "Hurricane Lane has weakened slightly, but remains a Category 4 storm very close to the islands.";
+        this.showtitle = "";
+        this.desc = "Hawaii";
         this.footer = " For More... LIKE, FOLLOW & SHARE @SoCalTelevision on Facebook, Instagram & Twitter and watch www.WorldTelevision.tv";
     }
     HomeComponent.prototype.ngOnInit = function () {
