@@ -1037,7 +1037,7 @@ ContactusComponent = __decorate([
 /***/ "./src/app/copyright-abuse-policy/copyright-abuse-policy.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
 
 /***/ }),
 
