@@ -82,6 +82,8 @@ import { France24liveComponent } from './international/france/france24live/franc
 import { Tf1Component } from './international/france/tf1/tf1.component';
 import { France2Component } from './international/france/france2/france2.component';
 import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyright-abuse-policy.component';
+import { FloridaComponent } from './stations-main/florida/florida.component';
+import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.component';
 
 @NgModule({
   declarations: [
@@ -160,7 +162,9 @@ import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyrigh
     France24liveComponent,
     Tf1Component,
     France2Component,
-    CopyrightAbusePolicyComponent
+    CopyrightAbusePolicyComponent,
+    FloridaComponent,
+    WsbTv2Component
 
   ],
   imports: [
@@ -220,6 +224,8 @@ import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyrigh
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
 
+      { path: 'florida-tv-stations', component: FloridaComponent },
+      { path: 'wsb-tv2', component: WsbTv2Component },
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
       { path: 'nbc11news', component: Nbc11newsComponent },
