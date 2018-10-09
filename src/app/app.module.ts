@@ -84,6 +84,7 @@ import { France2Component } from './international/france/france2/france2.compone
 import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyright-abuse-policy.component';
 import { FloridaComponent } from './stations-main/florida/florida.component';
 import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.component';
+import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-tampa.component';
 
 @NgModule({
   declarations: [
@@ -164,7 +165,8 @@ import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.compone
     France2Component,
     CopyrightAbusePolicyComponent,
     FloridaComponent,
-    WsbTv2Component
+    WsbTv2Component,
+    Fox13TampaComponent
 
   ],
   imports: [
@@ -226,6 +228,8 @@ import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.compone
 
       { path: 'florida-tv-stations', component: FloridaComponent },
       { path: 'wsb-tv2', component: WsbTv2Component },
+      { path: 'fox13-tampa', component: Fox13TampaComponent },
+
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
       { path: 'nbc11news', component: Nbc11newsComponent },

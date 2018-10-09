@@ -262,12 +262,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__ = __webpack_require__("./src/app/copyright-abuse-policy/copyright-abuse-policy.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__stations_main_florida_florida_component__ = __webpack_require__("./src/app/stations-main/florida/florida.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__ = __webpack_require__("./src/app/stations-main/florida/wsb-tv2/wsb-tv2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__ = __webpack_require__("./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -437,7 +439,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_80__international_france_france2_france2_component__["a" /* France2Component */],
             __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__["a" /* CopyrightAbusePolicyComponent */],
             __WEBPACK_IMPORTED_MODULE_82__stations_main_florida_florida_component__["a" /* FloridaComponent */],
-            __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__["a" /* WsbTv2Component */]
+            __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__["a" /* WsbTv2Component */],
+            __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__["a" /* Fox13TampaComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -493,6 +496,7 @@ AppModule = __decorate([
                 { path: 'abc30-bakersfield', component: __WEBPACK_IMPORTED_MODULE_24__stations_main_california_abc30_bakersfield_abc30_bakersfield_component__["a" /* Abc30BakersfieldComponent */] },
                 { path: 'florida-tv-stations', component: __WEBPACK_IMPORTED_MODULE_82__stations_main_florida_florida_component__["a" /* FloridaComponent */] },
                 { path: 'wsb-tv2', component: __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__["a" /* WsbTv2Component */] },
+                { path: 'fox13-tampa', component: __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__["a" /* Fox13TampaComponent */] },
                 { path: 'colorado-tv-stations', component: __WEBPACK_IMPORTED_MODULE_29__stations_main_colorado_colorado_component__["a" /* ColoradoComponent */] },
                 { path: 'colorado-9news', component: __WEBPACK_IMPORTED_MODULE_30__stations_main_colorado_colorado_9news_colorado_9news_component__["a" /* Colorado9newsComponent */] },
                 { path: 'nbc11news', component: __WEBPACK_IMPORTED_MODULE_31__stations_main_colorado_nbc11news_nbc11news_component__["a" /* Nbc11newsComponent */] },
@@ -2706,7 +2710,7 @@ module.exports = ""
 /***/ "./src/app/stations-main/florida/florida.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n    <li class=\"nav-item\">\n      <a class=\"nav-link btn btn-info\" routerLink=\"/wsb-tv2\">WSB-TV2</a>\n    </li>\n  </ul>"
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n<h3>Choose your Educational / Informational Channel</h3>\n<ul style=\"list-style-type: none;\" class=\"col-xl-3 col-lg-3 col-md-3 col-sm-10 col-xs-10\">\n  <h6 class=\"top\">{{state}}</h6>\n  <li class=\"nav-item\">\n    <a class=\"nav-link btn btn-info\" routerLink=\"/fox13-tampa\">FOX 13 Tampa</a>\n  </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link btn btn-info\" routerLink=\"/wsb-tv2\">WSB-TV2</a>\n    </li>\n  </ul>"
 
 /***/ }),
 
@@ -2744,6 +2748,57 @@ FloridaComponent = __decorate([
 ], FloridaComponent);
 
 //# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/florida.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://livestream.com/accounts/6180769/events/2557366/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>\n\n  <iframe id=\"ls_embed_1539099345\" src=\"https://livestream.com/accounts/6180769/events/2557366/player?width=640&height=360&enableInfoAndActivity=true&autoPlay=true&mute=false\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen> </iframe>"
+
+/***/ }),
+
+/***/ "./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Fox13TampaComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Fox13TampaComponent = (function () {
+    function Fox13TampaComponent() {
+        this.stationName = "FOX 13 Tampa";
+    }
+    Fox13TampaComponent.prototype.ngOnInit = function () {
+    };
+    return Fox13TampaComponent;
+}());
+Fox13TampaComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-fox13-tampa',
+        template: __webpack_require__("./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.html"),
+        styles: [__webpack_require__("./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], Fox13TampaComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox13-tampa.component.js.map
 
 /***/ }),
 
