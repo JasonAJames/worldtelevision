@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { LocalReviewsComponent } from './local-reviews/local-reviews.component';
 import { LiveComponent } from './stations-main/live/live.component';
+import { Live2Component } from './live-2/live-2.component';
 import { HomeComponent } from './stations-main/worldtelevision/home.component';
 import { CaliforniaComponent } from './stations-main/california/california.component';
 import { HawaiiComponent } from './stations-main/hawaii/hawaii.component';
@@ -166,7 +167,8 @@ import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-t
     CopyrightAbusePolicyComponent,
     FloridaComponent,
     WsbTv2Component,
-    Fox13TampaComponent
+    Fox13TampaComponent,
+    Live2Component
 
   ],
   imports: [
@@ -176,6 +178,7 @@ import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-t
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent},
       { path: 'live', component: LiveComponent},
+      { path: 'live-2', component: Live2Component },
       { path: 'breaking-news-1', component: BreakingNews1Component},
       { path: 'live-royal-wedding-2018', component: LiveRoyalWedding2018Component },
       { path: 'live-high-speed-pursuit', component: LiveHighSpeedPursuitFeedComponent},
