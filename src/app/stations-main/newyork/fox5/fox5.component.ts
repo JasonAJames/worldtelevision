@@ -11,5 +11,6 @@ export class Fox5Component implements OnInit {
 
   ngOnInit() {
   }
-
+  stationName = "Fox 5 NY"
+  description = "Fox 5 New York"
 }
