@@ -90,6 +90,7 @@ import { SocialMediaIconsComponent } from './components/social-media-icons/socia
 import { RtNewsComponent } from './international/rt-news/rt-news.component';
 import { Pix11Component } from './stations-main/newyork/pix11/pix11.component';
 import { NewyorkComponent } from './stations-main/newyork/newyork.component';
+import { Fox5Component } from './stations-main/newyork/fox5/fox5.component';
 
 @NgModule({
   declarations: [
@@ -176,7 +177,8 @@ import { NewyorkComponent } from './stations-main/newyork/newyork.component';
     SocialMediaIconsComponent,
     RtNewsComponent,
     Pix11Component,
-    NewyorkComponent
+    NewyorkComponent,
+    Fox5Component
 
   ],
   imports: [
@@ -257,6 +259,8 @@ import { NewyorkComponent } from './stations-main/newyork/newyork.component';
 
       { path: 'new-york-tv-stations', component: NewyorkComponent},
       { path: 'pix11', component: Pix11Component},
+      { path: 'fox5ny', component: Fox5Component},
+      
 
 
 
