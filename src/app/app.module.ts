@@ -93,6 +93,8 @@ import { NewyorkComponent } from './stations-main/newyork/newyork.component';
 import { Fox5Component } from './stations-main/newyork/fox5/fox5.component';
 import { MaineComponent } from './stations-main/maine/maine.component';
 import { Wabi5Component } from './stations-main/maine/wabi5/wabi5.component';
+import { UtahComponent } from './stations-main/utah/utah.component';
+import { Fox13saltlakeComponent } from './stations-main/utah/fox13saltlake/fox13saltlake.component';
 
 @NgModule({
   declarations: [
@@ -182,7 +184,9 @@ import { Wabi5Component } from './stations-main/maine/wabi5/wabi5.component';
     NewyorkComponent,
     Fox5Component,
     MaineComponent,
-    Wabi5Component
+    Wabi5Component,
+    UtahComponent,
+    Fox13saltlakeComponent
 
   ],
   imports: [
@@ -268,7 +272,8 @@ import { Wabi5Component } from './stations-main/maine/wabi5/wabi5.component';
       { path: 'pix11', component: Pix11Component},
       { path: 'fox5ny', component: Fox5Component},
       
-
+      { path: 'utah-tv-stations', component: MaineComponent },
+      { path: 'fox13-saltlakecity', component: Fox13saltlakeComponent},
 
 
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
