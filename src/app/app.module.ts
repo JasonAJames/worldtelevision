@@ -91,6 +91,8 @@ import { RtNewsComponent } from './international/rt-news/rt-news.component';
 import { Pix11Component } from './stations-main/newyork/pix11/pix11.component';
 import { NewyorkComponent } from './stations-main/newyork/newyork.component';
 import { Fox5Component } from './stations-main/newyork/fox5/fox5.component';
+import { MaineComponent } from './stations-main/maine/maine.component';
+import { Wabi5Component } from './stations-main/maine/wabi5/wabi5.component';
 
 @NgModule({
   declarations: [
@@ -178,7 +180,9 @@ import { Fox5Component } from './stations-main/newyork/fox5/fox5.component';
     RtNewsComponent,
     Pix11Component,
     NewyorkComponent,
-    Fox5Component
+    Fox5Component,
+    MaineComponent,
+    Wabi5Component
 
   ],
   imports: [
@@ -249,6 +253,9 @@ import { Fox5Component } from './stations-main/newyork/fox5/fox5.component';
 
       { path: 'georgia-tv-stations', component: GeorgiaComponent },
       { path: 'wsb-tv-2', component: Wsb2AtlantaComponent },
+
+      { path: 'maine-tv-stations', component: MaineComponent },
+      { path: 'wabi5', component: Wabi5Component},
 
       { path: 'massachusetts-tv-stations', component: MassachusettsComponent },
       { path: 'boston-25-news', component: Boston25NewsComponent},
