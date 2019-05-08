@@ -272,7 +272,7 @@ import { Fox13saltlakeComponent } from './stations-main/utah/fox13saltlake/fox13
       { path: 'pix11', component: Pix11Component},
       { path: 'fox5ny', component: Fox5Component},
       
-      { path: 'utah-tv-stations', component: MaineComponent },
+      { path: 'utah-tv-stations', component: UtahComponent },
       { path: 'fox13-saltlakecity', component: Fox13saltlakeComponent},
 
 
