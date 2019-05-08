@@ -88,6 +88,8 @@ import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.compone
 import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-tampa.component';
 import { SocialMediaIconsComponent } from './components/social-media-icons/social-media-icons.component';
 import { RtNewsComponent } from './international/rt-news/rt-news.component';
+import { Pix11Component } from './stations-main/newyork/pix11/pix11.component';
+import { NewyorkComponent } from './stations-main/newyork/newyork.component';
 
 @NgModule({
   declarations: [
@@ -172,7 +174,9 @@ import { RtNewsComponent } from './international/rt-news/rt-news.component';
     Fox13TampaComponent,
     Live2Component,
     SocialMediaIconsComponent,
-    RtNewsComponent
+    RtNewsComponent,
+    Pix11Component,
+    NewyorkComponent
 
   ],
   imports: [
@@ -250,6 +254,11 @@ import { RtNewsComponent } from './international/rt-news/rt-news.component';
       { path: 'north-carolina-tv-stations', component: NorthCarolinaComponent},
       { path: 'wsoctv9', component: Wsoc9Component },
       { path: 'wbtw13', component: Wbtw13Component},
+
+      { path: 'new-york-tv-stations', component: NewyorkComponent},
+      { path: 'pix11', component: Pix11Component},
+
+
 
       { path: 'hawaii-tv-stations', component: HawaiiComponent},
       { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
