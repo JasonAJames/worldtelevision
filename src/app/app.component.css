@@ -2,6 +2,10 @@
     padding-top: 8%;
 }
 
+.embed-responsive iframe {
+    width: 60%;
+}
+
 @media screen and (min-width: 400px) {
     .leaderBanner {
         width: 420px;
