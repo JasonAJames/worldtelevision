@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nasa-public',
   templateUrl: './nasa-public.component.html',
-  styleUrls: ['./nasa-public.component.css']
+  styleUrls: ['./nasa-public.component.css','../../app.component.css']
 })
 export class NasaPublicComponent implements OnInit {
 

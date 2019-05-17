@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-pix11',
   templateUrl: './pix11.component.html',
-  styleUrls: ['./pix11.component.css']
+  styleUrls: ['./pix11.component.css','../../../app.component.css']
 })
 export class Pix11Component implements OnInit {
 

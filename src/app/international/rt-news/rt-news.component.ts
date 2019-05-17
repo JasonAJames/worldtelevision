@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-rt-news',
   templateUrl: './rt-news.component.html',
-  styleUrls: ['./rt-news.component.css']
+  styleUrls: ['./rt-news.component.css','../../app.component.css']
 })
 export class RtNewsComponent implements OnInit {
 

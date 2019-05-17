@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-news4-oklahoma',
   templateUrl: './news4-oklahoma.component.html',
-  styleUrls: ['./news4-oklahoma.component.css']
+  styleUrls: ['./news4-oklahoma.component.css','../../../app.component.css']
 })
 export class News4OklahomaComponent implements OnInit {
 
@@ -12,5 +12,5 @@ export class News4OklahomaComponent implements OnInit {
   ngOnInit() {
   }
   stationName = "News 4 Oklahoma"
-  description = "SHOOTING in Oklahoma restaurant. Shooter has been killed with handgun by a citizen with legal carry permit"
+  description = ""
 }

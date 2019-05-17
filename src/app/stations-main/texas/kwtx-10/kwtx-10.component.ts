@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-kwtx-10',
   templateUrl: './kwtx-10.component.html',
-  styleUrls: ['./kwtx-10.component.css']
+  styleUrls: ['./kwtx-10.component.css','../../../app.component.css']
 })
 export class Kwtx10Component implements OnInit {
 

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-wsb-tv2',
   templateUrl: './wsb-tv2.component.html',
-  styleUrls: ['./wsb-tv2.component.css']
+  styleUrls: ['./wsb-tv2.component.css','../../../app.component.css']
 })
 export class WsbTv2Component implements OnInit {
 

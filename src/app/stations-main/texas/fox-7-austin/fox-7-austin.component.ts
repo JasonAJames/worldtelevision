@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fox-7-austin',
   templateUrl: './fox-7-austin.component.html',
-  styleUrls: ['./fox-7-austin.component.css']
+  styleUrls: ['./fox-7-austin.component.css','../../../app.component.css']
 })
 export class Fox7AustinComponent implements OnInit {
 

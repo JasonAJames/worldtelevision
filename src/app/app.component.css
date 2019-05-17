@@ -4,7 +4,7 @@
 
 div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     width: 60%;
-    height: 59%;
+    height: 57%;
 }
 
 @media screen and (min-width: 400px) {

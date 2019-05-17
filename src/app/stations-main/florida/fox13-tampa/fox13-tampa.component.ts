@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fox13-tampa',
   templateUrl: './fox13-tampa.component.html',
-  styleUrls: ['./fox13-tampa.component.css']
+  styleUrls: ['./fox13-tampa.component.css','../../../app.component.css']
 })
 export class Fox13TampaComponent implements OnInit {
 
