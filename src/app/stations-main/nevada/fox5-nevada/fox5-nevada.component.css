@@ -9,7 +9,7 @@ li {
     border-radius: 5px;
 }
 
-div .embed-responsive.embed-responsive-16by9, iframe .embed-responsive {
+div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     width: 60%;
     height: 59%;
 }
