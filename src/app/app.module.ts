@@ -80,8 +80,6 @@ import { NorthCarolinaComponent } from './stations-main/north-carolina/north-car
 import { Wbtw13Component } from './stations-main/north-carolina/wbtw13/wbtw13.component';
 import { FranceComponent } from './international/france/france.component';
 import { France24liveComponent } from './international/france/france24live/france24live.component';
-import { Tf1Component } from './international/france/tf1/tf1.component';
-import { France2Component } from './international/france/france2/france2.component';
 import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyright-abuse-policy.component';
 import { FloridaComponent } from './stations-main/florida/florida.component';
 import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.component';
@@ -173,8 +171,6 @@ import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nev
     Wbtw13Component,
     FranceComponent,
     France24liveComponent,
-    Tf1Component,
-    France2Component,
     CopyrightAbusePolicyComponent,
     FloridaComponent,
     WsbTv2Component,
@@ -299,8 +295,6 @@ import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nev
 
       { path: 'international/france-tv-stations', component: FranceComponent },
       { path: 'international/france-tv-stations/france24live', component: France24liveComponent},
-      { path: 'international/france-tv-stations/tf1', component: Tf1Component},
-      { path: 'international/france-tv-stations/france2', component: France2Component},
       { path: 'international/rt-news', component: RtNewsComponent},
 
       
