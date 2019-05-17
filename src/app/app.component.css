@@ -2,8 +2,9 @@
     padding-top: 8%;
 }
 
-.embed-responsive iframe {
+.embed-responsive .embed-responsive-16by9 {
     width: 60%;
+    height: 59%;
 }
 
 @media screen and (min-width: 400px) {
