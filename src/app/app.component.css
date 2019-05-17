@@ -2,7 +2,7 @@
     padding-top: 8%;
 }
 
-.embed-responsive .embed-responsive-16by9 {
+div .embed-responsive.embed-responsive-16by9 {
     width: 60%;
     height: 59%;
 }
