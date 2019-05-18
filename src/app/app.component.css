@@ -13,8 +13,10 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 }
 
 @media screen and (min-width: 400px) {
+    .top {
+        padding-top: 10%;
+    }
     .leaderBanner {
-        padding-top: 1%;
         width: 420px;
         height: 60px;
     }
