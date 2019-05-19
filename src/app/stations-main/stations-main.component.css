@@ -10,6 +10,10 @@ li {
 }
 
 @media screen and (min-width: 400px) {
+    .adrotatorLeaderboard {
+        padding-top: 10%;
+    }
+
     .videoContainer {
         margin-left: 1%;
         padding-right: 2%;
