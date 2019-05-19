@@ -10,9 +10,6 @@ li {
 }
 
 @media screen and (min-width: 400px) {
-    .adrotatorLeaderboard {
-        padding-top: 10%;
-    }
 
     .videoContainer {
         margin-left: 1%;
@@ -28,19 +25,9 @@ li {
     }
 }
 
-@media screen and (min-width: 800px) {
-    #videoContainer {
-        padding-left: 15%;
-        padding-right: 2%;
-    
-    }
-    .video {
-        border: none;
-        width: 620px;
-        height: 350px;
-        border-radius: 25px;
-        box-shadow:1px 1px 45px lightgray;
-        margin-left: 25%;
+@media screen and (max-width: 800px) {
+    .adrotatorLeaderboard {
+        padding-top: 10%;
     }
 }
 
