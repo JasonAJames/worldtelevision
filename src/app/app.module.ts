@@ -97,6 +97,7 @@ import { NevadaComponent } from './stations-main/nevada/nevada.component';
 import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nevada.component';
 import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
 import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-leaderboard/weatherwidget-leaderboard.component';
+import { BakersfieldNowComponent } from './stations-main/california/bakersfield-now/bakersfield-now.component';
 
 @NgModule({
   declarations: [
@@ -190,7 +191,8 @@ import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-le
     NevadaComponent,
     Fox5NevadaComponent,
     AdrotatorLeaderbannerComponent,
-    WeatherwidgetLeaderboardComponent
+    WeatherwidgetLeaderboardComponent,
+    BakersfieldNowComponent
 
   ],
   imports: [
@@ -250,6 +252,7 @@ import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-le
       { path: 'kron4', component: Kron4Component},
       { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
+      { path: 'bakersfield-now', component: BakersfieldNowComponent },
 
       { path: 'florida-tv-stations', component: FloridaComponent },
       { path: 'wsb-tv2', component: WsbTv2Component },
