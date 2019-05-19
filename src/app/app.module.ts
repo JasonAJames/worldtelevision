@@ -98,6 +98,7 @@ import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nev
 import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
 import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-leaderboard/weatherwidget-leaderboard.component';
 import { BakersfieldNowComponent } from './stations-main/california/bakersfield-now/bakersfield-now.component';
+import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.component';
 
 @NgModule({
   declarations: [
@@ -192,7 +193,8 @@ import { BakersfieldNowComponent } from './stations-main/california/bakersfield-
     Fox5NevadaComponent,
     AdrotatorLeaderbannerComponent,
     WeatherwidgetLeaderboardComponent,
-    BakersfieldNowComponent
+    BakersfieldNowComponent,
+    MellowTvComponent
 
   ],
   imports: [
