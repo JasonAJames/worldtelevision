@@ -95,6 +95,8 @@ import { UtahComponent } from './stations-main/utah/utah.component';
 import { Fox13saltlakeComponent } from './stations-main/utah/fox13saltlake/fox13saltlake.component';
 import { NevadaComponent } from './stations-main/nevada/nevada.component';
 import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nevada.component';
+import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderbanner/adrotator-leaderbanner.component';
+import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-leaderboard/weatherwidget-leaderboard.component';
 
 @NgModule({
   declarations: [
@@ -186,7 +188,9 @@ import { Fox5NevadaComponent } from './stations-main/nevada/fox5-nevada/fox5-nev
     UtahComponent,
     Fox13saltlakeComponent,
     NevadaComponent,
-    Fox5NevadaComponent
+    Fox5NevadaComponent,
+    AdrotatorLeaderbannerComponent,
+    WeatherwidgetLeaderboardComponent
 
   ],
   imports: [
