@@ -250,7 +250,7 @@ import { BakersfieldNowComponent } from './stations-main/california/bakersfield-
       { path: 'fox11la', component: Fox11laComponent},
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
       { path: 'kron4', component: Kron4Component},
-      { path: 'bakersfield-news-23abc', component: BakersfieldNews23abcComponent},
+      { path: 'abc23-bakersfield', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
       { path: 'bakersfield-now', component: BakersfieldNowComponent },
 
