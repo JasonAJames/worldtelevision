@@ -100,6 +100,7 @@ import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-le
 import { BakersfieldNowComponent } from './stations-main/california/bakersfield-now/bakersfield-now.component';
 import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.component';
 import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoor-cooking.component';
+import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
 
 @NgModule({
   declarations: [
@@ -196,7 +197,8 @@ import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoo
     WeatherwidgetLeaderboardComponent,
     BakersfieldNowComponent,
     MellowTvComponent,
-    OutdoorCookingComponent
+    OutdoorCookingComponent,
+    EtLiveComponent
 
   ],
   imports: [
@@ -310,6 +312,7 @@ import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoo
       { path: 'international/jamaica-tv/mellow-tv', component: MellowTvComponent},
 
       { path: 'cable-channels/outdoor-cooking', component: OutdoorCookingComponent},
+      { path: 'cable-channels/et-live', component: EtLiveComponent },
       
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
