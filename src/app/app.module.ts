@@ -99,6 +99,7 @@ import { AdrotatorLeaderbannerComponent } from './components/adrotator-leaderban
 import { WeatherwidgetLeaderboardComponent } from './components/weatherwidget-leaderboard/weatherwidget-leaderboard.component';
 import { BakersfieldNowComponent } from './stations-main/california/bakersfield-now/bakersfield-now.component';
 import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.component';
+import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoor-cooking.component';
 
 @NgModule({
   declarations: [
@@ -194,7 +195,8 @@ import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.c
     AdrotatorLeaderbannerComponent,
     WeatherwidgetLeaderboardComponent,
     BakersfieldNowComponent,
-    MellowTvComponent
+    MellowTvComponent,
+    OutdoorCookingComponent
 
   ],
   imports: [
@@ -213,6 +215,7 @@ import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.c
       { path: 'about', component: AboutComponent},
       { path: 'contact', component: ContactusComponent},
       { path: 'stations-main', component: StationsMainComponent},
+
       { path: 'nasa-public', component: NasaPublicComponent },
       { path: 'nasa-iss', component: NasaIisComponent },
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
@@ -256,16 +259,27 @@ import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.c
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
       { path: 'bakersfield-now', component: BakersfieldNowComponent },
 
-      { path: 'florida-tv-stations', component: FloridaComponent },
-      { path: 'wsb-tv2', component: WsbTv2Component },
-      { path: 'fox13-tampa', component: Fox13TampaComponent },
-
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
       { path: 'nbc11news', component: Nbc11newsComponent },
 
+      { path: 'florida-tv-stations', component: FloridaComponent },
+      { path: 'wsb-tv2', component: WsbTv2Component },
+      { path: 'fox13-tampa', component: Fox13TampaComponent },
+
       { path: 'georgia-tv-stations', component: GeorgiaComponent },
       { path: 'wsb-tv-2', component: Wsb2AtlantaComponent },
+
+      { path: 'hawaii-tv-stations', component: HawaiiComponent},
+      { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
+      { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
+      { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
+      { path: 'volcano-live', component: VolcanoLiveComponent},
+
+      { path: 'indiana-tv-stations', component: IndianaComponent},
+      { path: 'wthr-13-indiana', component: Wthr13IndianaComponent},
+      { path: 'fox-59-indiana', component: Fox59IndianaComponent},
+      { path: 'wishtv-8-indiana', component: Wishtv8IndianaComponent},
 
       { path: 'maine-tv-stations', component: MaineComponent },
       { path: 'wabi5', component: Wabi5Component},
@@ -283,29 +297,19 @@ import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.c
       { path: 'new-york-tv-stations', component: NewyorkComponent},
       { path: 'pix11', component: Pix11Component},
       { path: 'fox5ny', component: Fox5Component},
-      
-      { path: 'utah-tv-stations', component: UtahComponent },
-      { path: 'fox13-saltlakecity', component: Fox13saltlakeComponent},
-
-
-      { path: 'hawaii-tv-stations', component: HawaiiComponent},
-      { path: 'hawaii-news-now', component: HawaiiNewsNowComponent },
-      { path: 'kitv4-hawaii', component: Kitv4hawaiiComponent},
-      { path: 'khon2-hawaii', component: Khon2hawaiiComponent},
-      { path: 'volcano-live', component: VolcanoLiveComponent},
-
-      { path: 'indiana-tv-stations', component: IndianaComponent},
-      { path: 'wthr-13-indiana', component: Wthr13IndianaComponent},
-      { path: 'fox-59-indiana', component: Fox59IndianaComponent},
-      { path: 'wishtv-8-indiana', component: Wishtv8IndianaComponent},
 
       { path: 'tennessee-tv-stations', component: TennesseeComponent},
       { path: 'fox10-tennessee', component: Fox10TennesseeComponent},
+            
+      { path: 'utah-tv-stations', component: UtahComponent },
+      { path: 'fox13-saltlakecity', component: Fox13saltlakeComponent},
 
       { path: 'international/france-tv-stations', component: FranceComponent },
       { path: 'international/france-tv-stations/france24live', component: France24liveComponent},
       { path: 'international/rt-news', component: RtNewsComponent},
+      { path: 'international/jamaica-tv/mellow-tv', component: MellowTvComponent},
 
+      { path: 'cable-channels/outdoor-cooking', component: OutdoorCookingComponent},
       
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
