@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
 stationName = 'World Television';
 showtitle = "";
-desc = "Hawaii";
-footer = " For More... LIKE, FOLLOW & SHARE @SoCalTelevision on Facebook, Instagram & Twitter and watch www.WorldTelevision.tv";
+desc = "Decorah Eagles";
+footer = "Decorah, Iowa, USA... For More LIKE, FOLLOW & SHARE @WorldTelevision.tv on Facebook and watch www.WorldTelevision.tv";
 
 }
