@@ -115,6 +115,7 @@ import { TheCoinVaultComponent } from './cable-channels/the-coin-vault/the-coin-
 import { DittyTvComponent } from './cable-channels/ditty-tv/ditty-tv.component';
 import { IndieMusicTvComponent } from './cable-channels/indie-music-tv/indie-music-tv.component';
 import { RightNowTvComponent } from './cable-channels/right-now-tv/right-now-tv.component';
+import { KhslTvComponent } from './stations-main/california/khsl-tv/khsl-tv.component';
 
 @NgModule({
   declarations: [
@@ -226,7 +227,8 @@ import { RightNowTvComponent } from './cable-channels/right-now-tv/right-now-tv.
     TheCoinVaultComponent,
     DittyTvComponent,
     IndieMusicTvComponent,
-    RightNowTvComponent
+    RightNowTvComponent,
+    KhslTvComponent
 
   ],
   imports: [
@@ -288,6 +290,7 @@ import { RightNowTvComponent } from './cable-channels/right-now-tv/right-now-tv.
       { path: 'abc23-bakersfield', component: BakersfieldNews23abcComponent},
       { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
       { path: 'bakersfield-now', component: BakersfieldNowComponent },
+      { path: 'khsl-tv', component: KhslTvComponent },
 
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
