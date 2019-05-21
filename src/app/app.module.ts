@@ -105,6 +105,7 @@ import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.co
 import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
 import { NewsmaxTvComponent } from './cable-channels/newsmax-tv/newsmax-tv.component';
 import { TwitTvComponent } from './cable-channels/twit-tv/twit-tv.component';
+import { CgtnAmericaComponent } from './cable-channels/cgtn-america/cgtn-america.component';
 
 @NgModule({
   declarations: [
@@ -206,7 +207,8 @@ import { TwitTvComponent } from './cable-channels/twit-tv/twit-tv.component';
     RightnowTvComponent,
     AbcNewsComponent,
     NewsmaxTvComponent,
-    TwitTvComponent
+    TwitTvComponent,
+    CgtnAmericaComponent
 
   ],
   imports: [
@@ -325,6 +327,7 @@ import { TwitTvComponent } from './cable-channels/twit-tv/twit-tv.component';
       { path: 'cable-channels/abc-news', component: AbcNewsComponent },
       { path: 'cable-channels/newsmax-tv', component: NewsmaxTvComponent },
       { path: 'cable-channels/twit-tv', component: TwitTvComponent },
+      { path: 'cable-channels/cgtn-america', component: CgtnAmericaComponent },
 
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
