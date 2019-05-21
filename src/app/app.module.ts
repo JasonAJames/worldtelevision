@@ -110,6 +110,7 @@ import { HsnComponent } from './cable-channels/hsn/hsn.component';
 import { Hsn2Component } from './cable-channels/hsn-2/hsn-2.component';
 import { JewelryTvComponent } from './cable-channels/jewelry-tv/jewelry-tv.component';
 import { ShopLcComponent } from './cable-channels/shop-lc/shop-lc.component';
+import { AmericasValueChannelComponent } from './cable-channels/americas-value-channel/americas-value-channel.component';
 
 @NgModule({
   declarations: [
@@ -216,7 +217,8 @@ import { ShopLcComponent } from './cable-channels/shop-lc/shop-lc.component';
     HsnComponent,
     Hsn2Component,
     JewelryTvComponent,
-    ShopLcComponent
+    ShopLcComponent,
+    AmericasValueChannelComponent
 
   ],
   imports: [
@@ -333,6 +335,7 @@ import { ShopLcComponent } from './cable-channels/shop-lc/shop-lc.component';
       { path: 'cable-channels/et-live', component: EtLiveComponent },
       { path: 'cable-channels/rightnow-tv', component: RightnowTvComponent },
       { path: 'cable-channels/abc-news', component: AbcNewsComponent },
+      { path: 'cable-channels/americas-value-channel', component: AmericasValueChannelComponent },
       { path: 'cable-channels/newsmax-tv', component: NewsmaxTvComponent },
       { path: 'cable-channels/twit-tv', component: TwitTvComponent },
       { path: 'cable-channels/cgtn-america', component: CgtnAmericaComponent },
