@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-khsl-tv',
   templateUrl: './khsl-tv.component.html',
-  styleUrls: ['./khsl-tv.component.css']
+  styleUrls: ['./khsl-tv.component.css', '../../../app.component.css']
 })
 export class KhslTvComponent implements OnInit {
 
