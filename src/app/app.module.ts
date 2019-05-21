@@ -117,6 +117,7 @@ import { IndieMusicTvComponent } from './cable-channels/indie-music-tv/indie-mus
 import { RightNowTvComponent } from './cable-channels/right-now-tv/right-now-tv.component';
 import { KhslTvComponent } from './stations-main/california/khsl-tv/khsl-tv.component';
 import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-tv.component';
+import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.component';
 
 @NgModule({
   declarations: [
@@ -230,7 +231,8 @@ import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-t
     IndieMusicTvComponent,
     RightNowTvComponent,
     KhslTvComponent,
-    DelmarTvComponent
+    DelmarTvComponent,
+    KfonTvComponent
 
   ],
   imports: [
@@ -294,6 +296,7 @@ import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-t
       { path: 'bakersfield-now', component: BakersfieldNowComponent },
       { path: 'khsl-tv', component: KhslTvComponent },
       { path: 'delmar-tv', component: DelmarTvComponent },
+      { path: 'kfon-tv', component: KfonTvComponent },
 
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
