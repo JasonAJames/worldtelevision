@@ -102,6 +102,7 @@ import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.c
 import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoor-cooking.component';
 import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
 import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.component';
+import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
 
 @NgModule({
   declarations: [
@@ -200,7 +201,8 @@ import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.co
     MellowTvComponent,
     OutdoorCookingComponent,
     EtLiveComponent,
-    RightnowTvComponent
+    RightnowTvComponent,
+    AbcNewsComponent
 
   ],
   imports: [
@@ -316,6 +318,7 @@ import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.co
       { path: 'cable-channels/outdoor-cooking', component: OutdoorCookingComponent},
       { path: 'cable-channels/et-live', component: EtLiveComponent },
       { path: 'cable-channels/rightnow-tv', component: RightnowTvComponent },
+      { path: 'cable-channels/abc-news', component: AbcNewsComponent },
       
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
