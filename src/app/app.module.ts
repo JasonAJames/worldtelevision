@@ -101,7 +101,6 @@ import { BakersfieldNowComponent } from './stations-main/california/bakersfield-
 import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.component';
 import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoor-cooking.component';
 import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
-import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.component';
 import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
 import { NewsmaxTvComponent } from './cable-channels/newsmax-tv/newsmax-tv.component';
 import { TwitTvComponent } from './cable-channels/twit-tv/twit-tv.component';
@@ -216,7 +215,6 @@ import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.comp
     MellowTvComponent,
     OutdoorCookingComponent,
     EtLiveComponent,
-    RightnowTvComponent,
     AbcNewsComponent,
     NewsmaxTvComponent,
     TwitTvComponent,
@@ -350,7 +348,6 @@ import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.comp
 
       { path: 'cable-channels/outdoor-cooking', component: OutdoorCookingComponent},
       { path: 'cable-channels/et-live', component: EtLiveComponent },
-      { path: 'cable-channels/rightnow-tv', component: RightnowTvComponent },
       { path: 'cable-channels/abc-news', component: AbcNewsComponent },
       { path: 'cable-channels/americas-value-channel', component: AmericasValueChannelComponent },
       { path: 'cable-channels/newsmax-tv', component: NewsmaxTvComponent },
