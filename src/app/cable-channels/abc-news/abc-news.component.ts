@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-abc-news',
   templateUrl: './abc-news.component.html',
-  styleUrls: ['./abc-news.component.css']
+  styleUrls: ['./abc-news.component.css','../../app.component.css']
 })
 export class AbcNewsComponent implements OnInit {
 
@@ -12,5 +12,5 @@ export class AbcNewsComponent implements OnInit {
   ngOnInit() {
   }
   stationName = "ABC News"
-  
+
 }
