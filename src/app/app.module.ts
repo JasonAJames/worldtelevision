@@ -109,6 +109,7 @@ import { CgtnAmericaComponent } from './cable-channels/cgtn-america/cgtn-america
 import { HsnComponent } from './cable-channels/hsn/hsn.component';
 import { Hsn2Component } from './cable-channels/hsn-2/hsn-2.component';
 import { JewelryTvComponent } from './cable-channels/jewelry-tv/jewelry-tv.component';
+import { ShopLcComponent } from './cable-channels/shop-lc/shop-lc.component';
 
 @NgModule({
   declarations: [
@@ -214,7 +215,8 @@ import { JewelryTvComponent } from './cable-channels/jewelry-tv/jewelry-tv.compo
     CgtnAmericaComponent,
     HsnComponent,
     Hsn2Component,
-    JewelryTvComponent
+    JewelryTvComponent,
+    ShopLcComponent
 
   ],
   imports: [
@@ -337,6 +339,7 @@ import { JewelryTvComponent } from './cable-channels/jewelry-tv/jewelry-tv.compo
       { path: 'cable-channels/hsn', component: HsnComponent },
       { path: 'cable-channels/hsn-2', component: Hsn2Component },
       { path: 'cable-channels/jtv', component: JewelryTvComponent },
+      { path: 'cable-channels/shop-lc', component: ShopLcComponent },
 
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
