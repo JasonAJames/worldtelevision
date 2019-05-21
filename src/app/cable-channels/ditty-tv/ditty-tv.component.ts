@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ditty-tv',
   templateUrl: './ditty-tv.component.html',
-  styleUrls: ['./ditty-tv.component.css']
+  styleUrls: ['./ditty-tv.component.css','../../app.component.css']
 })
 export class DittyTvComponent implements OnInit {
 
