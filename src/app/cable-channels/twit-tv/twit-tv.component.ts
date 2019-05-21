@@ -11,5 +11,6 @@ export class TwitTvComponent implements OnInit {
 
   ngOnInit() {
   }
-  stationName = "Twit TV"
+  stationName = "TWiT TV"
+  description = "TWiT.tv (TWiT Netcast Network) is an online television station that broadcasts technology news, commentary, reviews, and perspective on the latest trends in digital tech. The headquarters is located in Petaluma, California."
 }
