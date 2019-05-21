@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-hsn',
   templateUrl: './hsn.component.html',
-  styleUrls: ['./hsn.component.css']
+  styleUrls: ['./hsn.component.css','../../app.component.css']
 })
 export class HsnComponent implements OnInit {
 

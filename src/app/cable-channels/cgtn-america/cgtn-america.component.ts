@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cgtn-america',
   templateUrl: './cgtn-america.component.html',
-  styleUrls: ['./cgtn-america.component.css']
+  styleUrls: ['./cgtn-america.component.css','../../app.component.css']
 })
 export class CgtnAmericaComponent implements OnInit {
 
