@@ -103,6 +103,7 @@ import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoo
 import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
 import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.component';
 import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
+import { NewsmaxTvComponent } from './cable-channels/newsmax-tv/newsmax-tv.component';
 
 @NgModule({
   declarations: [
@@ -202,7 +203,8 @@ import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
     OutdoorCookingComponent,
     EtLiveComponent,
     RightnowTvComponent,
-    AbcNewsComponent
+    AbcNewsComponent,
+    NewsmaxTvComponent
 
   ],
   imports: [
@@ -319,6 +321,7 @@ import { AbcNewsComponent } from './cable-channels/abc-news/abc-news.component';
       { path: 'cable-channels/et-live', component: EtLiveComponent },
       { path: 'cable-channels/rightnow-tv', component: RightnowTvComponent },
       { path: 'cable-channels/abc-news', component: AbcNewsComponent },
+      { path: 'cable-channels/newsmax-tv', component: NewsmaxTvComponent },
       
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
