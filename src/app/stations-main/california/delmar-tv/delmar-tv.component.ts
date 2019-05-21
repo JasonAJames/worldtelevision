@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-delmar-tv',
   templateUrl: './delmar-tv.component.html',
-  styleUrls: ['./delmar-tv.component.css']
+  styleUrls: ['./delmar-tv.component.css','../../../app.component.css']
 })
 export class DelmarTvComponent implements OnInit {
 
