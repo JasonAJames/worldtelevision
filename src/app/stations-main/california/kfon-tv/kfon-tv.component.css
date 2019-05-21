@@ -1,0 +1,4 @@
+div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
+    width: 60%;
+    height: 65%;
+}
