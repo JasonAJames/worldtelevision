@@ -101,6 +101,7 @@ import { BakersfieldNowComponent } from './stations-main/california/bakersfield-
 import { MellowTvComponent } from './international/jamaica/mellow-tv/mellow-tv.component';
 import { OutdoorCookingComponent } from './cable-channels/outdoor-cooking/outdoor-cooking.component';
 import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
+import { RightnowTvComponent } from './cable-channels/rightnow-tv/rightnow-tv.component';
 
 @NgModule({
   declarations: [
@@ -198,7 +199,8 @@ import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
     BakersfieldNowComponent,
     MellowTvComponent,
     OutdoorCookingComponent,
-    EtLiveComponent
+    EtLiveComponent,
+    RightnowTvComponent
 
   ],
   imports: [
@@ -313,6 +315,7 @@ import { EtLiveComponent } from './cable-channels/et-live/et-live.component';
 
       { path: 'cable-channels/outdoor-cooking', component: OutdoorCookingComponent},
       { path: 'cable-channels/et-live', component: EtLiveComponent },
+      { path: 'cable-channels/rightnow-tv', component: RightnowTvComponent },
       
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
