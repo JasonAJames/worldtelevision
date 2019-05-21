@@ -107,6 +107,8 @@ import { NewsmaxTvComponent } from './cable-channels/newsmax-tv/newsmax-tv.compo
 import { TwitTvComponent } from './cable-channels/twit-tv/twit-tv.component';
 import { CgtnAmericaComponent } from './cable-channels/cgtn-america/cgtn-america.component';
 import { HsnComponent } from './cable-channels/hsn/hsn.component';
+import { Hsn2Component } from './cable-channels/hsn-2/hsn-2.component';
+import { JewelryTvComponent } from './cable-channels/jewelry-tv/jewelry-tv.component';
 
 @NgModule({
   declarations: [
@@ -210,7 +212,9 @@ import { HsnComponent } from './cable-channels/hsn/hsn.component';
     NewsmaxTvComponent,
     TwitTvComponent,
     CgtnAmericaComponent,
-    HsnComponent
+    HsnComponent,
+    Hsn2Component,
+    JewelryTvComponent
 
   ],
   imports: [
@@ -331,6 +335,8 @@ import { HsnComponent } from './cable-channels/hsn/hsn.component';
       { path: 'cable-channels/twit-tv', component: TwitTvComponent },
       { path: 'cable-channels/cgtn-america', component: CgtnAmericaComponent },
       { path: 'cable-channels/hsn', component: HsnComponent },
+      { path: 'cable-channels/hsn-2', component: Hsn2Component },
+      { path: 'cable-channels/jtv', component: JewelryTvComponent },
 
       { path: 'copyright-abuse-policy', component: CopyrightAbusePolicyComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full'},
