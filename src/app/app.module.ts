@@ -118,6 +118,7 @@ import { KhslTvComponent } from './stations-main/california/khsl-tv/khsl-tv.comp
 import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-tv.component';
 import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.component';
 import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
+import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fox26-fresno.component';
 
 @NgModule({
   declarations: [
@@ -232,7 +233,8 @@ import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
     KhslTvComponent,
     DelmarTvComponent,
     KfonTvComponent,
-    KymaComponent
+    KymaComponent,
+    Fox26FresnoComponent
 
   ],
   imports: [
@@ -298,6 +300,7 @@ import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
       { path: 'khsl-tv', component: KhslTvComponent },
       { path: 'delmar-tv', component: DelmarTvComponent },
       { path: 'kfon-tv', component: KfonTvComponent },
+      { path: 'fox26-fresno', component: Fox26FresnoComponent },
 
       { path: 'colorado-tv-stations', component: ColoradoComponent },
       { path: 'colorado-9news', component: Colorado9newsComponent },
