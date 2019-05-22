@@ -1,3 +1,6 @@
 .embed-responsive-16by9::before {
     padding-top: 1.25%;
 }
+.embed-responsive-16by9::before iframe {
+    height: 800px;
+}
