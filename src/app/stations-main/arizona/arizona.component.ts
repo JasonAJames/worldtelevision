@@ -14,4 +14,6 @@ export class ArizonaComponent implements OnInit {
   state = "Arizona"
   stationName1 = "FOX10 - Phoenix"
   stationLink1 = "fox10-phoenix"
+  stationName2 = "KYMA - NBC 11"
+  stationLink2 = "kyma-nbc11"
 }

@@ -117,6 +117,7 @@ import { RightNowTvComponent } from './cable-channels/right-now-tv/right-now-tv.
 import { KhslTvComponent } from './stations-main/california/khsl-tv/khsl-tv.component';
 import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-tv.component';
 import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.component';
+import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
 
 @NgModule({
   declarations: [
@@ -230,7 +231,8 @@ import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.comp
     RightNowTvComponent,
     KhslTvComponent,
     DelmarTvComponent,
-    KfonTvComponent
+    KfonTvComponent,
+    KymaComponent
 
   ],
   imports: [
@@ -275,6 +277,7 @@ import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.comp
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
+      { path: 'kyma-nbc11', component: KymaComponent },
       { path: 'oklahoma-tv-stations', component: OklahomaComponent },
       { path: 'texas-tv-stations', component: TexasComponent },
       { path: 'khou-11', component: Khou11TexasComponent},
