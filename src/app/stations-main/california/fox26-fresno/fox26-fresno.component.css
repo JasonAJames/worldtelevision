@@ -1,3 +1,7 @@
+iframe {
+    width: 60%;
+    height: 65%;
+}
 .embed-responsive-16by9::before {
     padding-top: 0%;
 }
