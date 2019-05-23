@@ -56,7 +56,7 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 
 @media screen and (max-width: 800px) {
     .top {
-        padding-top: 15%;
+        padding-top: 35%;
     }
     app-adrotator-leaderbanner {
         display: none;
@@ -86,7 +86,7 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
 
 @media screen and (max-width: 400px) {
     .top {
-        padding-top: 15%;
+        padding-top: 35%;
     }
     app-adrotator-leaderbanner {
         display: none;
