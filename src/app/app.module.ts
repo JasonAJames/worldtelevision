@@ -119,6 +119,106 @@ import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-t
 import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.component';
 import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
 import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fox26-fresno.component';
+import { Fox10LiveComponent } from './components/videofeeds/alabama/fox10-live/fox10-live.component';
+import { Waff48Component } from './components/videofeeds/alabama/waff-48/waff-48.component';
+import { Waka8Component } from './components/videofeeds/alabama/waka-8/waka-8.component';
+import { Fox6WbrcComponent } from './components/videofeeds/alabama/fox-6-wbrc/fox-6-wbrc.component';
+import { Whnt19Component } from './components/videofeeds/alabama/whnt-19/whnt-19.component';
+import { Wsfa12Component } from './components/videofeeds/alabama/wsfa-12/wsfa-12.component';
+import { Fox51WogxComponent } from './components/videofeeds/florida/fox-51-wogx/fox-51-wogx.component';
+import { Fox35WoflComponent } from './components/videofeeds/florida/fox-35-wofl/fox-35-wofl.component';
+import { Fox29WflxComponent } from './components/videofeeds/florida/fox-29-wflx/fox-29-wflx.component';
+import { Kimt3Component } from './components/videofeeds/iowa/kimt-3/kimt-3.component';
+import { WhoHd13Component } from './components/videofeeds/iowa/who-hd-13/who-hd-13.component';
+import { Wave3NewsComponent } from './components/videofeeds/kentucky/wave-3-news/wave-3-news.component';
+import { Kplc7Component } from './components/videofeeds/louisiana/kplc-7/kplc-7.component';
+import { Ksla12Component } from './components/videofeeds/louisiana/ksla-12/ksla-12.component';
+import { Wafb9Component } from './components/videofeeds/louisiana/wafb-9/wafb-9.component';
+import { WgnoAbcComponent } from './components/videofeeds/louisiana/wgno-abc/wgno-abc.component';
+import { WvueFox8Component } from './components/videofeeds/louisiana/wvue-fox8/wvue-fox8.component';
+import { Wdam7Component } from './components/videofeeds/mississippi/wdam-7/wdam-7.component';
+import { Wlbt3Component } from './components/videofeeds/mississippi/wlbt-3/wlbt-3.component';
+import { Wlox13AbcComponent } from './components/videofeeds/mississippi/wlox-13-abc/wlox-13-abc.component';
+import { WworComponent } from './components/videofeeds/new-jersey/wwor/wwor.component';
+import { Wpix11Component } from './components/videofeeds/new-york/wpix-11/wpix-11.component';
+import { Fox26KrivComponent } from './components/videofeeds/texas/fox-26-kriv/fox-26-kriv.component';
+import { Fox4KdfwComponent } from './components/videofeeds/texas/fox-4-kdfw/fox-4-kdfw.component';
+import { KcbdComponent } from './components/videofeeds/texas/kcbd/kcbd.component';
+import { Kltv7Component } from './components/videofeeds/texas/kltv-7/kltv-7.component';
+import { Ktre9Component } from './components/videofeeds/texas/ktre-9/ktre-9.component';
+import { Fox6NewsComponent } from './components/videofeeds/wisconsin/fox-6-news/fox-6-news.component';
+import { Fox10PheonixComponent } from './components/videofeeds/arizona/fox10-pheonix/fox10-pheonix.component';
+import { Kait8Component } from './components/videofeeds/arizona/kait-8/kait-8.component';
+import { KphoCbs5Component } from './components/videofeeds/arizona/kpho-cbs5/kpho-cbs5.component';
+import { Ktvk3Component } from './components/videofeeds/arizona/ktvk-3/ktvk-3.component';
+import { Kwgn2Component } from './components/videofeeds/colorado/kwgn-2/kwgn-2.component';
+import { Fox3DenverComponent } from './components/videofeeds/colorado/fox3-denver/fox3-denver.component';
+import { Wfsb3Component } from './components/videofeeds/connecticut/wfsb-3/wfsb-3.component';
+import { Fox5AtlantaComponent } from './components/videofeeds/georgia/fox5-atlanta/fox5-atlanta.component';
+import { WalbComponent } from './components/videofeeds/georgia/walb/walb.component';
+import { Fox54WfxgComponent } from './components/videofeeds/georgia/fox54-wfxg/fox54-wfxg.component';
+import { Cbs46WgclComponent } from './components/videofeeds/georgia/cbs46-wgcl/cbs46-wgcl.component';
+import { WtocComponent } from './components/videofeeds/georgia/wtoc/wtoc.component';
+import { WtvmComponent } from './components/videofeeds/georgia/wtvm/wtvm.component';
+import { Cbs3SpringfieldComponent } from './components/videofeeds/massachusetts/cbs3-springfield/cbs3-springfield.component';
+import { Fox9KmspComponent } from './components/videofeeds/minnesota/fox9-kmsp/fox9-kmsp.component';
+import { KdioAbcComponent } from './components/videofeeds/minnesota/kdio-abc/kdio-abc.component';
+import { Fox8ClevelandComponent } from './components/videofeeds/ohio/fox8-cleveland/fox8-cleveland.component';
+import { RmgTvComponent } from './components/videofeeds/ohio/rmg-tv/rmg-tv.component';
+import { Woio19Component } from './components/videofeeds/ohio/woio-19/woio-19.component';
+import { Wtol11Component } from './components/videofeeds/ohio/wtol-11/wtol-11.component';
+import { Fox19WxixComponent } from './components/videofeeds/ohio/fox19-wxix/fox19-wxix.component';
+import { Wcsc5Component } from './components/videofeeds/south-carolina/wcsc-5/wcsc-5.component';
+import { Wis10Component } from './components/videofeeds/south-carolina/wis-10/wis-10.component';
+import { WmbfComponent } from './components/videofeeds/south-carolina/wmbf/wmbf.component';
+import { Fox13Component } from './components/videofeeds/utah/fox-13/fox-13.component';
+import { Cbs6WtvrComponent } from './components/videofeeds/virginia/cbs6-wtvr/cbs6-wtvr.component';
+import { Wwbt12Component } from './components/videofeeds/virginia/wwbt-12/wwbt-12.component';
+import { Kfsm5Component } from './components/videofeeds/arkansas/kfsm-5/kfsm-5.component';
+import { Fox11LaComponent } from './components/videofeeds/california/fox11-la/fox11-la.component';
+import { Fox5KswbComponent } from './components/videofeeds/california/fox5-kswb/fox5-kswb.component';
+import { Fox40KtxlComponent } from './components/videofeeds/california/fox40-ktxl/fox40-ktxl.component';
+import { Fox5DcComponent } from './components/videofeeds/washington-dc/fox5-dc/fox5-dc.component';
+import { Fox32Component } from './components/videofeeds/illinois/fox32/fox32.component';
+import { Wqad8Component } from './components/videofeeds/illinois/wqad-8/wqad-8.component';
+import { Wfie14Component } from './components/videofeeds/indiana/wfie-14/wfie-14.component';
+import { Wlfi18Component } from './components/videofeeds/indiana/wlfi-18/wlfi-18.component';
+import { Wthi10Component } from './components/videofeeds/indiana/wthi-10/wthi-10.component';
+import { Wttv4Component } from './components/videofeeds/indiana/wttv-4/wttv-4.component';
+import { Fox59WxinComponent } from './components/videofeeds/indiana/fox59-wxin/fox59-wxin.component';
+import { Fox2WjbkComponent } from './components/videofeeds/michigan/fox2-wjbk/fox2-wjbk.component';
+import { Wnem5Component } from './components/videofeeds/michigan/wnem-5/wnem-5.component';
+import { Woodtv8Component } from './components/videofeeds/michigan/woodtv-8/woodtv-8.component';
+import { Fox17WxmiComponent } from './components/videofeeds/michigan/fox17-wxmi/fox17-wxmi.component';
+import { Kctv5Component } from './components/videofeeds/missouri/kctv-5/kctv-5.component';
+import { Kfvs12Component } from './components/videofeeds/missouri/kfvs-12/kfvs-12.component';
+import { Kmov4Component } from './components/videofeeds/missouri/kmov-4/kmov-4.component';
+import { Fox2KtviComponent } from './components/videofeeds/missouri/fox2-ktvi/fox2-ktvi.component';
+import { Fox4WdafComponent } from './components/videofeeds/missouri/fox4-wdaf/fox4-wdaf.component';
+import { Wbtv3Component } from './components/videofeeds/north-carolina/wbtv-3/wbtv-3.component';
+import { WccbComponent } from './components/videofeeds/north-carolina/wccb/wccb.component';
+import { Wect6Component } from './components/videofeeds/north-carolina/wect-6/wect-6.component';
+import { Fox8WghpComponent } from './components/videofeeds/north-carolina/fox8-wghp/fox8-wghp.component';
+import { Wnep16Component } from './components/videofeeds/pennsylvania/wnep-16/wnep-16.component';
+import { Fox43WpmtComponent } from './components/videofeeds/pennsylvania/fox43-wpmt/fox43-wpmt.component';
+import { Newschannel5Component } from './components/videofeeds/tennessee/newschannel-5/newschannel-5.component';
+import { Wmc5Component } from './components/videofeeds/tennessee/wmc-5/wmc-5.component';
+import { Wreg3Component } from './components/videofeeds/tennessee/wreg-3/wreg-3.component';
+import { Kcpq13Component } from './components/videofeeds/washington/kcpq-13/kcpq-13.component';
+import { CaliforniaNowComponent } from './components/videofeeds/california/california-now/california-now.component';
+import { VideoNbc11NewsComponent } from './components/videofeeds/colorado/video-nbc11-news/video-nbc11-news.component';
+import { VideoWsbtv2Component } from './components/videofeeds/florida/video-wsbtv-2/video-wsbtv-2.component';
+import { VideoWinkNewsComponent } from './components/videofeeds/florida/wink-news/wink-news.component';
+import { WinkNewsComponent } from './stations-main/florida/wink-news/wink-news.component';
+import { VideoWsb2AtlantaComponent } from './components/videofeeds/georgia/video-wsb2-atlanta/video-wsb2-atlanta.component';
+import { VideoHawaiinewsnowComponent } from './components/videofeeds/hawaii/video-hawaiinewsnow/video-hawaiinewsnow.component';
+import { VideoKhon2Component } from './components/videofeeds/hawaii/video-khon2/video-khon2.component';
+import { VideoKitv4Component } from './components/videofeeds/hawaii/video-kitv4/video-kitv4.component';
+import { Wishtv8Component } from './components/videofeeds/indiana/wishtv-8/wishtv-8.component';
+import { Wthr13Component } from './components/videofeeds/indiana/wthr-13/wthr-13.component';
+import { VideoWabi5Component } from './components/videofeeds/maine/video-wabi5/video-wabi5.component';
+import { VideoBoston25Component } from './components/videofeeds/massachusetts/video-boston-25/video-boston-25.component';
+
 
 @NgModule({
   declarations: [
@@ -234,7 +334,106 @@ import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fo
     DelmarTvComponent,
     KfonTvComponent,
     KymaComponent,
-    Fox26FresnoComponent
+    Fox26FresnoComponent,
+    Fox10LiveComponent,
+    Waff48Component,
+    Waka8Component,
+    Fox6WbrcComponent,
+    Whnt19Component,
+    Wsfa12Component,
+    Fox51WogxComponent,
+    Fox35WoflComponent,
+    Fox29WflxComponent,
+    WinkNewsComponent,
+    Kimt3Component,
+    WhoHd13Component,
+    Wave3NewsComponent,
+    Kplc7Component,
+    Ksla12Component,
+    Wafb9Component,
+    WgnoAbcComponent,
+    WvueFox8Component,
+    Wdam7Component,
+    Wlbt3Component,
+    Wlox13AbcComponent,
+    WworComponent,
+    Wpix11Component,
+    Fox26KrivComponent,
+    Fox4KdfwComponent,
+    KcbdComponent,
+    Kltv7Component,
+    Ktre9Component,
+    Fox6NewsComponent,
+    Fox10PheonixComponent,
+    Kait8Component,
+    KphoCbs5Component,
+    Ktvk3Component,
+    Kwgn2Component,
+    Fox3DenverComponent,
+    Wfsb3Component,
+    Fox5AtlantaComponent,
+    WalbComponent,
+    Fox54WfxgComponent,
+    Cbs46WgclComponent,
+    WtocComponent,
+    WtvmComponent,
+    Cbs3SpringfieldComponent,
+    Fox9KmspComponent,
+    KdioAbcComponent,
+    Fox8ClevelandComponent,
+    RmgTvComponent,
+    Woio19Component,
+    Wtol11Component,
+    Fox19WxixComponent,
+    Wcsc5Component,
+    Wis10Component,
+    WmbfComponent,
+    Fox13Component,
+    Cbs6WtvrComponent,
+    Wwbt12Component,
+    Kfsm5Component,
+    Fox11LaComponent,
+    Fox5KswbComponent,
+    Fox40KtxlComponent,
+    Fox5DcComponent,
+    Fox32Component,
+    Wqad8Component,
+    Wfie14Component,
+    Wlfi18Component,
+    Wthi10Component,
+    Wttv4Component,
+    Fox59WxinComponent,
+    Fox2WjbkComponent,
+    Wnem5Component,
+    Woodtv8Component,
+    Fox17WxmiComponent,
+    Kctv5Component,
+    Kfvs12Component,
+    Kmov4Component,
+    Fox2KtviComponent,
+    Fox4WdafComponent,
+    Wbtv3Component,
+    WccbComponent,
+    Wect6Component,
+    Fox8WghpComponent,
+    Wnep16Component,
+    Fox43WpmtComponent,
+    Newschannel5Component,
+    Wmc5Component,
+    Wreg3Component,
+    Kcpq13Component,
+    CaliforniaNowComponent,
+    VideoNbc11NewsComponent,
+    VideoWsbtv2Component,
+    VideoWinkNewsComponent,
+    VideoWsb2AtlantaComponent,
+    VideoHawaiinewsnowComponent,
+    VideoKhon2Component,
+    VideoKitv4Component,
+    Wishtv8Component,
+    Wthr13Component,
+    VideoWabi5Component,
+    VideoBoston25Component
 
   ],
   imports: [
