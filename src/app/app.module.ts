@@ -25,7 +25,6 @@ import { Khon2hawaiiComponent } from './stations-main/hawaii/khon2hawaii/khon2ha
 import { Kron4Component } from './stations-main/california/kron4/kron4.component';
 import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 import { BakersfieldNews23abcComponent } from './stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component';
-import { Abc30BakersfieldComponent } from './stations-main/california/abc30-bakersfield/abc30-bakersfield.component';
 import { Boston25NewsComponent } from './stations-main/massachusetts/boston-25-news/boston-25-news.component';
 import { MassachusettsComponent } from './stations-main/massachusetts/massachusetts.component';
 import { Fox10phoenixComponent } from './stations-main/arizona/fox10phoenix/fox10phoenix.component';
@@ -240,7 +239,6 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
     Kron4Component,
     LiveHighSpeedPursuitFeedComponent,
     BakersfieldNews23abcComponent,
-    Abc30BakersfieldComponent,
     Boston25NewsComponent,
     MassachusettsComponent,
     Fox10phoenixComponent,
@@ -494,7 +492,6 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
       { path: 'fox5sandiego', component: Fox5sandiegoComponent},
       { path: 'kron4', component: Kron4Component},
       { path: 'abc23-bakersfield', component: BakersfieldNews23abcComponent},
-      { path: 'abc30-bakersfield', component: Abc30BakersfieldComponent},
       { path: 'bakersfield-now', component: BakersfieldNowComponent },
       { path: 'khsl-tv', component: KhslTvComponent },
       { path: 'delmar-tv', component: DelmarTvComponent },
@@ -508,6 +505,7 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
       { path: 'florida-tv-stations', component: FloridaComponent },
       { path: 'wsb-tv2', component: WsbTv2Component },
       { path: 'fox13-tampa', component: Fox13TampaComponent },
+      { path: 'wink-news', component: WinkNewsComponent },
 
       { path: 'georgia-tv-stations', component: GeorgiaComponent },
       { path: 'wsb-tv-2', component: Wsb2AtlantaComponent },
