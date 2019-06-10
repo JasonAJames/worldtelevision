@@ -20,7 +20,6 @@ import { Khon2hawaiiComponent } from './stations-main/hawaii/khon2hawaii/khon2ha
 import { Kron4Component } from './stations-main/california/kron4/kron4.component';
 import { LiveHighSpeedPursuitFeedComponent } from './stations-main/live-high-speed-pursuit-feed/live-high-speed-pursuit-feed.component';
 import { BakersfieldNews23abcComponent } from './stations-main/california/bakersfield-news-23abc/bakersfield-news-23abc.component';
-import { Abc30BakersfieldComponent } from './components/videofeeds/california/abc30-bakersfield/abc30-bakersfield.component';
 import { Boston25NewsComponent } from './stations-main/massachusetts/boston-25-news/boston-25-news.component';
 import { MassachusettsComponent } from './stations-main/massachusetts/massachusetts.component';
 import { Fox10phoenixComponent } from './stations-main/arizona/fox10phoenix/fox10phoenix.component';
