@@ -207,7 +207,6 @@ import { Kcpq13Component } from './components/videofeeds/washington/kcpq-13/kcpq
 import { CaliforniaNowComponent } from './components/videofeeds/california/california-now/california-now.component';
 import { VideoNbc11NewsComponent } from './components/videofeeds/colorado/video-nbc11-news/video-nbc11-news.component';
 import { VideoWsbtv2Component } from './components/videofeeds/florida/video-wsbtv-2/video-wsbtv-2.component';
-import { VideoWinkNewsComponent } from './components/videofeeds/florida/wink-news/wink-news.component';
 import { WinkNewsComponent } from './stations-main/florida/wink-news/wink-news.component';
 import { VideoWsb2AtlantaComponent } from './components/videofeeds/georgia/video-wsb2-atlanta/video-wsb2-atlanta.component';
 import { VideoHawaiinewsnowComponent } from './components/videofeeds/hawaii/video-hawaiinewsnow/video-hawaiinewsnow.component';
@@ -423,7 +422,6 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
     CaliforniaNowComponent,
     VideoNbc11NewsComponent,
     VideoWsbtv2Component,
-    VideoWinkNewsComponent,
     VideoWsb2AtlantaComponent,
     VideoHawaiinewsnowComponent,
     VideoKhon2Component,
