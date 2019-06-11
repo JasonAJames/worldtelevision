@@ -12,6 +12,11 @@ div .embed-responsive.embed-responsive-16by9, .embed-responsive iframe {
     height: 58%;
 }
 
+iframe {
+    width: 60%;
+    height: 58%;
+}
+
 @media screen and (min-width: 400px) {
     .top {
         padding-top: 10%;
