@@ -1,0 +1,22 @@
+.top {
+    padding-top: 8%;
+}
+span.embed-responsive.embed-responsive-16by9 {
+    width: 60%;
+    height: 58%;
+}
+    
+    @media screen and (max-width: 800px) {
+        span.embed-responsive.embed-responsive-16by9 {
+            width: 100%;
+            height: 98%;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        span.embed-responsive.embed-responsive-16by9 {
+            width: 100%;
+            height: 98%;
+        }
+
+    }
