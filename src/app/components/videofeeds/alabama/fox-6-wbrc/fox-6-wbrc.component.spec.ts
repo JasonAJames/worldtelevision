@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Fox6WbrcComponent } from './fox-6-wbrc.component';
+import { Fox6VideoWbrcComponent } from './fox-6-wbrc.component';
 
 describe('Fox6WbrcComponent', () => {
-  let component: Fox6WbrcComponent;
-  let fixture: ComponentFixture<Fox6WbrcComponent>;
+  let component: Fox6VideoWbrcComponent;
+  let fixture: ComponentFixture<Fox6VideoWbrcComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Fox6WbrcComponent ]
+      declarations: [ Fox6VideoWbrcComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Fox6WbrcComponent);
+    fixture = TestBed.createComponent(Fox6VideoWbrcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
