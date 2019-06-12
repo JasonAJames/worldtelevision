@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fox-6-wbrc.component.html',
   styleUrls: ['./fox-6-wbrc.component.css']
 })
-export class Fox6WbrcComponent implements OnInit {
+export class Fox6VideoWbrcComponent implements OnInit {
 
   constructor() { }
 
