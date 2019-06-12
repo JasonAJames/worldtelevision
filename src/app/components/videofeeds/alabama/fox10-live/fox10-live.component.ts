@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fox10-live.component.html',
   styleUrls: ['./fox10-live.component.css']
 })
-export class Fox10LiveComponent implements OnInit {
+export class Fox10LiveVideoComponent implements OnInit {
 
   constructor() { }
 

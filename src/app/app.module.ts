@@ -118,7 +118,8 @@ import { DelmarTvComponent } from './stations-main/california/delmar-tv/delmar-t
 import { KfonTvComponent } from './stations-main/california/kfon-tv/kfon-tv.component';
 import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
 import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fox26-fresno.component';
-import { Fox10LiveComponent } from './components/videofeeds/alabama/fox10-live/fox10-live.component';
+import { Fox10LiveComponent } from './stations-main/alabama/fox10-live/fox10-live.component';
+import { Fox10LiveVideoComponent } from './components/videofeeds/alabama/fox10-live/fox10-live.component';
 import { Waff48Component } from './components/videofeeds/alabama/waff-48/waff-48.component';
 import { Waka8Component } from './components/videofeeds/alabama/waka-8/waka-8.component';
 import { Fox6WbrcComponent } from './stations-main/alabama/fox6-wbrc/fox6-wbrc.component';
@@ -336,6 +337,7 @@ import { AlabamaComponent } from './stations-main/alabama/alabama.component';
     KymaComponent,
     Fox26FresnoComponent,
     Fox10LiveComponent,
+    Fox10LiveVideoComponent,
     Waff48Component,
     Waka8Component,
     Fox6WbrcComponent,
