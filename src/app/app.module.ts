@@ -217,6 +217,7 @@ import { Wthr13Component } from './components/videofeeds/indiana/wthr-13/wthr-13
 import { VideoWabi5Component } from './components/videofeeds/maine/video-wabi5/video-wabi5.component';
 import { VideoBoston25Component } from './components/videofeeds/massachusetts/video-boston-25/video-boston-25.component';
 import { VideoWbtw13Component } from './components/videofeeds/north-carolina/video-wbtw13/video-wbtw13.component';
+import { AlabamaComponent } from './stations-main/alabama/alabama.component';
 
 
 @NgModule({
@@ -431,7 +432,8 @@ import { VideoWbtw13Component } from './components/videofeeds/north-carolina/vid
     Wthr13Component,
     VideoWabi5Component,
     VideoBoston25Component,
-    VideoWbtw13Component
+    VideoWbtw13Component,
+    AlabamaComponent
 
   ],
   imports: [
@@ -473,6 +475,14 @@ import { VideoWbtw13Component } from './components/videofeeds/north-carolina/vid
       { path: 'comic-zoo', component: ComicZooComponent },
       { path: 'eye-for-an-eye', component: EyeForAnEyeComponent },
       { path: 'the-placeholders', component: ThePlaceholdersComponent },
+
+      { path: 'alabama-tv-stations', component: AlabamaComponent},
+      { path: 'fox6-wbrc', component: Fox6WbrcComponent},
+      { path: 'fox10-live', component: Fox10LiveComponent},
+      { path: 'waff-48', component: Waff48Component},
+      { path: 'waka-8', component: Waka8Component},
+      { path: 'whnt-19', component: Whnt19Component},
+      { path: 'wsfa-12', component: Wsfa12Component},
 
       { path: 'arizona-tv-stations', component: ArizonaComponent},
       { path: 'fox10-phoenix', component: Fox10phoenixComponent},
