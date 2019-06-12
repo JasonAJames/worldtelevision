@@ -121,7 +121,8 @@ import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fo
 import { Fox10LiveComponent } from './components/videofeeds/alabama/fox10-live/fox10-live.component';
 import { Waff48Component } from './components/videofeeds/alabama/waff-48/waff-48.component';
 import { Waka8Component } from './components/videofeeds/alabama/waka-8/waka-8.component';
-import { Fox6WbrcComponent } from './components/videofeeds/alabama/fox-6-wbrc/fox-6-wbrc.component';
+import { Fox6WbrcComponent } from './stations-main/alabama/fox6-wbrc/fox6-wbrc.component';
+import { Fox6VideoWbrcComponent } from './components/videofeeds/alabama/fox-6-wbrc/fox-6-wbrc.component';
 import { Whnt19Component } from './components/videofeeds/alabama/whnt-19/whnt-19.component';
 import { Wsfa12Component } from './components/videofeeds/alabama/wsfa-12/wsfa-12.component';
 import { Fox51WogxComponent } from './components/videofeeds/florida/fox-51-wogx/fox-51-wogx.component';
@@ -338,6 +339,7 @@ import { AlabamaComponent } from './stations-main/alabama/alabama.component';
     Waff48Component,
     Waka8Component,
     Fox6WbrcComponent,
+    Fox6VideoWbrcComponent,
     Whnt19Component,
     Wsfa12Component,
     Fox51WogxComponent,
