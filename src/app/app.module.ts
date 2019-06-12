@@ -216,6 +216,7 @@ import { Wishtv8Component } from './components/videofeeds/indiana/wishtv-8/wisht
 import { Wthr13Component } from './components/videofeeds/indiana/wthr-13/wthr-13.component';
 import { VideoWabi5Component } from './components/videofeeds/maine/video-wabi5/video-wabi5.component';
 import { VideoBoston25Component } from './components/videofeeds/massachusetts/video-boston-25/video-boston-25.component';
+import { VideoWbtw13Component } from './components/videofeeds/north-carolina/video-wbtw13/video-wbtw13.component';
 
 
 @NgModule({
@@ -429,7 +430,8 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
     Wishtv8Component,
     Wthr13Component,
     VideoWabi5Component,
-    VideoBoston25Component
+    VideoBoston25Component,
+    VideoWbtw13Component
 
   ],
   imports: [
