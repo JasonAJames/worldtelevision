@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './waka-8.component.html',
   styleUrls: ['./waka-8.component.css']
 })
-export class Waka8Component implements OnInit {
+export class Waka8VideoComponent implements OnInit {
 
   constructor() { }
 
