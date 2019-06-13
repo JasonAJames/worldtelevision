@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './whnt-19.component.html',
   styleUrls: ['./whnt-19.component.css']
 })
-export class Whnt19Component implements OnInit {
+export class Whnt19VideoComponent implements OnInit {
 
   constructor() { }
 

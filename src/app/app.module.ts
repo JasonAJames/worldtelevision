@@ -127,7 +127,8 @@ import { Waka8Component } from './stations-main/alabama/waka-8/waka-8.component'
 
 import { Fox6WbrcComponent } from './stations-main/alabama/fox6-wbrc/fox6-wbrc.component';
 import { Fox6VideoWbrcComponent } from './components/videofeeds/alabama/fox-6-wbrc/fox-6-wbrc.component';
-import { Whnt19Component } from './components/videofeeds/alabama/whnt-19/whnt-19.component';
+import { Whnt19VideoComponent } from './components/videofeeds/alabama/whnt-19/whnt-19.component';
+import { Whnt19Component } from './stations-main/alabama/whnt-19/whnt-19.component';
 import { Wsfa12Component } from './components/videofeeds/alabama/wsfa-12/wsfa-12.component';
 import { Fox51WogxComponent } from './components/videofeeds/florida/fox-51-wogx/fox-51-wogx.component';
 import { Fox35WoflComponent } from './components/videofeeds/florida/fox-35-wofl/fox-35-wofl.component';
@@ -348,6 +349,7 @@ import { AlabamaComponent } from './stations-main/alabama/alabama.component';
     Fox6WbrcComponent,
     Fox6VideoWbrcComponent,
     Whnt19Component,
+    Whnt19VideoComponent,
     Wsfa12Component,
     Fox51WogxComponent,
     Fox35WoflComponent,
