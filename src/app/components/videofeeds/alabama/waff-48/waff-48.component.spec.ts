@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Waff48Component } from './waff-48.component';
+import { Waff48VideoComponent } from './waff-48.component';
 
-describe('Waff48Component', () => {
-  let component: Waff48Component;
-  let fixture: ComponentFixture<Waff48Component>;
+describe('Waff48VideoComponent', () => {
+  let component: Waff48VideoComponent;
+  let fixture: ComponentFixture<Waff48VideoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Waff48Component ]
+      declarations: [ Waff48VideoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Waff48Component);
+    fixture = TestBed.createComponent(Waff48VideoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

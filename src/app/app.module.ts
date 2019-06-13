@@ -120,7 +120,8 @@ import { KymaComponent } from './stations-main/arizona/kyma/kyma.component';
 import { Fox26FresnoComponent } from './stations-main/california/fox26-fresno/fox26-fresno.component';
 import { Fox10LiveComponent } from './stations-main/alabama/fox10-live/fox10-live.component';
 import { Fox10LiveVideoComponent } from './components/videofeeds/alabama/fox10-live/fox10-live.component';
-import { Waff48Component } from './components/videofeeds/alabama/waff-48/waff-48.component';
+import { Waff48VideoComponent } from './components/videofeeds/alabama/waff-48/waff-48.component';
+import { Waff48Component } from './stations-main/alabama/waff-48/waff-48.component';
 import { Waka8Component } from './components/videofeeds/alabama/waka-8/waka-8.component';
 import { Fox6WbrcComponent } from './stations-main/alabama/fox6-wbrc/fox6-wbrc.component';
 import { Fox6VideoWbrcComponent } from './components/videofeeds/alabama/fox-6-wbrc/fox-6-wbrc.component';
@@ -339,6 +340,7 @@ import { AlabamaComponent } from './stations-main/alabama/alabama.component';
     Fox10LiveComponent,
     Fox10LiveVideoComponent,
     Waff48Component,
+    Waff48VideoComponent,
     Waka8Component,
     Fox6WbrcComponent,
     Fox6VideoWbrcComponent,

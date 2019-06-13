@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './waff-48.component.html',
   styleUrls: ['./waff-48.component.css']
 })
-export class Waff48Component implements OnInit {
+export class Waff48VideoComponent implements OnInit {
 
   constructor() { }
 
