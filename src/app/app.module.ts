@@ -224,6 +224,7 @@ import { VideoWabi5Component } from './components/videofeeds/maine/video-wabi5/v
 import { VideoBoston25Component } from './components/videofeeds/massachusetts/video-boston-25/video-boston-25.component';
 import { VideoWbtw13Component } from './components/videofeeds/north-carolina/video-wbtw13/video-wbtw13.component';
 import { AlabamaComponent } from './stations-main/alabama/alabama.component';
+import { BacktochannelguideBtnComponent } from './components/backtochannelguide-btn/backtochannelguide-btn.component';
 
 
 @NgModule({
@@ -444,7 +445,8 @@ import { AlabamaComponent } from './stations-main/alabama/alabama.component';
     VideoWabi5Component,
     VideoBoston25Component,
     VideoWbtw13Component,
-    AlabamaComponent
+    AlabamaComponent,
+    BacktochannelguideBtnComponent
 
   ],
   imports: [
