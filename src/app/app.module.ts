@@ -131,6 +131,7 @@ import { Whnt19VideoComponent } from './components/videofeeds/alabama/whnt-19/wh
 import { Whnt19Component } from './stations-main/alabama/whnt-19/whnt-19.component';
 import { Wsfa12Component } from './components/videofeeds/alabama/wsfa-12/wsfa-12.component';
 import { Fox51WogxComponent } from './components/videofeeds/florida/fox-51-wogx/fox-51-wogx.component';
+import { Fox35FLORIDAWoflComponent } from './stations-main/florida/fox35-wofl/fox35-wofl.component';
 import { Fox35WoflComponent } from './components/videofeeds/florida/fox-35-wofl/fox-35-wofl.component';
 import { Fox29WflxComponent } from './components/videofeeds/florida/fox-29-wflx/fox-29-wflx.component';
 import { Kimt3Component } from './components/videofeeds/iowa/kimt-3/kimt-3.component';
@@ -353,6 +354,7 @@ import { BacktochannelguideBtnComponent } from './components/backtochannelguide-
     Whnt19VideoComponent,
     Wsfa12Component,
     Fox51WogxComponent,
+    Fox35FLORIDAWoflComponent,
     Fox35WoflComponent,
     Fox29WflxComponent,
     WinkNewsComponent,
@@ -528,6 +530,7 @@ import { BacktochannelguideBtnComponent } from './components/backtochannelguide-
       { path: 'florida-tv-stations', component: FloridaComponent },
       { path: 'wsb-tv2', component: WsbTv2Component },
       { path: 'fox13-tampa', component: Fox13TampaComponent },
+      { path: 'fox-35-wofl', component: Fox35FLORIDAWoflComponent },
       { path: 'wink-news', component: WinkNewsComponent },
 
       { path: 'georgia-tv-stations', component: GeorgiaComponent },
