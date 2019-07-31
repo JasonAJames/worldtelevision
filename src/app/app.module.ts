@@ -225,6 +225,7 @@ import { VideoBoston25Component } from './components/videofeeds/massachusetts/vi
 import { VideoWbtw13Component } from './components/videofeeds/north-carolina/video-wbtw13/video-wbtw13.component';
 import { AlabamaComponent } from './stations-main/alabama/alabama.component';
 import { BacktochannelguideBtnComponent } from './components/backtochannelguide-btn/backtochannelguide-btn.component';
+import { VideoFox35WoflComponent } from './components/videofeeds/florida/video-fox-35-wofl/video-fox-35-wofl.component';
 
 
 @NgModule({
@@ -446,7 +447,8 @@ import { BacktochannelguideBtnComponent } from './components/backtochannelguide-
     VideoBoston25Component,
     VideoWbtw13Component,
     AlabamaComponent,
-    BacktochannelguideBtnComponent
+    BacktochannelguideBtnComponent,
+    VideoFox35WoflComponent
 
   ],
   imports: [

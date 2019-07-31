@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Fox35WoflComponent } from './fox-35-wofl.component';
+import { VideoFox35WoflComponent } from './video-fox-35-wofl.component';
 
-describe('Fox35WoflComponent', () => {
-  let component: Fox35WoflComponent;
-  let fixture: ComponentFixture<Fox35WoflComponent>;
+describe('VideoFox35WoflComponent', () => {
+  let component: VideoFox35WoflComponent;
+  let fixture: ComponentFixture<VideoFox35WoflComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Fox35WoflComponent ]
+      declarations: [ VideoFox35WoflComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Fox35WoflComponent);
+    fixture = TestBed.createComponent(VideoFox35WoflComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
