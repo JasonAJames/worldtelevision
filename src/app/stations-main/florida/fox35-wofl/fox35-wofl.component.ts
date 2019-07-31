@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fox35-wofl.component.html',
   styleUrls: ['./fox35-wofl.component.css']
 })
-export class Fox35FLORIDAWoflComponent implements OnInit {
+export class Fox35WoflComponent implements OnInit {
 
   constructor() { }
 
